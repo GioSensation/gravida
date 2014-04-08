@@ -6,10 +6,16 @@ window.addEventListener("load", function () {
 	// Add a polyfill to fix the vh issue in Mobile Safari
 	viewportUnitsBuggyfill.init()
 	
-	document.getElementById('menu-helper').addEventListener('click', function(event) {
-		console.log(this.nextElementSibling);
+	var menuHelper = document.getElementById('menu-helper');
+	
+	menuHelper.addEventListener('click', function(event) {
 		this.classList.toggle('menu-helper--open');
 		this.nextElementSibling.classList.toggle('nav--open');
+	})
+	
+	document.getElementById('nav').addEventListener('click', function() {
+		menuHelper.classList.remove('menu-helper--open');
+		this.classList.remove('nav--open');
 	})
 	
 })
