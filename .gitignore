@@ -1,0 +1,10 @@
+/.DS_Store
+/.sass-cache/
+/bower_components/
+/config.codekit
+/newgravida.esproj/
+
+/_scripts.kit
+/htdocs/.DS_Store
+/htdocs/index.html
+/htdocs/style.css
