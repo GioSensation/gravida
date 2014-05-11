@@ -67,8 +67,75 @@ textarea {
 	-moz-appearance: none;
 	
 	margin-bottom: .3em;
-	border-radius: .7em;
 	padding: .7em 1.3em;
+	background-color: $lighter;
+	width: 100%;
+}
+
+label {
+	display: block;
+}
+
+input[type=range] {
+	-webkit-appearance: none;
+	border-radius: 0;
+	background-color: $lighter;
+	height: 5px !important;
+	vertical-align: middle;
+	padding: 0;
+	
+}
+
+input[type=range]::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	border: 1px solid #E1E1E1 !important;
+	width: 15px;
+	height: 15px;
+	background-color: #FFFFFF;
+	border-radius: 50%;
+}
+input[type=range]::-moz-slider-thumb {
+	-moz-appearance: none;
+	border: 1px solid #E1E1E1 !important;
+	width: 15px;
+	height: 15px;
+	background-color: #FFFFFF;
+	border-radius: 50%;
+}
+input[type=range]::-moz-range-track {
+	background: $lighter;
+}
+output {
+	font-weight: bold;
+}
+.checkboxes {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: stretch;
+	align-content: stretch;
+	width: 90%;
+	margin: 0 auto;
+	
+	input[type=checkbox]{
+		display: none;
+		
+		&:checked + label {
+			background-color: $green;
+			color: white;
+		}
+	}
+	
+	label {
+		flex: 1 auto;
+		padding: 1em .5em;
+		margin: .25em;
+		background-color: $lighter;
+		text-align: center;
+		cursor: pointer;
+		transition: all .2s ease-in-out;
+	}
 }
 
 header {

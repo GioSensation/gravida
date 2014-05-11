@@ -1,4 +1,6 @@
 window.addEventListener("load", function () {
+	var budget = document.getElementById('budget'),
+		budgetOutput = document.querySelector('#range-output');
 	
 	// FastClick magic
 	FastClick.attach(document.body);
@@ -18,4 +20,25 @@ window.addEventListener("load", function () {
 		this.classList.remove('nav--open');
 	});
 	
-})
+	var months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'],
+		date = document.getElementById('date'),
+		currentDate = new Date().getMonth();
+	date.placeholder = months[currentDate] + ' ' + new Date().getFullYear();
+	
+	/***************** RANGE INPUT STUFF *****************/
+	function rangeUpdate() {
+		var value = (budget.value - budget.min)/(budget.max - budget.min);
+		budget.style.backgroundImage = [
+			'-webkit-gradient(',
+				'linear, ',
+				'left top, ',
+				'right top, ',
+				'color-stop(' + value + ', #3DACDF), ',
+				'color-stop(' + value + ', #F2F2F2)',
+			')'
+		].join('');
+		budgetOutput.value = budget.value;
+	}
+	rangeUpdate();
+	budget.oninput = function() {rangeUpdate();};
+});
