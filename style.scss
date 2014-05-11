@@ -1,8 +1,10 @@
 $gray: #808080;
 $light-gray: #9B9B9B;
+$lighter: #F2F2F2;
 $bright-pink: #EA4C5B;
 $dark-pink: #DD9098;
 $drop-pink: #FB6579;
+$green: #8EC54F;
 
 @font-face {
   font-family: 'Century Gothic';
@@ -36,6 +38,7 @@ body {
 }
 
 a {
+	padding: 1.5em 0;
 	color: $bright-pink;
 	text-decoration: none;
 }
@@ -76,6 +79,7 @@ header {
 	padding: 0 .6em;
 	background-color: rgba(255, 255, 255, .9);
 	height: 2.5em;
+	z-index: 5;
 }
 
 #inner-header {
@@ -184,7 +188,8 @@ header {
 	}*/
 }
 
-section {
+section,
+main {
 
 	> * {
 		padding: 0 1.5em;
@@ -199,6 +204,8 @@ section {
 	align-content: center;
 	text-align: center;
 }
+
+/* @group HOMEPAGE */
 
 #home {
 	padding: 10vh 0;
@@ -311,3 +318,6 @@ section {
 		color: inherit;
 	}
 }
+
+/* @end */
+
