@@ -450,6 +450,29 @@ header {
 
 /* @end */
 
+/* @group SINGLE PROJECT */
+
+.single-project {
+	
+	> img {
+		padding: 0;
+	}
+	
+	p {
+		line-height: 1.3;
+	}
+}
+
+.project-gallery {
+	padding: 0;
+	
+	img {
+		float: left;
+	}
+}
+
+/* @end */
+
 /* @group CONTACTS */
 
 #contact-page {
