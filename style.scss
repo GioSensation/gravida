@@ -320,43 +320,47 @@ header {
 .service {
 	align-content: space-around;
 	text-align: left;
+	line-height: 1.5;
 	
 	h2 {
-		font-size: 16vw;
+		font-size: 12.421875vw; 	// 159px @1280
 		margin: auto 0;
 		font-weight: normal;
 		text-transform: uppercase;
 		color: $bright-pink;
 		
 		@media (min-width: 600px) {
-			font-size: 13vw;
+			
 		}
 		
-		@media (min-width: 1400px) {
-			font-size: 17vh;
+		@media (min-width: 1200px) {
+			font-size: 9.94em; 		// 159px @1280
 		}
 	}
 	
 	p {
 		/*font-size: 5vw;*/
 		margin: auto 0;
-		line-height: 1.7;
+		line-height: 1.38;			// 22px
 		
 		@media (min-width: 600px) {
-			font-size: 4vmin;
-			max-width: 50%;
+			font-size: 1rem;
+			max-width: 40%;
 		}
 	}
 	
 	@media (min-width: 600px) {
 		&:nth-child(2n) {
 			text-align: right;
-			align-items: flex-end;
 			
 			h2 {
 				color: $dark-pink;
 			}
 			
+			p, a {
+				float: right;
+				clear: both;
+			}
 			
 		}
 	}
