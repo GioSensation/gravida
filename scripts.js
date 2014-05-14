@@ -40,5 +40,5 @@ window.addEventListener("load", function () {
 		budgetOutput.value = budget.value;
 	}
 	rangeUpdate();
-	budget.oninput = function() {rangeUpdate();};
+	budget.oninput = rangeUpdate;
 });
