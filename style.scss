@@ -499,12 +499,63 @@ body > header {
 
 .single-project {
 	
-	> img {
-		padding: 0;
+	> header {
+		text-align: center;
+		
+		h3 {
+			display: none;
+		}
 	}
 	
-	p {
+	h2 {
+		line-height: 1.2;
+	}
+	
+	> img {
+		padding: 0;
+		margin-bottom: 1.8rem;		// 36px
+	}
+	
+	/*p {
 		line-height: 1.3;
+	}*/
+	
+	@media (min-width: 1200px) {
+		
+		> * {
+			padding: 0;
+		}
+		
+		> header {
+			float: right;
+			width: 48%;
+			text-align: left;
+			
+			h3 {
+				display: block;
+			}
+		}
+		
+		> h2 {
+			float: right;
+			width: 48%;
+		}
+		> img {
+			float: left;
+			width: 48%;
+		}
+		
+		img {
+			margin-bottom: 1em;
+		}
+	}
+}
+
+.project-details {
+	
+	@media (min-width: 1200px) {
+		width: 48%;
+		float: right;
 	}
 }
 
@@ -512,6 +563,12 @@ body > header {
 	padding: 0;
 	
 	img {
+		float: left;
+		width: 100%;
+	}
+	
+	@media (min-width: 1200px) {
+		width: 48%;
 		float: left;
 	}
 }
