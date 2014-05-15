@@ -612,9 +612,7 @@ body > header {
 #contact-page {
 	
 	h1 {
-		color: $bright-pink;
-		font-size: 8.45vw;
-		text-align: center;
+		
 	}
 	
 	p {
@@ -623,11 +621,7 @@ body > header {
 		margin-bottom: 2em;
 	}
 	
-	@media (min-width:1200px) {
-		h1 {
-			font-size: 5vw;
-		}
-	}
+	
 }
 
 form {
@@ -640,6 +634,29 @@ form {
 	
 	@media (min-width: 1200px) {
 		max-width: 1000px;
+	}
+	
+	> p {
+		
+	}
+	
+	small {
+		display: block;
+		position: absolute;
+		width: 100%;
+		margin: 0 auto;
+		color: orange;
+		z-index: -1;
+		transform: translateY(-100%);
+		transition: all .3s;
+	}
+}
+
+.error {
+	
+	input {
+		color: orange;
+		border: 1px solid orange;
 	}
 }
 
@@ -657,6 +674,7 @@ textarea {
 	
 	margin-bottom: .3em;
 	background-color: $lighter;
+	border: 1px solid $lighter;
 	width: 100%;
 	
 	&:focus {
@@ -696,6 +714,7 @@ textarea {
 	height: 9.5em;
 	margin-bottom: 1em;
 	padding: .7em 1.3em;
+	resize: vertical;
 	
 	@media (min-width:600px) {
 		height: 6em;
@@ -802,15 +821,20 @@ output {
 	margin: 70px auto 0;
 	width: 200px;
 	font-size: 1.2em;
-	line-height: 1;
+	line-height: 1.3;
 	text-align: center;
 }
 
 input[type=submit] {
+	display: block;
+	width: 200px;
 	height: auto;
+	margin: 0 auto;
+	float: none;
 	background: none;
+	border: none;
 	font-size: 1.2em;
-	line-height: 1;
+	line-height: 1.3;
 	color: $bright-pink;
 	text-transform: uppercase;
 	cursor: pointer;

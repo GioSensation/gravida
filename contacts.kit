@@ -2,23 +2,23 @@
 
 <main role="main" id="contact-page">
 	<h1>Let's work together</h1>
-	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+	<!--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>-->
 	
-	<form name="contactForm" id="contactForm" method="post" accept-charset="utf-8">
-		<label for="name">Hello</label>
-		<input type="text" name="name" value="" id="name" placeholder="I am … of the company …" autocomplete="on" required />
-		<label for="website">my current website is</label>
-		<input type="url" name="website" value="" id="website" placeholder="website.com (optional)" autocomplete="on" />
-		<label for="email">this is my email address</label>
-		<input type="email" name="email" value="" id="email" placeholder="me@website.com" autocomplete="on" required />
-		<label for="message">My idea is</label>
-		<textarea name="message" spellcheck="true" placeholder="I was planning to build an amazing website to showcase my project of conquering the world. It must have a backend for my acolytes and a big red button to start the process."></textarea>
-		<label for="date">I want it ready for</label>
-		<input type="month" name="date" value="" id="date" />
-		<div class="budget-container">
+	<form name="contactForm" id="contactForm" method="post" accept-charset="utf-8" action="contact.php">
+		<p><label for="name">Hello, I am</label>
+		<input type="text" name="name" value="" id="name" placeholder="John Doe of Doe Inc." autocomplete="on" spellcheck="false" required /><small></small></p>
+		<p><label for="website">my current website is</label>
+		<input type="url" name="website" value="" id="website" placeholder="website.com (optional)" autocomplete="on" /><small></small></p>
+		<p><label for="email">this is my email address</label>
+		<input type="email" name="email" value="" id="email" placeholder="me@website.com" autocomplete="on" required /><small></small></p>
+		<p><label for="message">My idea is</label>
+		<textarea name="message" spellcheck="true" placeholder="I was planning to build an amazing website to showcase my project of conquering the world. It must have a backend for my acolytes and a big red button to start the process."></textarea></p>
+		<p><label for="date">I want it ready for</label>
+		<input type="month" name="date" value="" id="date" /><small></small></p>
+		<p class="budget-container">
 			<label for="budget">My budget is € </label><output id="range-output">2500</output>
 			<input type="range" name="budget" value="2500" id="budget" min="1000" max="7000" step="500" />
-		</div>
+		</p>
 		<span class="label">I will also need</span>
 		<div class="checkboxes">
 			<input type="checkbox" name="photo" value="photo" id="photo" />
@@ -34,6 +34,7 @@
 			<input type="checkbox" name="ux" value="ux" id="ux" />
 			<label for="ux">ux design</label>
 		</div>
+		<input type="hidden" name="lang" value="en" />
 		<label for="formSubmit" class="submit-label">Nice, is that all?</label>
 		<input type="submit" name="formSubmit" id="formSubmit" value="Send" />
 	</form>
