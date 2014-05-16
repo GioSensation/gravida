@@ -6,6 +6,8 @@ $dark-pink: #DD9098;
 $drop-pink: #FB6579;
 $green: #8EC54F;
 
+@import "_fontello.scss";
+
 @font-face {
   font-family: 'Century Gothic';
   src: url('font/GOTHIC.eot'); /* IE9 Compat Modes */
@@ -531,9 +533,10 @@ body > header {
 
 /* @end */
 
-/* @group SINGLE PROJECT */
+/* @group SINGLE PROJECT & SINGLE MAMMOCCIO */
 
-.single-project {
+.single-project,
+.single-mammoccio {
 	
 	> header {
 		text-align: center;
@@ -587,7 +590,8 @@ body > header {
 	}
 }
 
-.project-details {
+.project-details,
+.mammoccio-details {
 	
 	@media (min-width: 1200px) {
 		width: 48%;
@@ -595,7 +599,8 @@ body > header {
 	}
 }
 
-.project-gallery {
+.project-gallery,
+.mammoccio-gallery {
 	padding: 0;
 	
 	img {
@@ -607,6 +612,23 @@ body > header {
 		width: 48%;
 		float: left;
 	}
+}
+
+.mammoccio-details {
+	float: left;
+	
+	h2,
+	ul {
+		text-align: center;
+		
+		@media (min-width: 1200px) {
+			text-align: left;
+		}
+	}
+}
+
+.mammoccio-gallery {
+	float: right;
 }
 
 /* @end */
@@ -842,6 +864,30 @@ input[type=submit] {
 	color: $bright-pink;
 	text-transform: uppercase;
 	cursor: pointer;
+}
+
+/* @end */
+
+/* @group FOOTER & SOCIAL */
+
+.social > li {
+	display: inline-block;
+	font-size: 26px;
+	margin-right: .2em;
+	vertical-align: baseline;
+	
+	
+	a {
+		color: $gray;
+		
+		&:hover {
+			color: $bright-pink;
+		}
+	}
+	
+	.icon-behance {
+		
+	}
 }
 
 /* @end */
