@@ -25,7 +25,7 @@ $green: #8EC54F;
 body {
 	font-family: 'Century Gothic', sans-serif;
 	text-rendering: optimizeLegibility;
-	-webkit-font-smoothing: subpixel-antialiased;
+	-webkit-font-smoothing: antialiased;
 	color: $gray;
 	margin: 0 auto;
 	padding: 2.5em 0 0 0;		// 40px
@@ -104,12 +104,16 @@ p {
 }
 
 a {
-	color: $dark-pink;
+	color: $bright-pink;
 	text-decoration: none;
 	
-	&:hover,
-	&:focus {
-		color: $bright-pink;
+	@media (min-width: 1025px) {
+		color: $dark-pink;
+		
+		&:hover,
+		&:focus {
+			color: $bright-pink;
+		}
 	}
 }
 
