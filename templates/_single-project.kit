@@ -1,0 +1,28 @@
+<main role="main" class="single-project" itemscope itemtype="http://schema.org/CreativeWork">
+	<header>
+		<h2><!-- $title --><br><span itemprop="about"><!-- $about --></span></h2>
+		<h3>Description</h3>
+		<p itemprop="description"><!-- $description --></p>
+	</header>
+	<img src="imgs/projects/<!-- $featImg -->" alt="<!-- $about -->" itemprop="image"/>
+	<section class="project-details">
+		<h3>Tools</h3>
+		<p><!-- $tools --></p>
+		<h3>Links</h3>
+		<ul>
+			<li itemprop="sourceOrganization" itemscope itemtype="http://schema.org/Organization"><a href="<!-- $clientLinkUrl -->" title="<!-- $clientLinkDescription -->" itemprop="url"><span itemprop="name"><!-- $clientLinkAnchor --></span></a></li>
+			<li><a href="<!-- $projectLinkUrl -->" title="<!-- $projectLinkDescription -->" itemprop="url"><!-- $projectLinkAnchor --></a></li>
+			<li><a href="<!-- $behanceLinkUrl -->" title="See <!-- $title --> on Behance" itemprop="sameAs">See <!-- $title --> on Behance</a></li>
+		</ul>
+		<h3>Client's feedback</h3>
+		<blockquote itemprop="comment">
+			<p><!-- $feedback --></p>
+			<cite><!-- $clientName --> –</cite>
+		</blockquote>
+	</section>
+	<section class="project-gallery">
+		<img src="imgs/projects/<!-- $galleryImg2 -->" alt="Gravida's project <!-- $about --> for <!-- $clientLinkAnchor -->" itemprop="image" />
+		<img src="imgs/projects/<!-- $galleryImg3 -->" alt="<!-- $title -->: <!-- $about --> by Gravida Procreative" itemprop="image" />
+		<img src="imgs/projects/<!-- $galleryImg4 -->" alt="<!-- $clientLinkDescription -->" itemprop="image" />
+	</section>
+</main>
