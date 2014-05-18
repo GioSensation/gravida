@@ -309,6 +309,14 @@ body > header {
 
 /* @group HOMEPAGE */
 
+.homepage p,
+.homepage a {
+	
+	@media (min-width: 600px) {
+		font-size: 1.31em !important;		// 21px
+	}
+}
+
 #home {
 	margin-top: -40px;
 	
@@ -385,18 +393,16 @@ body > header {
 		}
 		
 		@media (min-width: 1200px) {
-			font-size: 9.94em; 		// 159px @1280
+			font-size: 159px; 		// 159px @1280
 		}
 	}
 	
 	p {
-		/*font-size: 5vw;*/
-		
+		font-size: inherit;
 		line-height: 1.38;			// 22px
 		
 		@media (min-width: 600px) {
-			font-size: 1rem;
-			max-width: 40%;
+			max-width: 48%;
 		}
 	}
 	
@@ -427,6 +433,10 @@ body > header {
 }
 
 #about {
+	
+	p {
+		font-size: inherit;
+	}
 	
 	@media(min-width:600px) {
 		height: 100vh;
@@ -591,14 +601,16 @@ body > header {
 			float: right;
 			width: 48%;
 		}
+		
 		> img {
 			float: left;
 			width: 48%;
+			margin-bottom: 0;
 		}
 		
-		img {
+		/*img {
 			margin-bottom: 1em;
-		}
+		}*/
 	}
 }
 
@@ -608,6 +620,7 @@ body > header {
 	@media (min-width: 1200px) {
 		width: 48%;
 		float: right;
+		clear: right;
 	}
 }
 
