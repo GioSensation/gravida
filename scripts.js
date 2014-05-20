@@ -22,10 +22,32 @@ window.addEventListener("load", function () {
 		this.classList.remove('nav--open');
 	});
 	
-	var months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'],
+	var months = {'01': 'January', '02': 'February', '03': 'March', '04': 'April', '05': 'May', '06': 'June', '07': 'July', '08': 'August', '09': 'September', '10': 'October', '11': 'November', '12': 'December'},
 		date = document.getElementById('date'),
-		currentDate = new Date().getMonth();
-	date.placeholder = months[currentDate] + ' ' + new Date().getFullYear();
+		month = new Date().getMonth() + 1;
+		month = month < 10 ? "0" + (month+1) : month+1;
+		
+	if (month === 13) {
+		month = '01';
+	    var year = new Date().getFullYear() + 1;
+	} else {
+	    var year = new Date().getFullYear();
+	}
+	console.log(month);
+	
+	function checkInput(type) {
+	 	var input = document.createElement("input");
+	 	input.setAttribute("type", type);
+	 	return input.type == type;
+	}
+	
+	if (checkInput("month")) {
+		var nextMonthValue = year + '-' + month;
+		date.value = nextMonthValue;
+	} else {
+		var nextMonthPlaceholder = months[month] + ' ' + year;
+		date.placeholder = nextMonthPlaceholder;
+	}
 	
 	/***************** RANGE INPUT STUFF *****************/
 	function rangeUpdate() {
@@ -49,6 +71,7 @@ window.addEventListener("load", function () {
 		formContainer = theForm.parentNode,
 		nameInput = theForm.name,
 		emailInput = theForm.email,
+		dateInput = theForm.date,
 		textarea = theForm.message,
 		errorMessageEmpty = 'This field is required.',
 		errorMessageLenght = 'This is way too long to be real.',
@@ -145,6 +168,17 @@ window.addEventListener("load", function () {
 		if ( validName === true && validEmail === true ) {
 			validty = true;
 		}
+		
+		if (date.value == '') {
+			if (checkInput('month')) {
+				var nextMonthValue = year + '-' + month;
+				date.value = nextMonthValue;
+			} else {
+				var nextMonthPlaceholder = months[month] + ' ' + year;
+				date.value = nextMonthPlaceholder;
+			}
+		}
+		
 		return validty;
 	}
 	

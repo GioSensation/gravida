@@ -102,11 +102,51 @@ if ( $_POST ) {
 		$message = 'Messaggio vuoto';
 	}
 	
+	// validate, sanitize and format the date
 	if ( $_POST['date'] != '' ) {
-		$date = filter_var($_POST['date'], FILTER_SANITIZE_STRING);
-		if ( $date == '' ) {
+		$months = ['00', 'January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+		
+		$original_date = filter_var($_POST['date'], FILTER_SANITIZE_STRING);
+		$date = date_parse($original_date);
+		
+		if ($date['error_count'] == 0 && checkdate($date['month'], $date['day'], $date['year'])) {
+			$date_string = $months[$date['month']] .' '. $date['year'];
+		} elseif ( $date == '' ) {
 			$date = 'Not specified';
+		} else {
+			$date_string = $original_date;
 		}
+	}
+	
+	if (in_array('services', $_POST)) {
+		if ( $_POST['services'] != '' ) {
+			$services_arr = array();
+			foreach ($_POST['services'] as $chiave => $valore) {
+				
+				switch ($valore) {
+					case 'website':
+						$services_arr[] = 'a website, ';
+						break;
+					case 'photo':
+						$services_arr[] = 'a photo shooting, ';
+						break;
+					case 'business-card':
+						$services_arr[] = 'a business card design, ';
+						break;
+					case 'social':
+						$services_arr[] = 'a social media marketing campaign, ';
+						break;
+					case 'ui':
+						$services_arr[] = 'an interface design';
+						break;
+					default:
+						$services_arr[] = 'this voice is not permitted';
+				}
+			}
+			$services = implode($services_arr);
+		}
+	} else {
+		$services = 'no service selected';
 	}
 	
 	if ( !$errors ) {
@@ -118,8 +158,11 @@ if ( $_POST ) {
 		$headers = 'From: Gravida <hello@gravida.pro>' . "\r\n" .
 	    			'Reply-To: Gravida <hello@gravida.pro>' . "\r\n" .
 	    			'MIME-Version: 1.0' . "\r\n" .
-	    			'Content-Type: text/html; charset=ISO-8859-1' . "\r\n";
+	    			'Content-Type: text/html; charset=utf-8' . "\r\n";
 	    $thank_you = $email_txts['greeting'] . $name .'!<br><br>'. $email_txts['body'];
+	    
+	    @include('email/response_template.php');
+	    $mail_body = $response_template;
 	    
 		
 		mail($mail_to, $subject, $mail_body, $headers);
@@ -131,7 +174,6 @@ if ( $_POST ) {
 				<h1 class="animate-fade">'. $success_msgs['thanks'] .'</h1>
 				<p class="animate-fade">'. $success_msgs['hi'] .' <strong>'. $name .'</strong>! '. $success_msgs['txt'] . $email .'.</p>
 			</div>';
-		var_dump($_POST);
 	} else {
 		echo '<div style="color: red">'. $errors .'<br/></div>';
 	}
