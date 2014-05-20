@@ -177,7 +177,7 @@ $response_template = '<!DOCTYPE html>
 																<h1 style="line-height: 1.2; color: #EF4D58; font-size: 28px; font-weight: normal;">Hi <span class="name" style="text-transform: uppercase;">'. $name .'</span>, request received.</h1>
 																<p style="line-height: 1.75;">Hi '. $name .'. Thank you very much for getting in touch. We have received your contact and will answer  at '. $email .' within thursday.</p>
 																<h2 style="font-size: 28px; margin-top: 2em; color: #EF4D58; font-weight: normal;">Let&#x27;s recap</h2>
-																<p style="line-height: 1.75;">So, you asked for '. $services_string .'. You said you would like to have everything by <strong>'. $date_string .'</strong> and that your budget is about € <strong>'. $budget .'</strong>.</p>
+																<p style="line-height: 1.75;">So, you asked for <strong>'. $services .'</strong>. You said you would like to have everything by <strong>'. $date_string .'</strong> and that your budget is about € <strong>'. $budget .'</strong>.</p>
 																<p style="line-height: 1.75;">Here is your idea:</p>
 																<p style="line-height: 1.75;"><strong>'. $message .'</strong></p>
 																<h2 style="font-size: 28px; margin-top: 2em; color: #EF4D58; font-weight: normal;">What else?</h2>

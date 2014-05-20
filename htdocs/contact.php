@@ -118,23 +118,27 @@ if ( $_POST ) {
 		}
 	}
 	
-	if (in_array('services', $_POST)) {
+	if ($_POST['budget'] != '') {
+		$budget = filter_var($_POST['budget'], FILTER_SANITIZE_NUMBER_INT);
+	}
+		
+	if (isset($_POST['services'])) {
 		if ( $_POST['services'] != '' ) {
 			$services_arr = array();
 			foreach ($_POST['services'] as $chiave => $valore) {
 				
 				switch ($valore) {
 					case 'website':
-						$services_arr[] = 'a website, ';
+						$services_arr[] = 'a website';
 						break;
 					case 'photo':
-						$services_arr[] = 'a photo shooting, ';
+						$services_arr[] = 'a photo shooting';
 						break;
 					case 'business-card':
-						$services_arr[] = 'a business card design, ';
+						$services_arr[] = 'a business card design';
 						break;
 					case 'social':
-						$services_arr[] = 'a social media marketing campaign, ';
+						$services_arr[] = 'a social media marketing campaign';
 						break;
 					case 'ui':
 						$services_arr[] = 'an interface design';
@@ -143,7 +147,7 @@ if ( $_POST ) {
 						$services_arr[] = 'this voice is not permitted';
 				}
 			}
-			$services = implode($services_arr);
+			$services = implode(', ', $services_arr);
 		}
 	} else {
 		$services = 'no service selected';
