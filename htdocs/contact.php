@@ -161,7 +161,7 @@ if ( $_POST ) {
 	    			'Content-Type: text/html; charset=utf-8' . "\r\n";
 	    $thank_you = $email_txts['greeting'] . $name .'!<br><br>'. $email_txts['body'];
 	    
-	    @include('email/response_template.php');
+	    @include('email/response-template.php');
 	    $mail_body = $response_template;
 	    
 		

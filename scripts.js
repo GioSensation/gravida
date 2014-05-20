@@ -24,16 +24,15 @@ window.addEventListener("load", function () {
 	
 	var months = {'01': 'January', '02': 'February', '03': 'March', '04': 'April', '05': 'May', '06': 'June', '07': 'July', '08': 'August', '09': 'September', '10': 'October', '11': 'November', '12': 'December'},
 		date = document.getElementById('date'),
+		year = new Date().getFullYear(),
 		month = new Date().getMonth() + 1;
 		month = month < 10 ? "0" + (month+1) : month+1;
 		
+		
 	if (month === 13) {
 		month = '01';
-	    var year = new Date().getFullYear() + 1;
-	} else {
-	    var year = new Date().getFullYear();
+	    year += 1;
 	}
-	console.log(month);
 	
 	function checkInput(type) {
 	 	var input = document.createElement("input");
@@ -71,8 +70,6 @@ window.addEventListener("load", function () {
 		formContainer = theForm.parentNode,
 		nameInput = theForm.name,
 		emailInput = theForm.email,
-		dateInput = theForm.date,
-		textarea = theForm.message,
 		errorMessageEmpty = 'This field is required.',
 		errorMessageLenght = 'This is way too long to be real.',
 		errorMessageInvalidEmail = 'Please, insert a valid email address',
