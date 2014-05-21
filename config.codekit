@@ -652,6 +652,15 @@
 		"outputAbbreviatedPath": "\/templates\/_single-project.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/templates\/_social-template.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/templates\/_social-template.kit",
+		"outputAbbreviatedPath": "\/templates\/_social-template.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		}
 	},
 "hooks": [
