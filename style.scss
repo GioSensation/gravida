@@ -195,7 +195,7 @@ body > header {
 	top: 0;
 	left: 0;
 	width: 100%;
-	padding: 0 .6em;
+	padding: 0 1.25rem;
 	background-color: rgba(255, 255, 255, .9);
 	height: 2.5em;			// 40px
 	z-index: 5;
@@ -299,6 +299,7 @@ body > header {
 		a {
 			color: $gray;
 			text-transform: uppercase;
+			padding: 1.3em .5em;
 		}
 	}
 	
@@ -308,10 +309,16 @@ body > header {
 	
 	@media(min-width: 600px) {
 		position: static;
-		width: 400px;
+		width: auto;
 		float: right;
+		text-align: right;
 		
 		li {
+			display: inline-block;
+			float: none;
+			width: auto;
+			margin-left: 36px;
+			text-align: right;
 			background-color: transparent;
 			transform: translateY(0);
 		}
