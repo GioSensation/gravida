@@ -40,6 +40,11 @@ body {
 		max-width: 650px;
 	}
 	
+	@media (min-width: 800px) {
+		width: 93.75%;
+		max-width: none;
+	}
+	
 	@media (min-width: 1200px) {
 		max-width: 960px;
 	}
@@ -198,6 +203,16 @@ body > header {
 
 #inner-header {
 	margin: 0 auto;
+	
+	@media (min-width: 600px) {
+		max-width: 650px;
+	}
+	
+	@media (min-width: 800px) {
+		width: 93.75%;
+		max-width: none;
+	}
+	
 	@media (min-width: 1200px) {
 		max-width: 960px;
 	}
