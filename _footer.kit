@@ -1,30 +1,32 @@
 <footer itemscope itemtype="http://schema.org/Organization">
-	<div class="footer-block">
-		<a href="/" class="logo" itemprop="url">
-			<img src="imgs/logo-gravida.svg" itemprop="logo"><h2 itemprop="name">Gravida</h2>
-		</a>
-		<p itemprop="description">Creative Business and front-end magic</p>
-		<a href="mailto:hello@gravida.pro?subject=Hello Gravida" itemprop="email">hello@gravida.pro</a>
+	<div class="inner-footer">
+		<div class="footer-block">
+			<a href="/" class="logo" itemprop="url">
+				<img src="imgs/logo-gravida.svg" itemprop="logo"><h2 itemprop="name">Gravida</h2>
+			</a>
+			<p itemprop="description">Creative Business and front-end magic<br><a href="http://">Let's work together</a></p>
+			<p><a href="mailto:hello@gravida.pro?subject=Hello Gravida" itemprop="email">hello@gravida.pro</a></p>
+		</div>
+		
+		<div class="footer-block">
+			<!-- @import templates/social-template -->
+			<!-- @import contents/emanuele -->
+			<p itemprop="founder" itemscope itemtype="http://schema.org/Person"><span itemprop="name"><!-- $name --></span><br><span itemprop="tel"><!-- $tel --></span><br><a href="mailto:<!-- $email -->?subject=Hello <!-- $name -->" title="Write <!-- $name --> an email" itemprop="email"><!-- $email --></a></p>
+			<!-- @import contents/emanuele -->
+			<p itemprop="founder" itemscope itemtype="http://schema.org/Person"><span itemprop="name"><!-- $name --></span><br><span itemprop="tel"><!-- $tel --></span><br><a href="mailto:<!-- $email -->?subject=Hello <!-- $name -->" title="Write <!-- $name --> an email" itemprop="email"><!-- $email --></a></p>
+		</div>
+		
+		<div class="footer-block footer-block--links">
+			<p><a href="http://">Web</a></p>
+			<p><a href="http://">Graphic</a></p>
+			<p><a href="http://">Branding</a></p>
+			<p><a href="http://">UI/UX</a></p>
+			<p><a href="http://">Job policy</a></p>
+			<p><a href="http://">Bad client, bad job</a></p>
+		</div>
 	</div>
 	
-	<div class="footer-block">
-		<!-- @import templates/social-template -->
-		<!-- @import contents/emanuele -->
-		<p itemprop="founder" itemscope itemtype="http://schema.org/Person"><span itemprop="name"><!-- $name --></span><br><span itemprop="tel"><!-- $tel --></span><br><a href="mailto:<!-- $email -->?subject=Hello <!-- $name -->" title="Write <!-- $name --> an email" itemprop="email"><!-- $email --></a></p>
-		<!-- @import contents/emanuele -->
-		<p itemprop="founder" itemscope itemtype="http://schema.org/Person"><span itemprop="name"><!-- $name --></span><br><span itemprop="tel"><!-- $tel --></span><br><a href="mailto:<!-- $email -->?subject=Hello <!-- $name -->" title="Write <!-- $name --> an email" itemprop="email"><!-- $email --></a></p>
-	</div>
-	
-	<div class="footer-block footer-block--links">
-		<p><a href="http://">Web</a></p>
-		<p><a href="http://">Graphic</a></p>
-		<p><a href="http://">Branding</a></p>
-		<p><a href="http://">UI/UX</a></p>
-		<p><a href="http://">Job policy</a></p>
-		<p><a href="http://">Bad client, bad job</a></p>
-	</div>
-	
-	<small><span itemprop="location" itemscope itemtype="http://schema.org/PostalAddress"><span itemprop="streetAddress">via gioberti 41</span>, <span itemprop="postalCode">62100</span>, <span itemprop="addressLocality">Macerata</span></span> – p.iva Emanuele 02152590440 – p.iva Edoardo 02152590440</small>
+	<small><a href="http://maps.apple.com/?q=43.300775,13.457362&sspn=0.001757,0.003603&sll=43.300918,13.457094" class="location-link" itemprop="location" itemscope itemtype="http://schema.org/PostalAddress"><span itemprop="streetAddress">via gioberti 41</span>, <span itemprop="postalCode">62100</span>, <span itemprop="addressLocality">Macerata</span></a> – p.iva Emanuele 02152590440 – p.iva Edoardo 02152590440</small>
 	
 </footer>
 

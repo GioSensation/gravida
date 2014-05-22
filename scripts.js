@@ -3,6 +3,8 @@ window.addEventListener("load", function () {
 		budgetOutput = document.querySelector('#range-output'),
 		isiOS = (/(iPad|iPhone|iPod)/g.test( navigator.userAgent )) ? true: false,
 		isSafari = (navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') == -1) ? true: false;
+//		isiOS = (/(iPad|iPhone|iPod)/g.test( navigator.userAgent )) ? true: false,
+//		isSafari = (navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') == -1) ? true: false;
 	
 	// FastClick magic
 	FastClick.attach(document.body);
@@ -118,6 +120,10 @@ window.addEventListener("load", function () {
 			}
 		}
 	}
+	/***************** MAP APP THING *****************/
+	// This thing switches from Apple Maps native map to Google Map in non-Apple devices
+	var //iOS = /(iPad|iPhone|iPod)/g.test( navigator.userAgent ),
+		isApple = (navigator.userAgent.match(/Mac OS X/i)) ? true: false;
 	
 	function errorFlash( questo ) {
 		questo.parentNode.className +='error';
@@ -128,6 +134,10 @@ window.addEventListener("load", function () {
 		questo.addEventListener('focus', function() {
 			questo.parentNode.className = questo.parentNode.className.replace( /(?:^|\s)error(?!\S)/g , '' );
 		}, true);
+	if ( !isApple ) {
+		[].forEach.call( document.querySelectorAll('.location-link'), function(el) {
+			el.setAttribute('href', "https://www.google.it/maps/place/43%C2%B018'02.9%22N+13%C2%B027'26.6%22E/@43.300797,13.457395,105m/data=!3m1!1e3!4m2!3m1!1s0x0:0x0");
+		});
 	}
 	
 	nameInput.addEventListener('blur', function() {
