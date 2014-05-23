@@ -1,5 +1,5 @@
 <?php 
-$response_template = '<!DOCTYPE html>
+$notif_template = '<!DOCTYPE html>
 <html lang="en">
 <head>
 <title>Gravida | Procreative</title>
@@ -133,15 +133,16 @@ $response_template = '<!DOCTYPE html>
 														<tr>
 															<td style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-family: verdana, helvetica, arial, sans-serif; color: #808080;">
 																
-																<h1 style="line-height: 1.2; color: #EF4D58; font-size: 28px; font-weight: normal;">Hi <span class="name" style="text-transform: uppercase;">'. $name .'</span>, request received.</h1>
-<p style="line-height: 1.75;">Hi '. $name .'. Thank you very much for getting in touch. We have received your contact and will answer  at '. $email .' within '. $answer_due_date .'.</p>
-<h2 style="font-size: 28px; margin-top: 2em; color: #EF4D58; font-weight: normal;">Let&#x27;s recap</h2>
-<p style="line-height: 1.75;">So, you asked for <strong>'. $services .'</strong>. You said you would like to have everything by <strong>'. $date_string .'</strong> and that your budget is about <strong> €'. $budget .'</strong>.</p>
-<p style="line-height: 1.75;">Here is your idea:</p>
-<p style="line-height: 1.75;">'. $message .'</p>
-<h2 style="font-size: 28px; margin-top: 2em; color: #EF4D58; font-weight: normal;">What else?</h2>
-<p style="line-height: 1.75;">Now, if you feel like you left something out of the frame, feel free to answer this email and add all the details.</p>
-<p style="line-height: 1.75;">In the meantime you can check out our usual work process or <a href="http://" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; color: #DD9098 !important; text-decoration: none;">previous work</a>.</p>																
+																<td style="">
+	<h1>Hi Gravida. Good news.</h1>
+	<p><strong>'. $name .'</strong> has submitted an enquiry from the contact form, asking for <strong>'. $services .'</strong>, with an estimated launch date of '. $date_string .' and a ridiculously low budget at <strong> € '. $budget .'</strong>.</p>
+	<p>The current website is <a href="'. $website .'">'. $website .'</a>, and here is a summary of the project details:</p>
+	<p>'. $message .'</p>
+	<p>An answer is due within '. $answer_due_date .' at <a href="'. $email .'?subject=Thank you for your enquiry">'. $email .'</a>.</p>
+	<h2>What to do now</h2>
+	<p>Before celebrating, please, keep grounded, read carefully the specs provided and react accordingly.</p>
+	<h2>Cheers!</h2>
+</td>																
 															</td>
 														</tr>
 													</table>

@@ -36,12 +36,12 @@ $success_en = [
 $mail_it = [
 	'subject'	=>	'Grazie per averci contattato',
 	'greeting'	=>	'<html><head><meta charset="utf-8"></head><body>Ciao ',
-	'body'		=>	'Ti ringraziamo per averci contattati. Risponderemo alla tua richiesta nel pi&ugrave; breve tempo possibile.<br><br>Speriamo di poterti ospitare presto nella nostra struttura.<br><br>A presto<br>Agriturismo Castrum</body></html>',
+	'body'		=>	'test ita</body></html>',
 ];
 $mail_en = [
 	'subject'	=>	'Thanks for getting in touch',
 	'greeting'	=>	'<html><head><meta charset="utf-8"></head><body>Hi ',
-	'body'		=>	'Thank you for getting in touch. We will answer your request as soon as possible.<br><br>We look forward to having you here.<br><br>Regards<br>Agriturismo Castrum</body></html>',
+	'body'		=>	'test eng</body></html>',
 ];
 
 switch ( $browser_lang ) {
@@ -73,9 +73,9 @@ if ( $_POST ) {
 		$url = $_POST['website'];
 		$parts = parse_url($url);
 		if ( !isset($parts["scheme"]) )
-		   {
-		       $url = "http://$url";
-		   }
+			{
+				$url = "http://$url";
+			}
 		$website = filter_var($url, FILTER_SANITIZE_URL);
 		if ( $website == '' ) {
 			$website .= $errors_msgs['websiteempty'];
@@ -154,24 +154,28 @@ if ( $_POST ) {
 	}
 	
 	if ( !$errors ) {
-		$mail_to = 'Admin<feliziani.emanuele@gmail.com>';
-		$subject = 'Contatto dal sito';
-		$mail_body  = 'Da: ' . $name . "\n";
-		$mail_body .= 'Email: ' . $email . "\n";
-		$mail_body .= "Messaggio:\n" . $message . "\n\n";
-		$headers = 'From: Gravida <hello@gravida.pro>' . "\r\n" .
-	    			'Reply-To: Gravida <hello@gravida.pro>' . "\r\n" .
-	    			'MIME-Version: 1.0' . "\r\n" .
-	    			'Content-Type: text/html; charset=utf-8' . "\r\n";
-	    $thank_you = $email_txts['greeting'] . $name .'!<br><br>'. $email_txts['body'];
-	    
-	    @include('email/response-template.php');
-	    $mail_body = $response_template;
-	    
+		$admin = 'HelloGravida<feliziani.emanuele@gmail.com>';
+		$subject = 'Everybody wants Gravida';
+		$headers_notif = 'From: Gravida<hello@gravida.pro>' . "\r\n" .
+					'Reply-To: Gravida<hello@gravida.pro>' . "\r\n" .
+					'MIME-Version: 1.0' . "\r\n" .
+					'Content-Type: text/html; charset=utf-8' . "\r\n";
+		$thank_you = $email_txts['greeting'] . $name .'!<br><br>'. $email_txts['body'];
+		$answer_due_date = new \DateTime('tomorrow + 1day');
+		$answer_due_date = date('l', strtotime($answer_due_date));
 		
-		mail($mail_to, $subject, $mail_body, $headers);
+		// This is sent to the admin
+		@include('email/notif-template.php');
+		mail($admin, $subject, $notif_body, $headers_notif);
 		
-		mail($email, $email_txts['subject'], $thank_you, $headers);
+		// This is sent to who has submitted the form
+		$headers_response = 'From: Gravida<hello@gravida.pro>' . "\r\n" .
+					'Reply-To: Gravida<hello@gravida.pro>' . "\r\n" .
+					'MIME-Version: 1.0' . "\r\n" .
+					'Content-Type: text/html; charset=utf-8' . "\r\n";
+		
+		@include('email/response-template.php');
+		mail($email, $email_txts['subject'], $response_body, $headers_response);
 		
 		echo '<div class="form-success">
 				<div class="ok">&#9786;&#65038;</div>

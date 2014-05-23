@@ -409,7 +409,7 @@
 		},
 	"\/htdocs\/email\/_gravida-processed.kit": {
 		"fileType": 2048,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/htdocs\/email\/_gravida-processed.kit",
 		"outputAbbreviatedPath": "\/htdocs\/email\/_gravida-processed.html",
@@ -422,6 +422,51 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/htdocs\/email\/gravida.html",
 		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/htdocs\/email\/notif-template.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/htdocs\/email\/notif-template.kit",
+		"outputAbbreviatedPath": "\/htdocs\/email\/notif-template.php",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1
+		},
+	"\/htdocs\/email\/notif.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/htdocs\/email\/notif.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/htdocs\/email\/partials\/_email-template.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/htdocs\/email\/partials\/_email-template.kit",
+		"outputAbbreviatedPath": "\/htdocs\/email\/partials\/_email-template.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/htdocs\/email\/partials\/_notif-content.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/htdocs\/email\/partials\/_notif-content.kit",
+		"outputAbbreviatedPath": "\/htdocs\/email\/partials\/_notif-content.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/htdocs\/email\/partials\/_response-content.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/htdocs\/email\/partials\/_response-content.kit",
+		"outputAbbreviatedPath": "\/htdocs\/email\/partials\/_response-content.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -594,6 +639,15 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/notif-template.php": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/notif-template.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/portfolio.kit": {
 		"fileType": 2048,
 		"ignore": 0,
@@ -680,6 +734,20 @@
 	],
 "lastSavedByUser": "Emanuele Feliziani",
 "manualImportLinks": {
+	"\/scripts.js": [
+		{
+			"followForSyntaxChecking": 0,
+			"linkedFileAbbreviatedPath": "\/bower_components\/fastclick\/lib\/fastclick.js",
+			"position": 0,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 0,
+			"linkedFileAbbreviatedPath": "\/bower_components\/viewport-units-buggyfill\/viewport-units-buggyfill.js",
+			"position": 1,
+			"type": 0
+			}
+		]
 	},
 "projectAttributes": {
 	"bowerAbbreviatedPath": "",
