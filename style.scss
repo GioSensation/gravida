@@ -165,6 +165,7 @@ body > main,
 body > article,
 footer {
 	margin-top: 20px;
+	overflow: hidden;
 
 	> * {
 		padding: 0 1.25rem;			// 20px
@@ -542,6 +543,20 @@ body > header {
 	
 	a {
 		color: inherit;
+	}
+}
+
+/* @end */
+
+/* @group PAGE TEMPLATE */
+
+.page-template {
+	
+	p {
+		max-width: 800px;
+		margin-left: auto;
+		margin-right: auto;
+		font-size: 1.31em;				// 21px
 	}
 }
 
