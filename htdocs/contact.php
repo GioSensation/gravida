@@ -8,54 +8,9 @@ if ( $_POST['lang'] != '' ) {
 	$browser_lang = strtolower(substr(chop($browser_lang[0]),0,2));
 }
 
-// errors messages
-$errors_it = [
-	'nameinvalid'	=>	'Per favore inserisci un nome valido.<br><br>',
-	'emailinvalid'	=>	' <strong>NON</strong> è un indirizzo email valido.<br><br>',
-	'emailempty'	=>	'Per favore, inserisci un indirizzo email.<br><br>'
-];
-$errors_en = [
-	'nameinvalid'	=>	'Please, insert a valid name.<br><br>',
-	'emailinvalid'	=>	' is <strong>NOT</strong> a valid email address.<br><br>',
-	'emailempty'	=>	'Please, insert a valid email.<br><br>'
-];
-
-// success messages
-$success_it = [
-	'thanks'	=>	'Grazie!',
-	'hi'		=>	'Ciao',
-	'txt'		=>	'Grazie per averci contattato. Ti risponderemo al più presto all\'indirizzo '
-];
-$success_en = [
-	'thanks'	=>	'Thanks!',
-	'hi'		=>	'Hi',
-	'txt'		=>	'Thanks for getting in touch. We will answer ASAP at '
-];
-
-// mail texts
-$mail_it = [
-	'subject'	=>	'Grazie per averci contattato',
-	'greeting'	=>	'<html><head><meta charset="utf-8"></head><body>Ciao ',
-	'body'		=>	'test ita</body></html>',
-];
-$mail_en = [
-	'subject'	=>	'Thanks for getting in touch',
-	'greeting'	=>	'<html><head><meta charset="utf-8"></head><body>Hi ',
-	'body'		=>	'test eng</body></html>',
-];
-
-switch ( $browser_lang ) {
-	case 'it':
-		$errors_msgs = $errors_it;
-		$success_msgs = $success_it;
-		$email_txts = $mail_it;
-		break;
-	default:
-		$errors_msgs = $errors_en;
-		$success_msgs = $success_en;
-		$email_txts = $mail_en;
-}
-
+// Set a due date for the answer (the day after tomorrow)
+$answer_due_date = new \DateTime('tomorrow + 1day');
+$answer_due_date = date('l', strtotime($answer_due_date));
 
 if ( $_POST ) {
 	$errors = false;
@@ -153,6 +108,57 @@ if ( $_POST ) {
 		$services = 'no service selected';
 	}
 	
+	// SET MESSAGES
+	// errors messages
+	$errors_it = [
+		'nameinvalid'	=>	'Per favore inserisci un nome valido.<br><br>',
+		'emailinvalid'	=>	' <strong>NON</strong> è un indirizzo email valido.<br><br>',
+		'emailempty'	=>	'Per favore, inserisci un indirizzo email.<br><br>'
+	];
+	$errors_en = [
+		'nameinvalid'	=>	'Please, insert a valid name.<br><br>',
+		'emailinvalid'	=>	' is <strong>NOT</strong> a valid email address.<br><br>',
+		'emailempty'	=>	'Please, insert a valid email.<br><br>'
+	];
+	
+	// success messages
+	$success_it = [
+		'thanks'	=>	'Grazie!',
+		'hi'		=>	'Ciao',
+		'txt'		=>	'Grazie per averci contattato. Ti risponderemo al più presto all\'indirizzo '
+	];
+	$success_en = [
+		'thanks'	=>	'Thanks!',
+		'hi'		=>	'<p>Hi, '. $name .'!</p>',
+		'txt'		=>	'<p>We are very pleased to hear from you. At this time we should have already received your message. We will discuss it internally and prepare some notes for the initial briefing with you.</p>
+		<p>We will answer within '. $answer_due_date .' at '. $email .'.</p>'
+	];
+	
+	// mail texts
+	$mail_it = [
+		'subject'	=>	'Grazie per averci contattato',
+		'greeting'	=>	'<html><head><meta charset="utf-8"></head><body>Ciao ',
+		'body'		=>	'test ita</body></html>',
+	];
+	$mail_en = [
+		'subject'	=>	'Thanks for getting in touch',
+		'greeting'	=>	'<html><head><meta charset="utf-8"></head><body>Hi ',
+		'body'		=>	'test eng</body></html>',
+	];
+	
+	switch ( $browser_lang ) {
+		case 'it':
+			$errors_msgs = $errors_it;
+			$success_msgs = $success_it;
+			$email_txts = $mail_it;
+			break;
+		default:
+			$errors_msgs = $errors_en;
+			$success_msgs = $success_en;
+			$email_txts = $mail_en;
+	}
+	
+	// FIRE THE ACTUAL THING
 	if ( !$errors ) {
 		$admin = 'HelloGravida<feliziani.emanuele@gmail.com>';
 		$subject = 'Everybody wants Gravida';
@@ -161,8 +167,6 @@ if ( $_POST ) {
 					'MIME-Version: 1.0' . "\r\n" .
 					'Content-Type: text/html; charset=utf-8' . "\r\n";
 		$thank_you = $email_txts['greeting'] . $name .'!<br><br>'. $email_txts['body'];
-		$answer_due_date = new \DateTime('tomorrow + 1day');
-		$answer_due_date = date('l', strtotime($answer_due_date));
 		
 		// This is sent to the admin
 		@include('email/notif-template.php');
@@ -178,9 +182,8 @@ if ( $_POST ) {
 		mail($email, $email_txts['subject'], $response_body, $headers_response);
 		
 		echo '<div class="form-success">
-				<div class="ok">&#9786;&#65038;</div>
 				<h1 class="animate-fade">'. $success_msgs['thanks'] .'</h1>
-				<p class="animate-fade">'. $success_msgs['hi'] .' <strong>'. $name .'</strong>! '. $success_msgs['txt'] . $email .'.</p>
+				'. $success_msgs['hi'] . $success_msgs['txt'] .'
 			</div>';
 	} else {
 		echo '<div style="color: red">'. $errors .'<br/></div>';
