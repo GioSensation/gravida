@@ -1,3 +1,5 @@
+Header add Cache-Control "max-age=1"
+
 <IfModule mod_rewrite.c>
 	RewriteEngine on
 	RewriteCond %{REQUEST_FILENAME} !-d
