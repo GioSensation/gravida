@@ -192,13 +192,13 @@ window.addEventListener('load', function() {
 
 	// to takeover its submit event.
 	theForm.addEventListener("submit", function (event) {
-//		event.preventDefault();
+		event.preventDefault();
 		
 		if ( validate() ) {
 			
-//			wait.className += 'showWait';
-//			
-//			sendData();
+			wait.className += 'showWait';
+			
+			sendData();
 		}
 	});
 });
