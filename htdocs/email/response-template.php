@@ -1,5 +1,5 @@
 <?php 
-$response_template = '<!DOCTYPE html>
+$response_body = '<!DOCTYPE html>
 <html lang="en">
 <head>
 <title>Gravida | Procreative</title>
