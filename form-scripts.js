@@ -29,17 +29,17 @@ window.addEventListener('load', function() {
 		var nextMonthPlaceholder = months[month] + ' ' + year;
 		date.placeholder = nextMonthPlaceholder;
 	}
+//		background-image: linear-gradient(to right, #3dacdf 37%, #f2f2f2 37.1%);
 	
 	/***************** RANGE INPUT STUFF *****************/
 	function rangeUpdate() {
-		var value = (budget.value - budget.min)/(budget.max - budget.min);
+		var value = (budget.value - budget.min)/(budget.max - budget.min)*100,
+			valueTo = value + 0.1;
 		budget.style.backgroundImage = [
-			'-webkit-gradient(',
-				'linear, ',
-				'left top, ',
-				'right top, ',
-				'color-stop(' + value + ', #3DACDF), ',
-				'color-stop(' + value + ', #F2F2F2)',
+			'linear-gradient(',
+				'to right, ',
+				'#3DACDF ' + value + '%, ',
+				'#F2F2F2 ' + valueTo + '%',
 			')'
 		].join('');
 		budgetOutput.value = budget.value;

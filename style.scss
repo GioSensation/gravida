@@ -732,7 +732,7 @@ form {
 	small {
 		display: block;
 		position: absolute;
-		bottom: 0;
+		bottom: -5px;
 		width: 100%;
 		margin: 0 auto;
 		color: orange;
@@ -848,7 +848,8 @@ input[type=range]::-moz-slider-thumb {
 	border-radius: 50%;
 }
 input[type=range]::-moz-range-track {
-	background: $lighter;
+	background: transparent;
+	border: none;
 }
 output {
 	font-weight: bold;
@@ -907,6 +908,10 @@ output {
 		cursor: pointer;
 		transition: all .2s ease-in-out;
 		border-radius: 2px;
+		
+		&:hover {
+			background-color: #E6E6E6;
+		}
 	}
 }
 
@@ -938,7 +943,6 @@ input[type=submit] {
 	max-width: 800px;
 	margin-left: auto;
 	margin-right: auto;
-	font-size: 1.31em;				// 21px
 }
 
 #wait {
