@@ -382,6 +382,109 @@ body > header {
 	}
 }
 
+.palla-container {
+	position: absolute;
+	top: 45%;
+	left: 50%;
+	width: 200px;
+	height: auto;
+	margin-left: -100px;
+	padding: 0;
+	max-width: 100%;
+	overflow: hidden;
+	z-index: -1;
+	opacity: .5;
+}
+
+.palla-bg {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: 0;
+	background-image: #c89788;
+	background-image: -webkit-radial-gradient(60% 40%, ellipse closest-side, #98b0bf 0%, #aca8a9 33%, #f19955 74%, #ec6a63 100%);
+	background-image: -moz-radial-gradient(60% 40%, ellipse closest-side, #98b0bf 0%, #aca8a9 33%, #f19955 74%, #ec6a63 100%);
+	background-image: -o-radial-gradient(60% 40%, ellipse closest-side, #98b0bf 0%, #aca8a9 33%, #f19955 74%, #ec6a63 100%);
+	background-image: -ms-radial-gradient(60% 40%, ellipse closest-side, #98b0bf 0%, #aca8a9 33%, #f19955 74%, #ec6a63 100%);
+	background-image: radial-gradient(60% 40%, ellipse closest-side, #98b0bf 0%, #aca8a9 33%, #f19955 74%, #ec6a63 100%);
+	background-position: top right;
+	animation: moveDaPallaS linear 20s infinite alternate;
+}
+
+.palla {
+	position: relative;
+	z-index: 1;
+	display: block;
+}
+
+@keyframes 'moveDaPallaS' {
+	0% {
+		transform: translate(50%, 70%) scale(2.5);
+	}
+	13% {
+		transform: translate(-20%, -10%) scale(1.5);
+	}
+	25% {
+		transform: translate(-40%, 10%) scale(1.8);
+	}
+	37% {
+		transform: translate(-65%, 50%) scale(2.3);
+	}
+	50% {
+		transform: translate(-50%, 70%) scale(2.5);
+	}
+	63% {
+		transform: translate(-40%, -20%) scale(2);
+	}
+	75% {
+		transform: translate(-45%, 10%) scale(2);
+	}
+	88% {
+		transform: translate(-70%, 60%) scale(2.4);
+	}
+	100% {
+		transform: translate(-70%, 90%) scale(2.7);
+	}
+}
+
+@keyframes 'moveDaPallaOld' {
+	0% {
+		background-position: top left;
+		background-size: 250%;
+	}
+	13% {
+		background-position: bottom left;
+		background-size: 140%;
+	}
+	25% {
+		background-position: bottom right;
+		background-size: 110%;
+	}
+	37% {
+		background-position: top right;
+	}
+	50% {
+		background-position: top left;
+		background-size: 170%;
+	}
+	63% {
+		background-position: bottom left;
+		background-size: 110%;
+	}
+	75% {
+		background-position: bottom right;
+		background-size: 80%;
+	}
+	88% {
+		background-position: top right;
+	}
+	100% {
+		background-position: top left;
+	}
+}
+
 .logo-big {
 	width: 100px;
 	padding: 0;
