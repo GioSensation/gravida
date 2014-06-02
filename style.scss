@@ -205,6 +205,10 @@ body > header {
 #inner-header {
 	margin: 0 auto;
 	
+	> .logo {
+		float: left;
+	}
+	
 	@media (min-width: 600px) {
 		max-width: 650px;
 	}
@@ -280,6 +284,7 @@ body > header {
 
 #nav {
 	position: absolute;
+	top: 0;
 	left: 0;
 	width: 100%;
 	list-style: none;
