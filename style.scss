@@ -8,24 +8,24 @@ $green: #8EC54F;
 
 @import "_fontello.scss";
 
-@font-face {
+/*@font-face {
   font-family: 'Century Gothic';
-  src: url('font/GOTHIC.eot'); /* IE9 Compat Modes */
-  src: url('font/GOTHIC.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('font/GOTHIC.woff') format('woff'), /* Modern Browsers */
-       url('font/GOTHIC.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('GOTHIC.svg#13db03934b676bad49f0835d401d12db') format('svg'); /* Legacy iOS */
+  src: url('font/GOTHIC.eot'); /* IE9 Compat Modes *!/
+  src: url('font/GOTHIC.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 *!/
+       url('font/GOTHIC.woff') format('woff'), /* Modern Browsers *!/
+       url('font/GOTHIC.ttf')  format('truetype'), /* Safari, Android, iOS *!/
+       url('GOTHIC.svg#13db03934b676bad49f0835d401d12db') format('svg'); /* Legacy iOS *!/
        
   font-style:   normal;
   font-weight:  400;
-}
+}*/
 
 * {
 	box-sizing: border-box;
 }
 
 body {
-	font-family: 'Century Gothic', sans-serif;
+	font-family: 'Helvetica Neue', arial, sans-serif;
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
 	color: $gray;
@@ -67,8 +67,7 @@ h1,
 h2,
 h3,
 h4 {
-	font-weight: normal;
-	text-transform: uppercase;
+	
 }
 
 h1,
@@ -367,6 +366,25 @@ body > header {
 		}
 	}
 }
+
+.has-background {
+	position: relative;
+	background-color: rgba($bright-pink, .9);
+	color: white;
+	
+	
+	&::after {
+	  content: '';
+	  background-image: url(imgs/both.jpg);
+	  background-size: cover;
+	  background-position: center center;
+	  opacity: 1;
+	  top: 0;
+	  left: 0;
+	  bottom: 0;
+	  right: 0;
+	  position: absolute;
+	  z-index: -1;   
 	}
 }
 
@@ -374,29 +392,43 @@ body > header {
 	margin-top: 0px;
 	
 	> * {
-		/*margin: auto;*/
+		margin-bottom: .8rem;
+	}
+	
+	h2 {
+		font-size: 9vw;
+		line-height: 1;
+		color: white;
+		margin-bottom: .8rem;
+		text-transform: lowercase;
+		font-weight: bold;
 	}
 	
 	p {
-		text-transform: uppercase;
-		line-height: 1.7;
-		
-		&:first-child {
-			color: $bright-pink;
-		}
+		margin: 0 auto 1.3em;
+		line-height: 1.3;
+	}
+	
+	a {
+		color: white;
 	}
 	
 	@media(min-width: 600px) {
 		/*font-size: 2.3vh;*/
+		min-height: 85vh;
+		
+		h2 {
+			font-size: 4rem;
+		}
 		
 		p {
 			max-width: 750px;
-			margin: 0 auto 1em;
 		}
 	}
 	
 	@media(min-width: 1200px) {
 	}
+	
 }
 
 .palla-container {
@@ -547,60 +579,79 @@ body > header {
 }
 
 .service {
-	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: flex-start;
 	align-content: space-around;
+	width: 100vw;
+	height: 100vw;
+	position: relative;
+	overflow: hidden;
+	float: left;
+	padding: 1.25em;
 	text-align: left;
 	line-height: 1.5;
+	background-color: rgba(10,10,10,.75);
 	
 	h2 {
 		font-size: 12.421875vw; 	// 159px @1280
-		margin: 0 auto 0;
-		font-weight: normal;
-		text-transform: uppercase;
+		margin: 0;
+		font-weight: bold;
+		text-transform: lowercase;
 		color: $bright-pink;
-		
-		@media (min-width: 600px) {
-			
-		}
-		
-		@media (min-width: 1200px) {
-			font-size: 159px; 		// 159px @1280
-		}
 	}
 	
 	p {
-		font-size: inherit;
+		margin-bottom: 1.3em;
 		line-height: 1.38;			// 22px
+		text-transform: lowercase;
 		
-		@media (min-width: 600px) {
-			max-width: 48%;
+		&:last-of-type {
+			margin-bottom: 0;
 		}
 	}
 	
-	.details-link {
-		display: block;
-		margin-bottom: 120px;
+	&::after {
+		width: 110%;
+		background-image: url(imgs/projects/yoon-1.png);
 	}
 	
 	@media (min-width: 600px) {
-		&:nth-child(2n) {
-			text-align: right;
+		width: 50vw;
+		height: 50vw;
+		padding: 5vw;
+		
+		h2 {
+			font-size: 60px;
+		}
+		
+		p {
 			
-			h2 {
-				color: $dark-pink;
+			&:last-of-type {
+				margin-bottom: 0;
 			}
-			
-			p, a {
-				clear: both;
-			}
-			
-			p {
-				float: right;
-			}
-			
 		}
 	}
-
+	
+	@media (min-width: 1025px) {
+		
+		p {
+			width: 80%;
+		}
+		
+		> * {
+		}
+		
+		&:hover {
+			
+			> * {
+			}
+			
+			&::after {
+			}
+		}
+	}
 }
 
 #about {
@@ -632,23 +683,11 @@ body > header {
 }
 
 #newabout {
-	position: relative;
-	background-color: rgba($bright-pink, .9);
-	color: white;
-	text-transform: uppercase;
+	text-align: center;
 	
-	&::after {
-	  content: '';
-	  background-image: url(imgs/both.jpg);
-	  background-size: cover;
-	  background-position: center center;
-	  opacity: 1;
-	  top: 0;
-	  left: 0;
-	  bottom: 0;
-	  right: 0;
-	  position: absolute;
-	  z-index: -1;   
+	p {
+		margin: 5em 0;
+		line-height: 1.3;
 	}
 	
 	@media (min-width:600px) {
@@ -833,7 +872,7 @@ body > header {
 		line-height: 1.3;
 	}*/
 	
-	@media (min-width: 1200px) {
+	@media (min-width: 600px) {
 		
 		> * {
 			padding: 0;
@@ -869,7 +908,7 @@ body > header {
 .project-details,
 .mammoccio-details {
 	
-	@media (min-width: 1200px) {
+	@media (min-width: 600px) {
 		width: 48%;
 		float: right;
 		clear: right;
@@ -885,7 +924,7 @@ body > header {
 		width: 100%;
 	}
 	
-	@media (min-width: 1200px) {
+	@media (min-width: 600px) {
 		width: 48%;
 		float: left;
 	}
@@ -898,7 +937,7 @@ body > header {
 	ul {
 		text-align: center;
 		
-		@media (min-width: 1200px) {
+		@media (min-width: 600px) {
 			text-align: left;
 		}
 	}
