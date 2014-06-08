@@ -1,24 +1,44 @@
-window.addEventListener("load", function () {
+window.addEventListener('load', function () {
 //		isiOS = (/(iPad|iPhone|iPod)/g.test( navigator.userAgent )) ? true: false,
 //		isSafari = (navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') == -1) ? true: false;
+	var viewport = document.documentElement.clientWidth,
+		header = document.querySelector('body > header');
 	
 	// FastClick magic
 	FastClick.attach(document.body);
 	
-	// Add a polyfill to fix the vh issue in Mobile Safari
-	viewportUnitsBuggyfill.init();
 	
-	var menuHelper = document.getElementById('menu-helper');
+	// Mobile only scripts
+	if (viewport < 600) {
+		// Add a polyfill to fix the vh issue in Mobile Safari
+		viewportUnitsBuggyfill.init();
+		
+		var menuHelper = document.getElementById('menu-helper');
+		
+		menuHelper.addEventListener('click', function() {
+			this.classList.toggle('menu-helper--open');
+			this.nextElementSibling.classList.toggle('nav--open');
+		});
+		
+		document.getElementById('nav').addEventListener('click', function() {
+			menuHelper.classList.remove('menu-helper--open');
+			this.classList.remove('nav--open');
+		});
+	} else {
+		(function() {
+			window.addEventListener('scroll', function() {
+				var distanceY = window.pageYOffset || document.documentElement.scrollTop;
+				
+				if (distanceY > 120) {
+					header.classList.add('shrinked');
+				} else {
+					header.classList.remove('shrinked');
+				}
+			});
+		})();
+	}
 	
-	menuHelper.addEventListener('click', function() {
-		this.classList.toggle('menu-helper--open');
-		this.nextElementSibling.classList.toggle('nav--open');
-	});
 	
-	document.getElementById('nav').addEventListener('click', function() {
-		menuHelper.classList.remove('menu-helper--open');
-		this.classList.remove('nav--open');
-	});
 	
 	/***************** MAP APP THING *****************/
 	// This thing switches from Apple Maps native map to Google Map in non-Apple devices

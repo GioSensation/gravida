@@ -35,6 +35,9 @@ body {
 	line-height: 1.75;			// 28px
 	max-width: 100%;
 	
+	@media (min-width: 600px) {
+		padding-top: 120px;
+	}
 }
 
 .centered {
@@ -206,6 +209,18 @@ body > header {
 	background-color: rgba(255, 255, 255, .9);
 	height: 2.5em;			// 40px
 	z-index: 5;
+	
+	@media (min-width: 600px) {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		height: 120px;
+		transition: height .2s ease-out;
+		
+		&.shrinked {
+			height: 2.5em;
+		}
+	}
 }
 
 #inner-header {
@@ -290,7 +305,7 @@ body > header {
 
 #nav {
 	position: absolute;
-	top: 0;
+	top: 40px;
 	left: 0;
 	width: 100%;
 	list-style: none;
@@ -341,16 +356,22 @@ body > header {
 
 /* @group HOMEPAGE */
 
-.homepage p,
-.homepage a {
+.homepage {
+	margin-top: 0;
 	
 	@media (min-width: 600px) {
-		font-size: 1.31em !important;		// 21px
+		
+		p,
+		a {
+			font-size: 1.31rem !important;		// 21px
+		}
+	}
+}
 	}
 }
 
 #home {
-	margin-top: -40px;
+	margin-top: 0px;
 	
 	> * {
 		/*margin: auto;*/
