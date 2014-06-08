@@ -618,6 +618,7 @@ body > header {
 	
 	&::after {
 		width: 110%;
+		transition: all .3s ease-out;
 		background-image: url(imgs/projects/yoon-1.png);
 	}
 	
@@ -639,20 +640,25 @@ body > header {
 	}
 	
 	@media (min-width: 1025px) {
+		transition: all .3s ease-out;
 		
 		p {
 			width: 80%;
 		}
 		
 		> * {
+			transition: all .3s ease-out;
 		}
 		
 		&:hover {
+			background-color: rgba(10, 10, 10, .9);
 			
 			> * {
+				transform: translate3D(10px, 0, 0);
 			}
 			
 			&::after {
+				transform: translate3D(-20px, 0, 0) scale(1.03);
 			}
 		}
 	}
