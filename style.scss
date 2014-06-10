@@ -195,6 +195,7 @@ footer {
 	justify-content: center;
 	align-content: flex-end;
 	text-align: center;
+	padding: 0;
 }
 
 /* @group HEADER */
@@ -414,7 +415,7 @@ body > header {
 	
 	&::after {
 	  content: '';
-	  background-image: url(imgs/both.jpg);
+	  background-image: url(imgs/main-home.jpg);
 	  background-size: cover;
 	  background-position: center center;
 	  opacity: 1;
@@ -454,6 +455,17 @@ body > header {
 		border: 1px solid white;
 		border-radius: .29em;
 		color: white;
+		transition: all .3s;
+		
+		&:hover,
+		&:active {
+			color: $bright-pink;
+			background-color: white;
+		}
+		
+		&::after{
+			background-image: url(imgs/main-home.jpg);
+		}
 	}
 	
 	@media(min-width: 600px) {
@@ -679,14 +691,14 @@ body > header {
 	}
 	
 	@media (min-width: 1025px) {
-		transition: all .3s ease-out;
+		transition: all .2s ease-out;
 		
 		p {
 			width: 80%;
 		}
 		
 		> * {
-			transition: all .3s ease-out;
+			transition: all .2s ease-out;
 		}
 		
 		&:hover {
@@ -748,7 +760,6 @@ body > header {
 }
 
 #mammocci {
-	padding: 0 1.5em;
 	
 	@media(min-width: 600px) {
 		flex-direction: row;
@@ -762,13 +773,11 @@ body > header {
 	width: auto;
 	height: auto;
 	padding: 0;
-	margin-bottom: 2rem;
 	text-align: center;
 	
 	img {
 		display: block;
 		width: 100%;
-		border-radius: 50%;
 	}
 	
 	.overlay {
@@ -777,7 +786,6 @@ body > header {
 		left: 0;
 		right: 0;
 		bottom: 0;
-		border-radius: 50%;
 		background-color: rgba($bright-pink, .8);
 		display: flex;
 		flex-direction: column;
@@ -794,9 +802,8 @@ body > header {
 	@media(min-width: 600px) {
 		flex-grow: 1;
 		flex-shrink: 1;
-		width: 45%;
+		width: 50%;
 		height: 100%;
-		margin: 2.5%;
 		float: left;
 		padding: 0;
 		
@@ -806,7 +813,6 @@ body > header {
 			left: 0;
 			right: 0;
 			bottom: 0;
-			border-radius: 50%;
 			background-color: rgba($bright-pink, .8);
 			transform: scale(0);
 			transition: all .2s ease-out;

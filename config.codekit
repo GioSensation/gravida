@@ -535,6 +535,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/htdocs\/imgs\/edo-home-7.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 185467,
+		"inputAbbreviatedPath": "\/htdocs\/imgs\/edo-home-7.jpg",
+		"outputAbbreviatedPath": "\/htdocs\/imgs\/edo-home-7.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/htdocs\/imgs\/ema-home-21.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 178611,
+		"inputAbbreviatedPath": "\/htdocs\/imgs\/ema-home-21.jpg",
+		"outputAbbreviatedPath": "\/htdocs\/imgs\/ema-home-21.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/htdocs\/imgs\/ema.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -553,6 +575,28 @@
 		"initialSize": 3381,
 		"inputAbbreviatedPath": "\/htdocs\/imgs\/logo-gravida.png",
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/logo-gravida.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/htdocs\/imgs\/main-home-alt.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 170448,
+		"inputAbbreviatedPath": "\/htdocs\/imgs\/main-home-alt.jpg",
+		"outputAbbreviatedPath": "\/htdocs\/imgs\/main-home-alt.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/htdocs\/imgs\/main-home.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 179579,
+		"inputAbbreviatedPath": "\/htdocs\/imgs\/main-home.jpg",
+		"outputAbbreviatedPath": "\/htdocs\/imgs\/main-home.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
