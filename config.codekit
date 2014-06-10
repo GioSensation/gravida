@@ -387,6 +387,24 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/contents\/_yoon2.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/contents\/_yoon2.kit",
+		"outputAbbreviatedPath": "\/contents\/_yoon2.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/contents\/_yoon3.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/contents\/_yoon3.kit",
+		"outputAbbreviatedPath": "\/contents\/_yoon3.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/emanuele.kit": {
 		"fileType": 2048,
 		"ignore": 0,
