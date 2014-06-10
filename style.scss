@@ -312,7 +312,7 @@ body > header {
 	padding: 0;
 	overflow: hidden;
 	
-	li {
+	> li {
 		float: left;
 		width: 25%;
 		font-size: .8em;
@@ -338,8 +338,9 @@ body > header {
 		width: auto;
 		float: right;
 		text-align: right;
+		overflow: visible;
 		
-		li {
+		> li {
 			display: inline-block;
 			float: none;
 			width: auto;
@@ -347,6 +348,44 @@ body > header {
 			text-align: right;
 			background-color: transparent;
 			transform: translateY(0);
+			
+			a {
+				position: relative;
+				font-weight: bold;
+				
+				&:hover {
+					color: $bright-pink;
+				}
+				
+				&::before,
+				&::after {
+					content: '[';
+					position: absolute;
+					top: -.2em;
+					left: -.5em;
+					padding: inherit;
+					color: $bright-pink;
+					font-size: 1.4em;
+					font-weight: normal;
+					line-height: 1;
+					opacity: 0;
+					transform: translateX(-.3em);
+					transition: all .3s;
+				}
+				
+				&::after {
+					content: ']';
+					left: auto;
+					right: -.5em;
+					transform: translateX(.3em);
+				}
+				
+				&:hover::before,
+				&:hover::after {
+					transform: translateX(0);
+					opacity: 1;
+				}
+			}
 		}
 	}
 }
