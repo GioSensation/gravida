@@ -360,12 +360,30 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 1
 		},
+	"\/contents\/_appunimi.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/contents\/_appunimi.kit",
+		"outputAbbreviatedPath": "\/contents\/_appunimi.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/contents\/_emanuele.kit": {
 		"fileType": 2048,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/contents\/_emanuele.kit",
 		"outputAbbreviatedPath": "\/contents\/_emanuele.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/contents\/_insulin-and-food.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/contents\/_insulin-and-food.kit",
+		"outputAbbreviatedPath": "\/contents\/_insulin-and-food.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -384,24 +402,6 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/contents\/_yoon.kit",
 		"outputAbbreviatedPath": "\/contents\/_yoon.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/contents\/_yoon2.kit": {
-		"fileType": 2048,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/contents\/_yoon2.kit",
-		"outputAbbreviatedPath": "\/contents\/_yoon2.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/contents\/_yoon3.kit": {
-		"fileType": 2048,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/contents\/_yoon3.kit",
-		"outputAbbreviatedPath": "\/contents\/_yoon3.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -619,6 +619,50 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/htdocs\/imgs\/projects\/appunimi-portfolio-1280.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 61539,
+		"inputAbbreviatedPath": "\/htdocs\/imgs\/projects\/appunimi-portfolio-1280.jpg",
+		"outputAbbreviatedPath": "\/htdocs\/imgs\/projects\/appunimi-portfolio-1280.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/htdocs\/imgs\/projects\/appunimi-portfolio.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 166017,
+		"inputAbbreviatedPath": "\/htdocs\/imgs\/projects\/appunimi-portfolio.jpg",
+		"outputAbbreviatedPath": "\/htdocs\/imgs\/projects\/appunimi-portfolio.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/htdocs\/imgs\/projects\/insulin-portfolio-1280.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 26127,
+		"inputAbbreviatedPath": "\/htdocs\/imgs\/projects\/insulin-portfolio-1280.jpg",
+		"outputAbbreviatedPath": "\/htdocs\/imgs\/projects\/insulin-portfolio-1280.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/htdocs\/imgs\/projects\/insulin-portfolio.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 65240,
+		"inputAbbreviatedPath": "\/htdocs\/imgs\/projects\/insulin-portfolio.jpg",
+		"outputAbbreviatedPath": "\/htdocs\/imgs\/projects\/insulin-portfolio.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/htdocs\/imgs\/projects\/yoon-1.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -659,6 +703,28 @@
 		"initialSize": 198262,
 		"inputAbbreviatedPath": "\/htdocs\/imgs\/projects\/yoon-4.png",
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/projects\/yoon-4.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/htdocs\/imgs\/projects\/yoon-portfolio-1280.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 86237,
+		"inputAbbreviatedPath": "\/htdocs\/imgs\/projects\/yoon-portfolio-1280.jpg",
+		"outputAbbreviatedPath": "\/htdocs\/imgs\/projects\/yoon-portfolio-1280.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/htdocs\/imgs\/projects\/yoon-portfolio.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 240351,
+		"inputAbbreviatedPath": "\/htdocs\/imgs\/projects\/yoon-portfolio.jpg",
+		"outputAbbreviatedPath": "\/htdocs\/imgs\/projects\/yoon-portfolio.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
