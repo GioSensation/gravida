@@ -2,6 +2,34 @@ window.addEventListener('load', function() {
 	var budget = document.getElementById('budget'),
 		budgetOutput = document.querySelector('#range-output');
 		
+	function scrollTo(element, to, duration) {
+	    var start = element.scrollTop,
+	        change = to - start,
+	        currentTime = 0,
+	        increment = 20;
+	
+	    var animateScroll = function(){        
+	        currentTime += increment;
+	        var val = Math.easeInOutQuad(currentTime, start, change, duration);                        
+	        element.scrollTop = val; 
+	        if(currentTime < duration) {
+	            setTimeout(animateScroll, increment);
+	        }
+	    };
+	    animateScroll();
+	}
+	
+	//t = current time
+	//b = start value
+	//c = change in value
+	//d = duration
+	Math.easeInOutQuad = function (t, b, c, d) {
+	    t /= d/2;
+	    if (t < 1) return c/2*t*t + b;
+	    t--;
+	    return -c/2 * (t*(t-2) - 1) + b;
+	};
+		
 	/***************** INPUT MONTH STUFF  *****************/
 	// This whole stuff adds better usability cross-browser: when input[type=month] is supported it provides a default value (next month), when it is not supported, it gives a placeholder (next month). This also lays out the ground for form validation afterwards where, in both cases, if the value is empty when the form is submitted, the script automatically assigns next month.
 	var months = {'01': 'January', '02': 'February', '03': 'March', '04': 'April', '05': 'May', '06': 'June', '07': 'July', '08': 'August', '09': 'September', '10': 'October', '11': 'November', '12': 'December'},
@@ -29,7 +57,6 @@ window.addEventListener('load', function() {
 		var nextMonthPlaceholder = months[month] + ' ' + year;
 		date.placeholder = nextMonthPlaceholder;
 	}
-//		background-image: linear-gradient(to right, #3dacdf 37%, #f2f2f2 37.1%);
 	
 	/***************** RANGE INPUT STUFF *****************/
 	function rangeUpdate() {
@@ -102,7 +129,9 @@ window.addEventListener('load', function() {
 	}
 	
 	function errorFlash( questo ) {
-		questo.parentNode.className +='error';
+		if ( !questo.parentNode.classList.contains('error') ) {
+			questo.parentNode.classList.add('error');
+		}
 		questo.nextElementSibling.textContent = errorMessage;
 	}
 	
@@ -115,15 +144,15 @@ window.addEventListener('load', function() {
 	nameInput.addEventListener('blur', function() {
 		if ( !valueIsValid( this ) ) {
 			errorFlash( this );
+			readyAgain(this);
 		}
-		readyAgain(this);
 	}, true);
 	
 	emailInput.addEventListener('blur', function() {
 		if ( !valueIsValid( this, 'email' )) {
 			errorFlash( this );
+			readyAgain(this);
 		}
-		readyAgain(this);
 	}, true);
 	
 	function validate() {
@@ -186,10 +215,7 @@ window.addEventListener('load', function() {
 		// The data sent are the one the user provide in the form
 		XHR.send(FD);
 	}
- 
-	// We need to access the form element
-//	var form = document.getElementById("myForm");
-
+	
 	// to takeover its submit event.
 	theForm.addEventListener("submit", function (event) {
 		event.preventDefault();
@@ -199,6 +225,14 @@ window.addEventListener('load', function() {
 			wait.className += 'showWait';
 			
 			sendData();
+		} else {
+			document.querySelector('.submit-label').classList.add('shake');
+			document.getElementById('formSubmit').classList.add('shake');
+			setTimeout(function () {
+				scrollTo(document.body, 0, 400);
+				document.querySelector('.submit-label').classList.remove('shake');
+				document.getElementById('formSubmit').classList.remove('shake');
+			}, 400);
 		}
 	});
 });

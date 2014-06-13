@@ -1155,11 +1155,34 @@ form {
 	}
 }
 
+$move: 10px;
+@keyframes shake {
+	0% {
+		transform: translate3d(-$move, 0, 0);
+	}
+	25% {
+		transform: translate3d($move, 0, 0);
+	}
+	50% {
+		transform: translate3d(-$move, 0, 0);
+	}
+	75% {
+		transform: translate3d($move, 0, 0);
+	}
+	100% {
+		transform: translate3d(0, 0, 0);
+	}
+}
+
 .error {
 	
 	input {
 		color: orange;
 		border: 1px solid orange;
+		
+		@media (min-width: 600px) {
+			animation: shake .3s .1s;
+		}
 	}
 	
 	small {
@@ -1350,6 +1373,10 @@ input[type=submit] {
 	color: $bright-pink;
 	text-transform: uppercase;
 	cursor: pointer;
+}
+
+.shake{
+	animation: shake .3s;
 }
 
 .form-success p {
