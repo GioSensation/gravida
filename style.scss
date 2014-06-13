@@ -8,17 +8,17 @@ $green: #8EC54F;
 
 @import "_fontello.scss";
 
-/*@font-face {
+@font-face {
   font-family: 'Century Gothic';
-  src: url('font/GOTHIC.eot'); /* IE9 Compat Modes *!/
-  src: url('font/GOTHIC.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 *!/
-       url('font/GOTHIC.woff') format('woff'), /* Modern Browsers *!/
-       url('font/GOTHIC.ttf')  format('truetype'), /* Safari, Android, iOS *!/
-       url('GOTHIC.svg#13db03934b676bad49f0835d401d12db') format('svg'); /* Legacy iOS *!/
+  src: url('font/GOTHIC.eot'); /* IE9 Compat Modes */
+  src: url('font/GOTHIC.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('font/GOTHIC.woff') format('woff'), /* Modern Browsers */
+       url('font/GOTHIC.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('GOTHIC.svg#13db03934b676bad49f0835d401d12db') format('svg'); /* Legacy iOS */
        
   font-style:   normal;
   font-weight:  400;
-}*/
+}
 
 * {
 	box-sizing: border-box;
@@ -256,20 +256,22 @@ body > header {
 .logo {
 	
 	img {
-		width: 32px;
+		width: 40px;
 		margin-right: 7px;
-		padding-top: 8px;
+		padding-top: 4px;
 	}
 	
 	h1,
 	h2 {
 		display: inline;
 		vertical-align: top;
-		line-height: 3.7;
-		font-size: .7rem;
+		line-height: 3;
+		font-family: 'Century Gothic';
+		font-size: .81rem;
 		color: $light-gray;
 		font-weight: normal;
 		text-transform: uppercase;
+		-webkit-font-smoothing: subpixel-antialiased;
 	}
 }
 
@@ -278,6 +280,7 @@ body > header {
 	width: 2rem;
 	height: 2rem;
 	padding: .6em 0 0;
+	cursor: pointer;
 	
 	span {
 		display: block;
