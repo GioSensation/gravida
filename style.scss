@@ -173,6 +173,20 @@ button {
 	-moz-appearance: none;
 }
 
+.apple-like-box {
+	padding: 0.4286em 1.1429em 0.5em;
+	border: 1px solid;
+	border-radius: .29em;
+	color: white;
+	transition: all .3s;
+	
+	&:hover,
+	&:active {
+		color: $bright-pink;
+		background-color: white;
+	}
+}
+
 body > section,
 body > main,
 body > article,
@@ -211,7 +225,7 @@ body > header {
 	left: 0;
 	width: 100%;
 	padding: 0 1.25rem;
-	background-color: rgba(255, 255, 255, .9);
+	background-color: rgba(255, 255, 255, .95);
 	height: 2.5em;			// 40px
 	z-index: 5;
 	
@@ -223,7 +237,7 @@ body > header {
 		transition: height .2s ease-out;
 		
 		&.shrinked {
-			height: 2.5em;
+			height: 3.5em;
 		}
 	}
 }
@@ -242,6 +256,12 @@ body > header {
 	@media (min-width: 800px) {
 		width: 93.75%;
 		max-width: none;
+	}
+	
+	@media (min-width: 1025px) {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
 	}
 	
 	@media (min-width: 1200px) {
@@ -330,6 +350,7 @@ body > header {
 		background-color: rgba(255, 255, 255, .9);
 		transition: all .3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 		transform: translateY(-100%);
+		pointer-events: none;
 		
 		a {
 			color: $gray;
@@ -340,6 +361,7 @@ body > header {
 	
 	&.nav--open li {
 		transform: translateY(0);
+		pointer-events: auto;
 	}
 	
 	@media(min-width: 600px) {
@@ -357,6 +379,7 @@ body > header {
 			text-align: right;
 			background-color: transparent;
 			transform: translateY(0);
+			pointer-events: auto;
 			
 			a {
 				position: relative;
@@ -397,6 +420,28 @@ body > header {
 			}
 		}
 	}
+}
+
+.special-link {
+	display: none;
+	
+	@media (min-width: 769px) {
+		display: block;
+		font-weight: bold;
+		color: $bright-pink;
+		font-size: .81rem;
+		line-height: 2;
+		
+		&:hover,
+		&:active {
+			color: white;
+			background-color: $bright-pink;
+		}
+	}
+}
+
+.shrinked .special-link {
+	border: none;
 }
 
 /* @end */
@@ -458,17 +503,6 @@ body > header {
 	
 	a {
 		margin-top: 2em;
-		padding: 0.4286em 1.1429em 0.5em;
-		border: 1px solid white;
-		border-radius: .29em;
-		color: white;
-		transition: all .3s;
-		
-		&:hover,
-		&:active {
-			color: $bright-pink;
-			background-color: white;
-		}
 	}
 	
 	&::after{
