@@ -199,7 +199,6 @@ footer {
 	}
 	
 	@media (min-width: 1200px) {
-		margin-top: 80px;
 		
 		> * {
 			padding: 0;
@@ -919,7 +918,7 @@ body > header {
 .portfolio-single__description {
 	width: 100%;
 	padding: 1.5rem;
-	background-color: rgba(255, 255, 255, 1);
+	background-color: rgba(255, 255, 255, .93);
 	z-index: 3;
 	
 	> h2,
