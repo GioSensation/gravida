@@ -26,14 +26,15 @@ window.addEventListener('load', function () {
 		});
 	} else {
 		(function() {
+			var position = window.pageYOffset || document.documentElement.scrollTop;
 			window.addEventListener('scroll', function() {
 				var distanceY = window.pageYOffset || document.documentElement.scrollTop;
-				
-				if (distanceY > 120) {
+				if (distanceY > position && position > 0) {
 					header.classList.add('shrinked');
-				} else {
+				} else if (position < 30) {
 					header.classList.remove('shrinked');
 				}
+				position = distanceY;
 			});
 		})();
 	}
