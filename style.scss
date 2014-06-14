@@ -712,7 +712,6 @@ body > header {
 	
 	&::after {
 		width: 110%;
-		transition: all .3s ease-out;
 		background-image: url(imgs/projects/yoon-1.png);
 	}
 	
@@ -720,6 +719,7 @@ body > header {
 		width: 50%;
 		height: 50vw;
 		padding: 5vw;
+		transition: all .2s .4s ease-out;
 		
 		h2 {
 			font-size: 60px;
@@ -731,30 +731,27 @@ body > header {
 				margin-bottom: 0;
 			}
 		}
-	}
-	
-	@media (min-width: 1025px) {
-		transition: all .2s ease-out;
 		
-		p {
-			width: 80%;
-		}
-		
-		> * {
-			transition: all .2s ease-out;
+		.service__content {
+			transition: all .2s .4s ease-out;
 		}
 		
 		&:hover {
 			background-color: rgba(10, 10, 10, .9);
 			
-			> * {
-				transform: translate3D(10px, 0, 0);
-			}
-			
-			&::after {
-				transform: translate3D(-20px, 0, 0) scale(1.03);
+			.service__content {
+				transform: translate3D(10px, -10px, 0);
 			}
 		}
+	}
+	
+	@media (min-width: 1025px) {
+		
+		p {
+			width: 80%;
+		}
+		
+
 	}
 }
 
@@ -838,7 +835,7 @@ body > header {
 	.mammoccio__text {
 		text-transform: uppercase;
 		color: white;
-		font-size: 1.4em;
+		font-size: 1.4rem;
 		line-height: 1.5;
 	}
 	
@@ -849,41 +846,27 @@ body > header {
 		height: 100%;
 		float: left;
 		padding: 0;
+	}
+	
+	@media(min-width: 1025px) {
 		
 		.overlay {
-			position: absolute;
-			top: 0;
-			left: 0;
-			right: 0;
-			bottom: 0;
-			background-color: rgba($bright-pink, .8);
-			transform: scale(0);
-			transition: all .2s ease-out;
-			display: flex;
-			flex-direction: column;
-			justify-content: center;
+			transform: scale3d(0,0,0) ;
+			transition: all .2s ease-out .2s;
 		}
 		
 		.mammoccio__text {
-			text-transform: uppercase;
-			color: white;
-			font-size: 1.4em;
-			line-height: 1.5;
-			transform: scale(0);
-			transition: all .3s cubic-bezier(0, -2, 0, 2.5) .2s;
-		}
-		
-		strong {
-			
+			transform: scale3d(0,0,0);
+			transition: all .3s cubic-bezier(0, -2, 0, 2.5) .4s;
 		}
 		
 		&:hover .overlay,
 		&:focus .overlay {
-			transform: scale(1);
+			transform: scale3d(1,1,1);
 		}
 		
 		&:hover .mammoccio__text {
-			transform: scale(1);
+			transform: scale3d(1,1,1);
 		}
 	}
 }
