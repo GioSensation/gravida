@@ -191,7 +191,7 @@ body > section,
 body > main,
 body > article,
 footer {
-	margin-top: 20px;
+	margin-top: 30px;
 	overflow: hidden;
 
 	> * {
@@ -708,7 +708,7 @@ body > header {
 	
 	&::after {
 		width: 110%;
-		background-image: url(imgs/projects/yoon-1.png);
+		background-image: url(imgs/projects/yoon-portfolio.jpg);
 	}
 	
 	@media (min-width: 600px) {
