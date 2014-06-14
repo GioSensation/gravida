@@ -257,9 +257,6 @@ body > header {
 	@media (min-width: 800px) {
 		width: 93.75%;
 		max-width: none;
-	}
-	
-	@media (min-width: 1025px) {
 		display: flex;
 		flex-direction: row;
 		justify-content: space-between;
@@ -426,7 +423,7 @@ body > header {
 .special-link {
 	display: none;
 	
-	@media (min-width: 769px) {
+	@media (min-width: 800px) {
 		display: block;
 		font-weight: bold;
 		color: $bright-pink;
