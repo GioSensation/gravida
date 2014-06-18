@@ -1,3 +1,31 @@
+function scrollTo(element, to, duration) {
+    var start = element.scrollTop,
+        change = to - start,
+        currentTime = 0,
+        increment = 20;
+
+    var animateScroll = function(){        
+        currentTime += increment;
+        var val = Math.easeInOutQuad(currentTime, start, change, duration);                        
+        element.scrollTop = val; 
+        if(currentTime < duration) {
+            setTimeout(animateScroll, increment);
+        }
+    };
+    animateScroll();
+}
+
+//t = current time
+//b = start value
+//c = change in value
+//d = duration
+Math.easeInOutQuad = function (t, b, c, d) {
+    t /= d/2;
+    if (t < 1) return c/2*t*t + b;
+    t--;
+    return -c/2 * (t*(t-2) - 1) + b;
+};
+
 window.addEventListener('load', function () {
 //		isiOS = (/(iPad|iPhone|iPod)/g.test( navigator.userAgent )) ? true: false,
 //		isSafari = (navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') == -1) ? true: false;
@@ -8,6 +36,19 @@ window.addEventListener('load', function () {
 	FastClick.attach(document.body);
 	// Add a polyfill to fix the vh issue in Mobile Safari
 	window.viewportUnitsBuggyfill.init();
+	
+	document.getElementById('contacts-nav-link').addEventListener('click', function(event) {
+		var FF = !(window.mozInnerScreenX == null),
+			bodyToScroll;
+		if (FF) {
+			bodyToScroll = document.documentElement; 
+		} else {
+			bodyToScroll = document.body;
+		}
+		 
+		event.preventDefault();
+		scrollTo(bodyToScroll, document.body.scrollHeight, 400);
+	});
 	
 	// Mobile only scripts
 	if (viewport < 600) {
