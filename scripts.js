@@ -6,13 +6,11 @@ window.addEventListener('load', function () {
 	
 	// FastClick magic
 	FastClick.attach(document.body);
-	
+	// Add a polyfill to fix the vh issue in Mobile Safari
+	window.viewportUnitsBuggyfill.init();
 	
 	// Mobile only scripts
 	if (viewport < 600) {
-		// Add a polyfill to fix the vh issue in Mobile Safari
-		viewportUnitsBuggyfill.init();
-		
 		var menuHelper = document.getElementById('menu-helper');
 		
 		menuHelper.addEventListener('click', function() {
