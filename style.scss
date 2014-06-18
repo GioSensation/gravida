@@ -358,6 +358,20 @@ body > header {
 		}
 	}
 	
+	.fullwidth-mobile-link {
+		width: 100%;
+		transform: translateY(-200%);
+		
+		a {
+			color: $bright-pink;
+			text-transform: none;
+			font-weight: bold;
+			padding: 0;
+			border: none;
+			background-color: transparent;
+		}
+	}
+	
 	&.nav--open li {
 		transform: translateY(0);
 		pointer-events: auto;
@@ -417,6 +431,10 @@ body > header {
 					opacity: 1;
 				}
 			}
+		}
+		
+		.fullwidth-mobile-link {
+			display: none;
 		}
 	}
 }
