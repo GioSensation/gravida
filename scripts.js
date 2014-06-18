@@ -1,5 +1,12 @@
-function scrollTo(element, to, duration) {
-    var start = element.scrollTop,
+function scrollTo(to, duration) {
+	var FF = !(window.mozInnerScreenX == null),
+		bodyToScroll;
+	if (FF) {
+		bodyToScroll = document.documentElement; 
+	} else {
+		bodyToScroll = document.body;
+	}
+    var start = bodyToScroll.scrollTop,
         change = to - start,
         currentTime = 0,
         increment = 20;
@@ -7,7 +14,7 @@ function scrollTo(element, to, duration) {
     var animateScroll = function(){        
         currentTime += increment;
         var val = Math.easeInOutQuad(currentTime, start, change, duration);                        
-        element.scrollTop = val; 
+        bodyToScroll.scrollTop = val; 
         if(currentTime < duration) {
             setTimeout(animateScroll, increment);
         }
@@ -38,16 +45,8 @@ window.addEventListener('load', function () {
 	window.viewportUnitsBuggyfill.init();
 	
 	document.getElementById('contacts-nav-link').addEventListener('click', function(event) {
-		var FF = !(window.mozInnerScreenX == null),
-			bodyToScroll;
-		if (FF) {
-			bodyToScroll = document.documentElement; 
-		} else {
-			bodyToScroll = document.body;
-		}
-		 
 		event.preventDefault();
-		scrollTo(bodyToScroll, document.body.scrollHeight, 400);
+		scrollTo(document.body.scrollHeight, 400);
 	});
 	
 	// Mobile only scripts

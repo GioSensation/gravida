@@ -201,7 +201,7 @@ window.addEventListener('load', function() {
 			document.querySelector('.submit-label').classList.add('shake');
 			document.getElementById('formSubmit').classList.add('shake');
 			setTimeout(function () {
-				scrollTo(document.body, 0, 400);
+				scrollTo(0, 400);
 				document.querySelector('.submit-label').classList.remove('shake');
 				document.getElementById('formSubmit').classList.remove('shake');
 			}, 400);
