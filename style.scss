@@ -25,7 +25,7 @@ $green: #8EC54F;
 }
 
 body {
-	font-family: 'Helvetica Neue', arial, sans-serif;
+	font-family: 'Helvetica Neue', Arial, sans-serif;
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
 	color: $gray;
@@ -224,7 +224,7 @@ body > header {
 	left: 0;
 	width: 100%;
 	padding: 0 1.25rem;
-	background-color: rgba(255, 255, 255, 1);
+	background-color: rgba(255, 255, 255, .95);
 	height: 2.5em;			// 40px
 	z-index: 5;
 	transform: translateZ(0);
@@ -234,6 +234,7 @@ body > header {
 		flex-direction: column;
 		justify-content: center;
 		height: 120px;
+		background-color: rgba(255, 255, 255, 1);
 		transition: height .2s ease-out;
 		
 		&.shrinked {
@@ -864,14 +865,6 @@ body > header {
 		&:hover .mammoccio__text {
 			transform: scale3d(1,1,1);
 		}
-	}
-}
-
-#contacts {
-	justify-content: space-around;
-	
-	a {
-		color: inherit;
 	}
 }
 
