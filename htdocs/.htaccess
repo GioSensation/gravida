@@ -8,3 +8,5 @@ AddType text/cache-manifest .appcache
 	RewriteRule ^(.*)$ $1.html
 	# Replace html with your file extension, eg: php, htm, asp
 </IfModule>
+
+ErrorDocument 404 /404-page-not-found.html

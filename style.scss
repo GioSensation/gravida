@@ -1579,3 +1579,24 @@ footer {
 }
 
 /* @end */
+
+.error-page {
+	
+	h1 {
+		font-size: 2.7rem;
+		transform: rotate(-30deg);
+		pointer-events: none;
+		
+		span {
+			font-size: 3em;
+			line-height: 1;
+		}
+	}
+	
+	@media(min-width:600px) {
+		
+		h1 {
+			font-size: 4.3rem;
+		}
+	}
+}
