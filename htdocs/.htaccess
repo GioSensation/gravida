@@ -10,3 +10,6 @@ AddType text/cache-manifest .appcache
 </IfModule>
 
 ErrorDocument 404 /404-page-not-found.html
+
+Redirect 301 /emanuele http://gravida.pro/emanuele-feliziani-web-developer
+Redirect 301 /edoardo http://gravida.pro/edoardo-sportelli-graphic-designer
