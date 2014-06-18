@@ -9,8 +9,8 @@ if ( $_POST['lang'] != '' ) {
 }
 
 // Set a due date for the answer (the day after tomorrow)
-$answer_due_date = new \DateTime('tomorrow + 1day');
-$answer_due_date = date('l', strtotime($answer_due_date));
+date_default_timezone_set('Europe/Rome');
+$answer_due_date = date('l', strtotime("+2 day"));
 
 if ( $_POST ) {
 	$errors = false;
