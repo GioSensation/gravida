@@ -45,6 +45,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/about.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/about.kit",
+		"outputAbbreviatedPath": "\/htdocs\/about.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1
+		},
 	"\/bad-client-bad-work.kit": {
 		"fileType": 2048,
 		"ignore": 0,
@@ -365,9 +374,18 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/contacts.kit",
-		"outputAbbreviatedPath": "\/htdocs\/contacts.html",
+		"outputAbbreviatedPath": "\/htdocs\/lets-work-together.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 1
+		},
+	"\/contents\/_edo-cont-ita.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/contents\/_edo-cont-ita.kit",
+		"outputAbbreviatedPath": "\/contents\/_edo-cont-ita.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/contents\/_edo-cont.kit": {
 		"fileType": 2048,
@@ -461,6 +479,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/htdocs\/about.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/htdocs\/about.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/htdocs\/bad-client-bad-work.html": {
 		"fileType": 8192,
 		"ignore": 1,
@@ -484,6 +511,15 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/htdocs\/contacts.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/htdocs\/edoardo-sportelli-graphic-designer.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/htdocs\/edoardo-sportelli-graphic-designer.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -1810,6 +1846,138 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/htdocs\/imgs\/serv-home-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 71550,
+		"inputAbbreviatedPath": "\/htdocs\/imgs\/serv-home-1.jpg",
+		"outputAbbreviatedPath": "\/htdocs\/imgs\/serv-home-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/htdocs\/imgs\/serv-home-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 982511,
+		"inputAbbreviatedPath": "\/htdocs\/imgs\/serv-home-2.jpg",
+		"outputAbbreviatedPath": "\/htdocs\/imgs\/serv-home-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/htdocs\/imgs\/serv-home-3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 371219,
+		"inputAbbreviatedPath": "\/htdocs\/imgs\/serv-home-3.jpg",
+		"outputAbbreviatedPath": "\/htdocs\/imgs\/serv-home-3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/htdocs\/imgs\/serv-home-4.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 843722,
+		"inputAbbreviatedPath": "\/htdocs\/imgs\/serv-home-4.jpg",
+		"outputAbbreviatedPath": "\/htdocs\/imgs\/serv-home-4.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/htdocs\/imgs\/serv-home-5.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 261053,
+		"inputAbbreviatedPath": "\/htdocs\/imgs\/serv-home-5.jpg",
+		"outputAbbreviatedPath": "\/htdocs\/imgs\/serv-home-5.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/htdocs\/imgs\/serv-home-6.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.03715e+06,
+		"inputAbbreviatedPath": "\/htdocs\/imgs\/serv-home-6.jpg",
+		"outputAbbreviatedPath": "\/htdocs\/imgs\/serv-home-6.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/htdocs\/imgs\/serv-home-640-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 24516,
+		"inputAbbreviatedPath": "\/htdocs\/imgs\/serv-home-640-1.jpg",
+		"outputAbbreviatedPath": "\/htdocs\/imgs\/serv-home-640-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/htdocs\/imgs\/serv-home-640-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 240988,
+		"inputAbbreviatedPath": "\/htdocs\/imgs\/serv-home-640-2.jpg",
+		"outputAbbreviatedPath": "\/htdocs\/imgs\/serv-home-640-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/htdocs\/imgs\/serv-home-640-3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 371219,
+		"inputAbbreviatedPath": "\/htdocs\/imgs\/serv-home-640-3.jpg",
+		"outputAbbreviatedPath": "\/htdocs\/imgs\/serv-home-640-3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/htdocs\/imgs\/serv-home-640-4.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 200054,
+		"inputAbbreviatedPath": "\/htdocs\/imgs\/serv-home-640-4.jpg",
+		"outputAbbreviatedPath": "\/htdocs\/imgs\/serv-home-640-4.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/htdocs\/imgs\/serv-home-640-5.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 71685,
+		"inputAbbreviatedPath": "\/htdocs\/imgs\/serv-home-640-5.jpg",
+		"outputAbbreviatedPath": "\/htdocs\/imgs\/serv-home-640-5.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/htdocs\/imgs\/serv-home-640-6.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 243569,
+		"inputAbbreviatedPath": "\/htdocs\/imgs\/serv-home-640-6.jpg",
+		"outputAbbreviatedPath": "\/htdocs\/imgs\/serv-home-640-6.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/htdocs\/index.html": {
 		"fileType": 8192,
 		"ignore": 1,
@@ -1824,6 +1992,15 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/htdocs\/insulin-and-food-ios-app-design.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/htdocs\/lets-work-together.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/htdocs\/lets-work-together.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
