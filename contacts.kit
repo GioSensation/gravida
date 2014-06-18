@@ -9,37 +9,37 @@
 	
 	<form name="contactForm" id="contactForm" method="post" accept-charset="utf-8" action="contact.php">
 		<p><label for="name">Hello, I am</label>
-		<input type="text" name="name" value="" id="name" placeholder="John Doe of Doe Inc." autocomplete="on" spellcheck="false" required /><small></small></p>
+		<input type="text" name="name" value="" id="name" placeholder="John Doe of Doe Inc." autocomplete="on" spellcheck="false" required tabindex="1" /><small></small></p>
 		<p><label for="website">my current website is</label>
-		<input type="url" name="website" value="" id="website" placeholder="website.com (optional)" autocomplete="on" /><small></small></p>
+		<input type="url" name="website" value="" id="website" placeholder="website.com (optional)" autocomplete="on" tabindex="2" /><small></small></p>
 		<p><label for="email">this is my email address</label>
-		<input type="email" name="email" value="" id="email" placeholder="me@website.com" autocomplete="on" required /><small></small></p>
+		<input type="email" name="email" value="" id="email" placeholder="me@website.com" autocomplete="on" required tabindex="3" /><small></small></p>
 		<p><label for="message">My idea is</label>
-		<textarea name="message" spellcheck="true" placeholder="I was planning to build an amazing website to showcase my project of conquering the world. It must have a backend for my acolytes and a big red button to start the process."></textarea></p>
+		<textarea name="message" spellcheck="true" placeholder="I was planning to build an amazing website to showcase my project of conquering the world. It must have a backend for my acolytes and a big red button to start the process." tabindex="4"></textarea></p>
 		<p><label for="date">I want it ready for</label>
-		<input type="month" name="date" value="" id="date" /><small></small></p>
+		<input type="month" name="date" value="" id="date" tabindex="5" /><small></small></p>
 		<p class="budget-container">
 			<label for="budget">My budget is € </label><output id="range-output">2500</output>
-			<input type="range" name="budget" value="2500" id="budget" min="1000" max="7000" step="500" />
+			<input type="range" name="budget" value="2500" id="budget" min="1000" max="7000" step="500" tabindex="6" />
 		</p>
-		<span class="label">I will also need</span>
+		<span class="label">I will need:</span>
 		<div class="checkboxes">
-			<input type="checkbox" name="services[]" value="photo" id="photo" />
+			<input type="checkbox" name="services[]" value="photo" id="photo" tabindex="7" />
 			<label for="photo">photo</label>
-			<input type="checkbox" name="services[]" value="brochure" id="brochure" />
+			<input type="checkbox" name="services[]" value="brochure" id="brochure" tabindex="8" />
 			<label for="brochure">brochure</label>
-			<input type="checkbox" name="services[]" value="business-card" id="business-card" />
+			<input type="checkbox" name="services[]" value="business-card" id="business-card" tabindex="9" />
 			<label for="business-card">business card</label>
-			<input type="checkbox" name="services[]" value="social" id="social" />
+			<input type="checkbox" name="services[]" value="social" id="social" tabindex="10" />
 			<label for="social">social</label>
-			<input type="checkbox" name="services[]" value="ui" id="ui" />
+			<input type="checkbox" name="services[]" value="ui" id="ui" tabindex="11" />
 			<label for="ui">ui design</label>
-			<input type="checkbox" name="services[]" value="ux" id="ux" />
+			<input type="checkbox" name="services[]" value="ux" id="ux" tabindex="12" />
 			<label for="ux">ux design</label>
 		</div>
 		<input type="hidden" name="lang" value="en" />
 		<label for="formSubmit" class="submit-label">Nice, is that all?</label>
-		<input type="submit" name="formSubmit" id="formSubmit" value="Send" />
+		<input type="submit" name="formSubmit" id="formSubmit" value="Send" tabindex="13" />
 	</form>
 </main>
 <div id="wait">

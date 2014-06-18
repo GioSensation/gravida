@@ -1102,6 +1102,12 @@ $move: 10px;
 	}
 }
 
+:-moz-ui-invalid {
+	box-shadow: none;
+	color: orange;
+	border: 1px solid orange !important;
+}
+
 .error {
 	
 	input {
@@ -1116,6 +1122,11 @@ $move: 10px;
 	small {
 		transform: translateY(0);
 	}
+}
+
+input::selection {
+	background-color: #ddd;
+	color: inherit;
 }
 
 input,
@@ -1253,11 +1264,21 @@ output {
 	margin: 0 auto;
 	
 	input[type=checkbox]{
-		display: none;
+		position: absolute;
+		right: 100000px;
+		
+		&:focus + label {
+			background-color: #E6E6E6;
+			border: 1px solid #ccc;
+		}
 		
 		&:checked + label {
 			background-color: $green;
 			color: white;
+		}
+		
+		&:checked:focus + label {
+			border: 1px solid darken($green, 10%);
 		}
 	}
 	
