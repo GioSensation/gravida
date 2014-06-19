@@ -72,7 +72,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/fastclick\/README.md": {
 		"enableFootnoteSupport": 0,
@@ -367,7 +367,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
+		"syntaxCheckerStyle": 0
 		},
 	"\/contacts.kit": {
 		"fileType": 2048,
@@ -2043,6 +2043,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/htdocs\/web-development.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/htdocs\/web-development.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/htdocs\/yoon-website-ecommerce-creation-brand-redesign.html": {
 		"fileType": 8192,
 		"ignore": 1,
@@ -2170,6 +2179,24 @@
 		"outputAbbreviatedPath": "\/templates\/_social-template.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/web-development-social-marketing.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/web-development-social-marketing.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/web-development.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/web-development.kit",
+		"outputAbbreviatedPath": "\/htdocs\/web-development-social-marketing.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1
 		}
 	},
 "hooks": [
