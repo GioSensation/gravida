@@ -899,6 +899,12 @@ body > header {
 		font-size: 1.31em;				// 21px
 	}
 	
+	h2 {
+		max-width: 800px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
 	small {
 		display: block;
 		max-width: 800px;
@@ -906,6 +912,21 @@ body > header {
 		margin-left: auto;
 		margin-right: auto;
 		padding-top: 5rem;
+	}
+	
+	p.call-to-action {
+		margin-top: 4em;
+		text-align: center;
+	}
+	
+	.apple-like-box {
+		color: $bright-pink;
+		
+		&:hover,
+		&:active {
+			color: white;
+			background-color: $bright-pink;
+		}
 	}
 }
 
