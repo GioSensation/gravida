@@ -708,7 +708,7 @@ body > header {
 	background-color: rgba(10,10,10,.75);
 	
 	h2 {
-		font-size: 12.421875vw; 	// 159px @1280
+		font-size: 40px; 	// 159px @1280
 		margin: 0;
 		font-weight: bold;
 		text-transform: lowercase;
@@ -727,13 +727,32 @@ body > header {
 	
 	&::after {
 		width: 110%;
-		background-image: url(imgs/projects/yoon-portfolio.jpg);
+		background-image: url(imgs/serv-home-6.jpg);
+	}
+	
+	&:nth-child(2)::after {
+		background-image: url(imgs/serv-home-2.jpg);
+	}
+	
+	&:nth-child(3)::after {
+		background-image: url(imgs/serv-home-3.jpg);
+	}
+	
+	&:nth-child(4)::after {
+		background-image: url(imgs/serv-home-4.jpg);
 	}
 	
 	@media (min-width: 600px) {
 		width: 50%;
 		height: 50vw;
 		padding: 5vw;
+		
+		h2 {
+			font-size: 50px;
+		}
+	}
+	
+	@media (min-width: 1025px) {
 		transition: all .2s .4s ease-out;
 		
 		h2 {
@@ -741,10 +760,7 @@ body > header {
 		}
 		
 		p {
-			
-			&:last-of-type {
-				margin-bottom: 0;
-			}
+			width: 80%;
 		}
 		
 		.service__content {
@@ -752,21 +768,13 @@ body > header {
 		}
 		
 		&:hover {
+			color: white;
 			background-color: rgba(10, 10, 10, .9);
 			
 			.service__content {
 				transform: translate3D(10px, -10px, 0);
 			}
 		}
-	}
-	
-	@media (min-width: 1025px) {
-		
-		p {
-			width: 80%;
-		}
-		
-
 	}
 }
 
