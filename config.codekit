@@ -369,6 +369,15 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 0
 		},
+	"\/branding.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/branding.kit",
+		"outputAbbreviatedPath": "\/htdocs\/branding-corporate-identity.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1
+		},
 	"\/contacts.kit": {
 		"fileType": 2048,
 		"ignore": 0,
@@ -470,6 +479,15 @@
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
+	"\/graphics.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/graphics.kit",
+		"outputAbbreviatedPath": "\/htdocs\/graphic-print-design.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1
+		},
 	"\/htdocs\/404-page-not-found.html": {
 		"fileType": 8192,
 		"ignore": 1,
@@ -493,6 +511,15 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/htdocs\/bad-client-bad-work.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/htdocs\/branding-corporate-identity.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/htdocs\/branding-corporate-identity.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -610,6 +637,15 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/htdocs\/emanuele-feliziani-web-developer.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/htdocs\/graphic-print-design.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/htdocs\/graphic-print-design.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -2043,11 +2079,20 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/htdocs\/web-development.html": {
+	"\/htdocs\/ui-ux-design.html": {
 		"fileType": 8192,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/htdocs\/web-development.html",
+		"inputAbbreviatedPath": "\/htdocs\/ui-ux-design.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/htdocs\/web-development-social-marketing.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/htdocs\/web-development-social-marketing.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -2180,14 +2225,14 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/web-development-social-marketing.html": {
-		"fileType": 8192,
-		"ignore": 1,
+	"\/ui-ux.kit": {
+		"fileType": 2048,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/web-development-social-marketing.html",
-		"outputAbbreviatedPath": "No Output Path",
+		"inputAbbreviatedPath": "\/ui-ux.kit",
+		"outputAbbreviatedPath": "\/htdocs\/ui-ux-design.html",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 1
 		},
 	"\/web-development.kit": {
 		"fileType": 2048,
