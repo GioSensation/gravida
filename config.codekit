@@ -1563,6 +1563,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/htdocs\/imgs\/projects\/insulin\/insulin-portfolio-640.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10196,
+		"inputAbbreviatedPath": "\/htdocs\/imgs\/projects\/insulin\/insulin-portfolio-640.jpg",
+		"outputAbbreviatedPath": "\/htdocs\/imgs\/projects\/insulin\/insulin-portfolio-640.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/htdocs\/imgs\/projects\/insulin\/insulin-portfolio.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1702,6 +1713,39 @@
 		"initialSize": 240351,
 		"inputAbbreviatedPath": "\/htdocs\/imgs\/projects\/yoon-portfolio.jpg",
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/projects\/yoon-portfolio.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/htdocs\/imgs\/projects\/yoon\/yoon-portfolio-1280.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 63622,
+		"inputAbbreviatedPath": "\/htdocs\/imgs\/projects\/yoon\/yoon-portfolio-1280.jpg",
+		"outputAbbreviatedPath": "\/htdocs\/imgs\/projects\/yoon\/yoon-portfolio-1280.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/htdocs\/imgs\/projects\/yoon\/yoon-portfolio-640.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 184922,
+		"inputAbbreviatedPath": "\/htdocs\/imgs\/projects\/yoon\/yoon-portfolio-640.jpg",
+		"outputAbbreviatedPath": "\/htdocs\/imgs\/projects\/yoon\/yoon-portfolio-640.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/htdocs\/imgs\/projects\/yoon\/yoon-portfolio.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 184922,
+		"inputAbbreviatedPath": "\/htdocs\/imgs\/projects\/yoon\/yoon-portfolio.jpg",
+		"outputAbbreviatedPath": "\/htdocs\/imgs\/projects\/yoon\/yoon-portfolio.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2251,13 +2295,13 @@
 	"\/scripts.js": [
 		{
 			"followForSyntaxChecking": 0,
-			"linkedFileAbbreviatedPath": "\/bower_components\/fastclick\/lib\/fastclick.js",
+			"linkedFileAbbreviatedPath": "\/bower_components\/viewport-units-buggyfill\/viewport-units-buggyfill.js",
 			"position": 0,
 			"type": 0
 			},
 		{
 			"followForSyntaxChecking": 0,
-			"linkedFileAbbreviatedPath": "\/bower_components\/viewport-units-buggyfill\/viewport-units-buggyfill.js",
+			"linkedFileAbbreviatedPath": "\/bower_components\/fastclick\/lib\/fastclick.js",
 			"position": 1,
 			"type": 0
 			}

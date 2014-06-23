@@ -37,6 +37,8 @@ window.addEventListener('load', function () {
 //		isiOS = (/(iPad|iPhone|iPod)/g.test( navigator.userAgent )) ? true: false,
 //		isSafari = (navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') == -1) ? true: false;
 	var viewport = document.documentElement.clientWidth,
+		dpi = window.devicePixelRatio,
+		rtnimg = 'large',
 		header = document.querySelector('body > header');
 	
 	// FastClick magic
@@ -47,6 +49,56 @@ window.addEventListener('load', function () {
 	document.getElementById('contacts-nav-link').addEventListener('click', function(event) {
 		event.preventDefault();
 		scrollTo(document.body.scrollHeight, 400);
+	});
+	
+	/***************** SMALL *****************/
+	if (
+		viewport < 481 // smartphones
+		||
+		viewport < 1200 && dpi < 1.5 // regular dpi tablets and small computers
+		) {
+		rtnimg = 'small';
+		}
+	
+	/***************** MEDIUM *****************/
+	if (
+		viewport >= 481 && viewport < 1200 && dpi > 1.5 // hidpi tablets
+		||
+		viewport >= 1200 && viewport < 2000 && dpi < 1.5 // standard laptops & desktops up to 21.5"
+		) {
+			rtnimg = 'medium';
+		}
+	
+	/***************** LARGE *****************/
+	if (
+		viewport >= 1200 && dpi > 1.5 // hidpi laptops
+		||
+		viewport >= 2000 // big desktops
+		) {
+			rtnimg = 'large';
+		}
+		
+	/***************** RETINA MAGIC HAPPENS HERE *****************/
+	var responsiveImages = document.querySelectorAll('.responsive_image');
+	[].forEach.call( responsiveImages, function(el) {
+		if (el.hasAttribute('data-alt')) {
+			var imgAlt = el.getAttribute('data-alt');
+		} else {
+			var imgAlt = 'Empty';
+		}
+		if (el.hasAttribute('data-' + rtnimg)) {
+			var imgSrc = el.getAttribute('data-' + rtnimg),
+				imgEl = '<img src="' + imgSrc + '" alt="' + imgAlt + '" itemprop="image">';
+			el.insertAdjacentHTML('afterbegin', imgEl);
+		}
+	});
+	
+	var responsiveBgImages = document.querySelectorAll('.responsive_bg_image');
+	[].forEach.call( responsiveBgImages, function(el) {
+		if (el.hasAttribute('data-' + rtnimg)) {
+			var imgSrc = el.getAttribute('data-' + rtnimg);
+			el.style.backgroundImage = "url(/" +imgSrc + ")";
+		}
 	});
 	
 	// Mobile only scripts

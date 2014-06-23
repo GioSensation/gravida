@@ -727,19 +727,19 @@ body > header {
 	
 	&::after {
 		width: 110%;
-		background-image: url(imgs/serv-home-6.jpg);
+		background-image: url(imgs/serv-home-640-6.jpg);
 	}
 	
 	&:nth-child(2)::after {
-		background-image: url(imgs/serv-home-2.jpg);
+		background-image: url(imgs/serv-home-640-2.jpg);
 	}
 	
 	&:nth-child(3)::after {
-		background-image: url(imgs/serv-home-3.jpg);
+		background-image: url(imgs/serv-home-640-3.jpg);
 	}
 	
 	&:nth-child(4)::after {
-		background-image: url(imgs/serv-home-4.jpg);
+		background-image: url(imgs/serv-home-640-4.jpg);
 	}
 	
 	@media (min-width: 600px) {
@@ -749,6 +749,22 @@ body > header {
 		
 		h2 {
 			font-size: 50px;
+		}
+		
+		&::after {
+			background-image: url(imgs/serv-home-6.jpg);
+		}
+		
+		&:nth-child(2)::after {
+			background-image: url(imgs/serv-home-2.jpg);
+		}
+		
+		&:nth-child(3)::after {
+			background-image: url(imgs/serv-home-3.jpg);
+		}
+		
+		&:nth-child(4)::after {
+			background-image: url(imgs/serv-home-4.jpg);
 		}
 	}
 	
@@ -1001,7 +1017,8 @@ body > header {
 		line-height: 1.2;
 	}
 	
-	> img {
+	> img,
+	> .img {
 		padding: 0;
 		margin-bottom: 1.8rem;		// 36px
 	}
@@ -1031,7 +1048,8 @@ body > header {
 			}
 		}
 		
-		> img {
+		> img,
+		> .img {
 			float: left;
 			width: 48%;
 			margin-bottom: 0;
@@ -1057,7 +1075,8 @@ body > header {
 .mammoccio-gallery {
 	padding: 0;
 	
-	img {
+	img,
+	.img {
 		float: left;
 		width: 100%;
 	}
