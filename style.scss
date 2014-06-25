@@ -77,11 +77,10 @@ h4 {
 
 h1,
 .h1 {
-	/*font-size: 2.1em;			// 67px @1280*/
 	line-height: 1.2;
 	margin-bottom: 2em;
 	color: $bright-pink;
-	font-size: 8vw;
+	font-size: 9vw;
 	text-align: center;
 	
 	@media (min-width: 600px) {
@@ -96,7 +95,7 @@ h1,
 
 h2,
 .h2 {
-	font-size: 1.75em;			// 28px @1280
+	font-size: 1.75em;				// 28px
 	line-height: 1.2;
 	margin: 0 0 1.6em 0;			// 56px
 	color: $bright-pink;
@@ -104,7 +103,7 @@ h2,
 
 h3,
 .h3 {
-	font-size: 1.31em;			// 21px @1280
+	font-size: 1.31em;			// 21px
 	line-height: 1.33;
 	margin: 0;		// 50px
 	color: $bright-pink;
@@ -527,8 +526,7 @@ body > header {
 	}
 	
 	@media(min-width: 600px) {
-		/*font-size: 2.3vh;*/
-		min-height: 85vh;
+		min-height: 90vh;
 		
 		h2 {
 			font-size: 4rem;
@@ -537,9 +535,6 @@ body > header {
 		p {
 			max-width: 750px;
 		}
-	}
-	
-	@media(min-width: 1200px) {
 	}
 	
 }
@@ -986,7 +981,6 @@ body > header {
 	> h2,
 	> p {
 		margin-bottom: 0;
-		color: #222;
 		
 		a {
 			color: $bright-pink;
@@ -1326,6 +1320,7 @@ output {
 	align-content: stretch;
 	width: 90%;
 	margin: 0 auto;
+	clear: both;
 	
 	input[type=checkbox]{
 		position: absolute;
@@ -1570,6 +1565,10 @@ footer {
 			font-size: 1em;
 			line-height: 1;
 		}
+	}
+	
+	a[href=lets-work-together] {
+		font-weight: bold;
 	}
 	
 	&.footer-block--links {

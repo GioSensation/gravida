@@ -64,7 +64,7 @@ window.addEventListener('load', function () {
 	if (
 		viewport >= 481 && viewport < 1200 && dpi > 1.5 // hidpi tablets
 		||
-		viewport >= 1200 && viewport < 2000 && dpi < 1.5 // standard laptops & desktops up to 21.5"
+		viewport >= 1200 && viewport < 1900 && dpi < 1.5 // standard laptops & desktops up to 21.5"
 		) {
 			rtnimg = 'medium';
 		}
@@ -73,7 +73,7 @@ window.addEventListener('load', function () {
 	if (
 		viewport >= 1200 && dpi > 1.5 // hidpi laptops
 		||
-		viewport >= 2000 // big desktops
+		viewport >= 1900 // big desktops
 		) {
 			rtnimg = 'large';
 		}
