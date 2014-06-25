@@ -67,6 +67,8 @@ window.addEventListener('load', function() {
 //			});
 //		});
 //	}
+
+	theForm.setAttribute('novalidate', 'true');
 	
 	function valueIsValid( input, type, maxlen ) {
 		

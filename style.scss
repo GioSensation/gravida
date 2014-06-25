@@ -1018,7 +1018,8 @@ body > header {
 	}
 	
 	> img,
-	> .img {
+	> .img,
+	> noscript > img {
 		padding: 0;
 		margin-bottom: 1.8rem;		// 36px
 	}
@@ -1049,7 +1050,8 @@ body > header {
 		}
 		
 		> img,
-		> .img {
+		> .img,
+		> noscript > img {
 			float: left;
 			width: 48%;
 			margin-bottom: 0;
