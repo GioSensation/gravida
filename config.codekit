@@ -162,21 +162,21 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/contents\/projects\/_appunimi-content.kit": {
-		"fileType": 2048,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/contents\/projects\/_appunimi-content.kit",
-		"outputAbbreviatedPath": "\/contents\/projects\/_appunimi-content.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/contents\/projects\/_insulin-and-food-content.kit": {
 		"fileType": 2048,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/contents\/projects\/_insulin-and-food-content.kit",
 		"outputAbbreviatedPath": "\/contents\/projects\/_insulin-and-food-content.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/contents\/projects\/_webapp-content.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/contents\/projects\/_webapp-content.kit",
+		"outputAbbreviatedPath": "\/contents\/projects\/_webapp-content.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -277,6 +277,15 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/htdocs\/contacts.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/htdocs\/diet-activity-tracker-webapp.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/htdocs\/diet-activity-tracker-webapp.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -1269,13 +1278,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/htdocs\/imgs\/projects\/appunimi-portfolio-1280.jpg": {
+	"\/htdocs\/imgs\/no-javascript-bg.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 61539,
-		"inputAbbreviatedPath": "\/htdocs\/imgs\/projects\/appunimi-portfolio-1280.jpg",
-		"outputAbbreviatedPath": "\/htdocs\/imgs\/projects\/appunimi-portfolio-1280.jpg",
+		"initialSize": 43045,
+		"inputAbbreviatedPath": "\/htdocs\/imgs\/no-javascript-bg.jpg",
+		"outputAbbreviatedPath": "\/htdocs\/imgs\/no-javascript-bg.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1386,6 +1395,116 @@
 		"initialSize": 104041,
 		"inputAbbreviatedPath": "\/htdocs\/imgs\/projects\/insulin\/insulin-single.jpg",
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/projects\/insulin\/insulin-single.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/htdocs\/imgs\/projects\/webapp\/webapp-portfolio-1280.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 61539,
+		"inputAbbreviatedPath": "\/htdocs\/imgs\/projects\/webapp\/webapp-portfolio-1280.jpg",
+		"outputAbbreviatedPath": "\/htdocs\/imgs\/projects\/webapp\/webapp-portfolio-1280.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/htdocs\/imgs\/projects\/webapp\/webapp-portfolio.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 166017,
+		"inputAbbreviatedPath": "\/htdocs\/imgs\/projects\/webapp\/webapp-portfolio.jpg",
+		"outputAbbreviatedPath": "\/htdocs\/imgs\/projects\/webapp\/webapp-portfolio.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/htdocs\/imgs\/projects\/webapp\/webapp-single-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 223174,
+		"inputAbbreviatedPath": "\/htdocs\/imgs\/projects\/webapp\/webapp-single-1.jpg",
+		"outputAbbreviatedPath": "\/htdocs\/imgs\/projects\/webapp\/webapp-single-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/htdocs\/imgs\/projects\/webapp\/webapp-single-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 158769,
+		"inputAbbreviatedPath": "\/htdocs\/imgs\/projects\/webapp\/webapp-single-2.jpg",
+		"outputAbbreviatedPath": "\/htdocs\/imgs\/projects\/webapp\/webapp-single-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/htdocs\/imgs\/projects\/webapp\/webapp-single-3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 203435,
+		"inputAbbreviatedPath": "\/htdocs\/imgs\/projects\/webapp\/webapp-single-3.jpg",
+		"outputAbbreviatedPath": "\/htdocs\/imgs\/projects\/webapp\/webapp-single-3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/htdocs\/imgs\/projects\/webapp\/webapp-single-4.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 327361,
+		"inputAbbreviatedPath": "\/htdocs\/imgs\/projects\/webapp\/webapp-single-4.jpg",
+		"outputAbbreviatedPath": "\/htdocs\/imgs\/projects\/webapp\/webapp-single-4.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/htdocs\/imgs\/projects\/webapp\/webapp-single-640-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 88654,
+		"inputAbbreviatedPath": "\/htdocs\/imgs\/projects\/webapp\/webapp-single-640-1.jpg",
+		"outputAbbreviatedPath": "\/htdocs\/imgs\/projects\/webapp\/webapp-single-640-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/htdocs\/imgs\/projects\/webapp\/webapp-single-640-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 61439,
+		"inputAbbreviatedPath": "\/htdocs\/imgs\/projects\/webapp\/webapp-single-640-2.jpg",
+		"outputAbbreviatedPath": "\/htdocs\/imgs\/projects\/webapp\/webapp-single-640-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/htdocs\/imgs\/projects\/webapp\/webapp-single-640-3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 81228,
+		"inputAbbreviatedPath": "\/htdocs\/imgs\/projects\/webapp\/webapp-single-640-3.jpg",
+		"outputAbbreviatedPath": "\/htdocs\/imgs\/projects\/webapp\/webapp-single-640-3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/htdocs\/imgs\/projects\/webapp\/webapp-single-640-4.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 128820,
+		"inputAbbreviatedPath": "\/htdocs\/imgs\/projects\/webapp\/webapp-single-640-4.jpg",
+		"outputAbbreviatedPath": "\/htdocs\/imgs\/projects\/webapp\/webapp-single-640-4.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1915,6 +2034,15 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/portfolio.kit",
 		"outputAbbreviatedPath": "\/htdocs\/portfolio.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1
+		},
+	"\/projects\/diet-activity-tracker-webapp.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/projects\/diet-activity-tracker-webapp.kit",
+		"outputAbbreviatedPath": "\/htdocs\/diet-activity-tracker-webapp.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 1
 		},
