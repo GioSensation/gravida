@@ -1749,6 +1749,125 @@ footer {
 
 /* @end */
 
+/* @group ENLIGHTEN */
+
+.enl {
+	pointer-events: none;
+}
+
+#enl {
+	display: none;
+}
+
+@media (min-width: 1200px) {
+	
+	.enl {
+		pointer-events: auto;
+	}
+	
+	#enl {
+		position: fixed;
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		display: block;
+		background-color: rgba(white, .8);
+		z-index: 10;
+		transform: translateY(-100%);
+		transition: all .4s cubic-bezier(0.6, 0.8, 0, 1.05);
+	}
+	
+	.enl-container {
+		position: absolute;
+		width: 100%;
+		height: 100vh;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		transform: translateX(100%);
+		transition: all .6s cubic-bezier(0.6, 0.8, 0, 1.05);
+		
+		&.enl-current {
+			transform: translateX(0);
+			
+		}
+		
+		&.enl-previous {
+			transform: translateX(-100%);
+		}
+	}
+	
+	.enl-slide {
+		position: relative;
+		max-width: 80%;
+		max-height: 90vh;
+		background-color: white;
+		padding: 60px;
+		box-shadow: 0px 1px 4px #777;
+		
+		img {
+			max-width: 100%;
+			max-height: calc(100% - 120px);
+			/* This hack is for fixing a bug in Firefox. It was not displaying the height correctly, now it does. The double declaration is needed because at this time Webkit does not support viewport units in calc() functions. */
+			max-height: calc(90vh - 120px);
+		}
+	}
+	
+	$colored-b: 20px;
+	$transparent-b: 10px;
+	
+	.enl-ctrls {
+		display: block;
+		position: absolute;
+		bottom: (60px - ($transparent-b * 2))/2;
+		width: 0;
+		height: 0;
+		left: 50%;
+		padding: 0;
+		text-indent: 999999px;
+	}
+	
+	.enl-ctrls-next {
+		margin-left: 10px;
+		border-left: $colored-b solid $bright-pink;
+		border-top: $transparent-b solid transparent;
+		border-bottom: $transparent-b solid transparent;
+	}
+	
+	.enl-ctrls-prev {
+		margin-left: -($colored-b + 10);
+		border-right: $colored-b solid $bright-pink;
+		border-top: $transparent-b solid transparent;
+		border-bottom: $transparent-b solid transparent;
+	}
+	
+	.enl-ctrls-close {
+		width: 20px;
+		height: 20px;
+		top: 10px;
+		right: 10px;
+		left: auto;
+		
+		&::before {
+			content: '✕';
+			text-indent: 0;
+			position: absolute;
+			top: 0;
+			left: 0;
+			font-size: 2em;
+			color: $bright-pink;
+		}
+	}
+	
+	.enl-appear {
+		transform: translateY(0) !important;
+	}
+}
+
+/* @end */
+
 .error-page {
 	
 	h1 {
