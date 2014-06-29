@@ -453,6 +453,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/htdocs\/imgs\/main-home-800.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 54431,
+		"inputAbbreviatedPath": "\/htdocs\/imgs\/main-home-800.jpg",
+		"outputAbbreviatedPath": "\/htdocs\/imgs\/main-home-800.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/htdocs\/imgs\/main-home-alt.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1344,6 +1355,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/htdocs\/imgs\/projects\/insulin\/insulin-single-2560-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 109647,
+		"inputAbbreviatedPath": "\/htdocs\/imgs\/projects\/insulin\/insulin-single-2560-2.jpg",
+		"outputAbbreviatedPath": "\/htdocs\/imgs\/projects\/insulin\/insulin-single-2560-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/htdocs\/imgs\/projects\/insulin\/insulin-single-2560-4.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 297394,
+		"inputAbbreviatedPath": "\/htdocs\/imgs\/projects\/insulin\/insulin-single-2560-4.jpg",
+		"outputAbbreviatedPath": "\/htdocs\/imgs\/projects\/insulin\/insulin-single-2560-4.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/htdocs\/imgs\/projects\/insulin\/insulin-single-4.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1351,6 +1384,17 @@
 		"initialSize": 126101,
 		"inputAbbreviatedPath": "\/htdocs\/imgs\/projects\/insulin\/insulin-single-4.jpg",
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/projects\/insulin\/insulin-single-4.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/htdocs\/imgs\/projects\/insulin\/insulin-single-5.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 94897,
+		"inputAbbreviatedPath": "\/htdocs\/imgs\/projects\/insulin\/insulin-single-5.jpg",
+		"outputAbbreviatedPath": "\/htdocs\/imgs\/projects\/insulin\/insulin-single-5.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1425,7 +1469,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 223174,
+		"initialSize": 100595,
 		"inputAbbreviatedPath": "\/htdocs\/imgs\/projects\/webapp\/webapp-single-1.jpg",
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/projects\/webapp\/webapp-single-1.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -1436,9 +1480,64 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 158769,
+		"initialSize": 71922,
 		"inputAbbreviatedPath": "\/htdocs\/imgs\/projects\/webapp\/webapp-single-2.jpg",
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/projects\/webapp\/webapp-single-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/htdocs\/imgs\/projects\/webapp\/webapp-single-2560-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 266252,
+		"inputAbbreviatedPath": "\/htdocs\/imgs\/projects\/webapp\/webapp-single-2560-1.jpg",
+		"outputAbbreviatedPath": "\/htdocs\/imgs\/projects\/webapp\/webapp-single-2560-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/htdocs\/imgs\/projects\/webapp\/webapp-single-2560-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 187714,
+		"inputAbbreviatedPath": "\/htdocs\/imgs\/projects\/webapp\/webapp-single-2560-2.jpg",
+		"outputAbbreviatedPath": "\/htdocs\/imgs\/projects\/webapp\/webapp-single-2560-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/htdocs\/imgs\/projects\/webapp\/webapp-single-2560-3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 293081,
+		"inputAbbreviatedPath": "\/htdocs\/imgs\/projects\/webapp\/webapp-single-2560-3.jpg",
+		"outputAbbreviatedPath": "\/htdocs\/imgs\/projects\/webapp\/webapp-single-2560-3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/htdocs\/imgs\/projects\/webapp\/webapp-single-2560-4.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 216060,
+		"inputAbbreviatedPath": "\/htdocs\/imgs\/projects\/webapp\/webapp-single-2560-4.jpg",
+		"outputAbbreviatedPath": "\/htdocs\/imgs\/projects\/webapp\/webapp-single-2560-4.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/htdocs\/imgs\/projects\/webapp\/webapp-single-2560-5.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 182675,
+		"inputAbbreviatedPath": "\/htdocs\/imgs\/projects\/webapp\/webapp-single-2560-5.jpg",
+		"outputAbbreviatedPath": "\/htdocs\/imgs\/projects\/webapp\/webapp-single-2560-5.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1447,7 +1546,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 203435,
+		"initialSize": 104153,
 		"inputAbbreviatedPath": "\/htdocs\/imgs\/projects\/webapp\/webapp-single-3.jpg",
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/projects\/webapp\/webapp-single-3.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -1458,9 +1557,20 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 327361,
+		"initialSize": 85416,
 		"inputAbbreviatedPath": "\/htdocs\/imgs\/projects\/webapp\/webapp-single-4.jpg",
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/projects\/webapp\/webapp-single-4.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/htdocs\/imgs\/projects\/webapp\/webapp-single-5.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/htdocs\/imgs\/projects\/webapp\/webapp-single-5.jpg",
+		"outputAbbreviatedPath": "\/htdocs\/imgs\/projects\/webapp\/webapp-single-5.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1469,7 +1579,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 88654,
+		"initialSize": 36880,
 		"inputAbbreviatedPath": "\/htdocs\/imgs\/projects\/webapp\/webapp-single-640-1.jpg",
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/projects\/webapp\/webapp-single-640-1.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -1480,7 +1590,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 61439,
+		"initialSize": 26480,
 		"inputAbbreviatedPath": "\/htdocs\/imgs\/projects\/webapp\/webapp-single-640-2.jpg",
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/projects\/webapp\/webapp-single-640-2.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -1491,7 +1601,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 81228,
+		"initialSize": 38650,
 		"inputAbbreviatedPath": "\/htdocs\/imgs\/projects\/webapp\/webapp-single-640-3.jpg",
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/projects\/webapp\/webapp-single-640-3.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -1502,9 +1612,20 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 128820,
+		"initialSize": 33417,
 		"inputAbbreviatedPath": "\/htdocs\/imgs\/projects\/webapp\/webapp-single-640-4.jpg",
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/projects\/webapp\/webapp-single-640-4.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/htdocs\/imgs\/projects\/webapp\/webapp-single-640-5.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/htdocs\/imgs\/projects\/webapp\/webapp-single-640-5.jpg",
+		"outputAbbreviatedPath": "\/htdocs\/imgs\/projects\/webapp\/webapp-single-640-5.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1626,6 +1747,72 @@
 		"initialSize": 189467,
 		"inputAbbreviatedPath": "\/htdocs\/imgs\/projects\/yoon\/yoon-single-2.jpg",
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/projects\/yoon\/yoon-single-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/htdocs\/imgs\/projects\/yoon\/yoon-single-2560-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 723074,
+		"inputAbbreviatedPath": "\/htdocs\/imgs\/projects\/yoon\/yoon-single-2560-1.jpg",
+		"outputAbbreviatedPath": "\/htdocs\/imgs\/projects\/yoon\/yoon-single-2560-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/htdocs\/imgs\/projects\/yoon\/yoon-single-2560-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 174216,
+		"inputAbbreviatedPath": "\/htdocs\/imgs\/projects\/yoon\/yoon-single-2560-2.jpg",
+		"outputAbbreviatedPath": "\/htdocs\/imgs\/projects\/yoon\/yoon-single-2560-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/htdocs\/imgs\/projects\/yoon\/yoon-single-2560-3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 49152,
+		"inputAbbreviatedPath": "\/htdocs\/imgs\/projects\/yoon\/yoon-single-2560-3.jpg",
+		"outputAbbreviatedPath": "\/htdocs\/imgs\/projects\/yoon\/yoon-single-2560-3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/htdocs\/imgs\/projects\/yoon\/yoon-single-2560-4.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 174553,
+		"inputAbbreviatedPath": "\/htdocs\/imgs\/projects\/yoon\/yoon-single-2560-4.jpg",
+		"outputAbbreviatedPath": "\/htdocs\/imgs\/projects\/yoon\/yoon-single-2560-4.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/htdocs\/imgs\/projects\/yoon\/yoon-single-2560-5.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 106496,
+		"inputAbbreviatedPath": "\/htdocs\/imgs\/projects\/yoon\/yoon-single-2560-5.jpg",
+		"outputAbbreviatedPath": "\/htdocs\/imgs\/projects\/yoon\/yoon-single-2560-5.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/htdocs\/imgs\/projects\/yoon\/yoon-single-2560-6.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4096,
+		"inputAbbreviatedPath": "\/htdocs\/imgs\/projects\/yoon\/yoon-single-2560-6.jpg",
+		"outputAbbreviatedPath": "\/htdocs\/imgs\/projects\/yoon\/yoon-single-2560-6.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2028,6 +2215,28 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/min\/enlighten-ck.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/min\/enlighten-ck.js",
+		"outputAbbreviatedPath": "\/min\/min\/enlighten-ck-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/min\/scripts-single-ck.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/min\/scripts-single-ck.js",
+		"outputAbbreviatedPath": "\/min\/min\/scripts-single-ck-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/portfolio.kit": {
 		"fileType": 2048,
 		"ignore": 0,
@@ -2064,6 +2273,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 1
 		},
+	"\/scripts-single.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scripts-single.js",
+		"outputAbbreviatedPath": "\/min\/scripts-single-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/scripts.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -2074,22 +2294,6 @@
 		"outputPathIsSetByUser": 1,
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
-		},
-	"\/style.scss": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 5,
-		"fileType": 4,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/style.scss",
-		"outputAbbreviatedPath": "\/htdocs\/style.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 1,
-		"outputStyle": 3,
-		"shouldRunAutoprefixer": 1,
-		"shouldRunBless": 0,
-		"useLibsass": 1
 		},
 	"\/templates\/_mammoccio.kit": {
 		"fileType": 2048,
@@ -2159,6 +2363,20 @@
 	],
 "lastSavedByUser": "Emanuele Feliziani",
 "manualImportLinks": {
+	"\/scripts.js": [
+		{
+			"followForSyntaxChecking": 0,
+			"linkedFileAbbreviatedPath": "\/bower_components\/viewport-units-buggyfill\/viewport-units-buggyfill.js",
+			"position": 0,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 0,
+			"linkedFileAbbreviatedPath": "\/bower_components\/fastclick\/lib\/fastclick.js",
+			"position": 1,
+			"type": 0
+			}
+		]
 	},
 "projectAttributes": {
 	"bowerAbbreviatedPath": "",

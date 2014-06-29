@@ -1,17 +1,18 @@
-<main role="main" class="centered single-project" itemscope itemtype="http://schema.org/CreativeWork">
-	<header>
+<main role="main" class="single-project" itemscope itemtype="http://schema.org/CreativeWork">
+	<header class="centered">
 		<h2><!-- $title --><br><span itemprop="about"><!-- $about --></span></h2>
 		<h3>Description</h3>
 		<p itemprop="description"><!-- $description --></p>
 	</header>
-	<span class="responsive_image img" data-small="imgs/projects/<!-- $featImg_m -->" data-medium="imgs/projects/<!-- $featImg_m -->" data-large="imgs/projects/<!-- $featImg -->" data-alt="<!-- $about -->"></span>
+	<a href="imgs/projects/<!-- $featImg_e -->" class="responsive_image img enl" data-small="imgs/projects/<!-- $featImg_m -->" data-medium="imgs/projects/<!-- $featImg -->" data-large="imgs/projects/<!-- $featImg -->" data-alt="<!-- $about -->"></a>
 	<noscript><img src="imgs/projects/<!-- $featImg -->" alt="<!-- $about -->" /></noscript>
-	<section class="project-details">
+	<section class="project-details centered">
 		<header>
 			<h2><!-- $title --><br><span itemprop="about"><!-- $about --></span></h2>
 			<h3>Description</h3>
 			<p itemprop="description"><!-- $description --></p>
 		</header>
+		<!-- $descriptionLong -->
 		<h3>Tools</h3>
 		<p><!-- $tools --></p>
 		<h3>Links</h3>
@@ -20,16 +21,11 @@
 			<li><a href="<!-- $projectLinkUrl -->" title="<!-- $projectLinkDescription -->" itemprop="url"><!-- $projectLinkAnchor --></a></li>
 			<li><a href="<!-- $behanceLinkUrl -->" title="See <!-- $title --> on Behance" itemprop="sameAs">See <!-- $title --> on Behance</a></li>
 		</ul>
-		<h3>Client's feedback</h3>
-		<blockquote itemprop="comment">
-			<p><!-- $feedback --></p>
-			<cite><!-- $clientName --> –</cite>
-		</blockquote>
 	</section>
 	<section class="project-gallery">
-		<span class="responsive_image img" data-small="imgs/projects/<!-- $galleryImg2_m -->" data-medium="imgs/projects/<!-- $galleryImg2_m -->" data-large="imgs/projects/<!-- $galleryImg2 -->" alt="Gravida's project <!-- $about --> for <!-- $clientLinkAnchor -->"></span>
-		<span class="responsive_image img" data-small="imgs/projects/<!-- $galleryImg3_m -->" data-medium="imgs/projects/<!-- $galleryImg3_m -->" data-large="imgs/projects/<!-- $galleryImg3 -->" alt="Gravida's project <!-- $about --> for <!-- $clientLinkAnchor -->"></span>
-		<span class="responsive_image img" data-small="imgs/projects/<!-- $galleryImg4_m -->" data-medium="imgs/projects/<!-- $galleryImg4_m -->" data-large="imgs/projects/<!-- $galleryImg4 -->" alt="Gravida's project <!-- $about --> for <!-- $clientLinkAnchor -->"></span>
+		<a href="imgs/projects/<!-- $galleryImg2_e -->" class="responsive_image img enl" data-small="imgs/projects/<!-- $galleryImg2_m -->" data-medium="imgs/projects/<!-- $galleryImg2 -->" data-large="imgs/projects/<!-- $galleryImg2 -->" alt="Gravida's project <!-- $about --> for <!-- $clientLinkAnchor -->"></a>
+		<a href="imgs/projects/<!-- $galleryImg3_e -->" class="responsive_image img enl" data-small="imgs/projects/<!-- $galleryImg3_m -->" data-medium="imgs/projects/<!-- $galleryImg3 -->" data-large="imgs/projects/<!-- $galleryImg3 -->" alt="Gravida's project <!-- $about --> for <!-- $clientLinkAnchor -->"></a>
+		<a href="imgs/projects/<!-- $galleryImg4_e -->" class="responsive_image img enl" data-small="imgs/projects/<!-- $galleryImg4_m -->" data-medium="imgs/projects/<!-- $galleryImg4 -->" data-large="imgs/projects/<!-- $galleryImg4 -->" alt="Gravida's project <!-- $about --> for <!-- $clientLinkAnchor -->"></a>
 		<noscript>
 			<img src="imgs/projects/<!-- $galleryImg2 -->" alt="Gravida's project <!-- $about --> for <!-- $clientLinkAnchor -->" />
 			<img src="imgs/projects/<!-- $galleryImg3 -->" alt="Gravida's project <!-- $about --> for <!-- $clientLinkAnchor -->" />
@@ -37,3 +33,4 @@
 		</noscript>
 	</section>
 </main>
+<script><!-- @import ../min/scripts-single-ck.js --></script>

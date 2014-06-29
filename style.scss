@@ -522,7 +522,7 @@ body > header {
 	}
 	
 	&::after{
-		background-image: url(imgs/main-home.jpg);
+		background-image: url(imgs/main-home-800.jpg);
 	}
 	
 	@media(min-width: 600px) {
@@ -535,11 +535,15 @@ body > header {
 		p {
 			max-width: 750px;
 		}
+		
+		&::after{
+			background-image: url(imgs/main-home.jpg);
+		}
 	}
 	
 }
 
-.palla-container {
+/*.palla-container {
 	position: absolute;
 	top: 45%;
 	left: 50%;
@@ -949,6 +953,12 @@ body > header {
 	}
 }
 
+#gravida-tease-asterisk {
+	padding: 2em .2em;
+	font-size: 1.2em;
+	line-height: 0;
+}
+
 /* @end */
 
 /* @group PORTFOLIIO */
@@ -998,6 +1008,7 @@ body > header {
 
 .single-project,
 .single-mammoccio {
+	font-size: 21px;
 	
 	> header {
 		text-align: center;
@@ -1014,6 +1025,7 @@ body > header {
 	> img,
 	> .img,
 	> noscript > img {
+		display: block;
 		padding: 0;
 		margin-bottom: 1.8rem;		// 36px
 	}
@@ -1548,7 +1560,7 @@ footer {
 		margin: 0 auto;
 	}
 	
-	span[itemprop=name] {
+	a[itemprop=name] {
 		text-transform: uppercase;
 	}
 	

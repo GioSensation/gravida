@@ -1,3 +1,34 @@
+var viewport = document.documentElement.clientWidth,
+	dpi = window.devicePixelRatio,
+	rtnimg = 'large';
+
+/***************** SMALL *****************/
+if (
+	viewport < 481 // smartphones
+	||
+	viewport < 767 && dpi < 1.5 // regular dpi tablets and small computers
+	) {
+	rtnimg = 'small';
+	}
+
+/***************** MEDIUM *****************/
+if (
+	viewport >= 481 && viewport < 1200 && dpi > 1.5 // hidpi tablets
+	||
+	viewport >= 767 && viewport < 1900 && dpi < 1.5 // standard laptops & desktops up to 21.5"
+	) {
+		rtnimg = 'medium';
+	}
+
+/***************** LARGE *****************/
+if (
+	viewport >= 1200 && dpi > 1.5 // hidpi laptops
+	||
+	viewport >= 1900 // big desktops
+	) {
+		rtnimg = 'large';
+	}
+
 function scrollTo(to, duration) {
 	var FF = !(window.mozInnerScreenX == null),
 		bodyToScroll;
@@ -34,12 +65,7 @@ Math.easeInOutQuad = function (t, b, c, d) {
 };
 
 window.addEventListener('load', function () {
-//		isiOS = (/(iPad|iPhone|iPod)/g.test( navigator.userAgent )) ? true: false,
-//		isSafari = (navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') == -1) ? true: false;
-	var viewport = document.documentElement.clientWidth,
-		dpi = window.devicePixelRatio,
-		rtnimg = 'large',
-		header = document.querySelector('body > header');
+	var header = document.querySelector('body > header');
 	
 	// FastClick magic
 	FastClick.attach(document.body);
@@ -51,45 +77,27 @@ window.addEventListener('load', function () {
 		scrollTo(document.body.scrollHeight, 400);
 	});
 	
-	/***************** SMALL *****************/
-	if (
-		viewport < 481 // smartphones
-		||
-		viewport < 1200 && dpi < 1.5 // regular dpi tablets and small computers
-		) {
-		rtnimg = 'small';
-		}
-	
-	/***************** MEDIUM *****************/
-	if (
-		viewport >= 481 && viewport < 1200 && dpi > 1.5 // hidpi tablets
-		||
-		viewport >= 1200 && viewport < 1900 && dpi < 1.5 // standard laptops & desktops up to 21.5"
-		) {
-			rtnimg = 'medium';
-		}
-	
-	/***************** LARGE *****************/
-	if (
-		viewport >= 1200 && dpi > 1.5 // hidpi laptops
-		||
-		viewport >= 1900 // big desktops
-		) {
-			rtnimg = 'large';
-		}
+	var gravidaTeaseAsterisk = document.getElementById('gravida-tease-asterisk');
+	if (gravidaTeaseAsterisk) {
+		gravidaTeaseAsterisk.addEventListener('click', function(event) {
+			event.preventDefault();
+			scrollTo(document.getElementById('gravida-tease').offsetTop - 300, 400);
+		});
+	}
 		
 	/***************** RETINA MAGIC HAPPENS HERE *****************/
 	var responsiveImages = document.querySelectorAll('.responsive_image');
 	[].forEach.call( responsiveImages, function(el) {
-		if (el.hasAttribute('data-alt')) {
-			var imgAlt = el.getAttribute('data-alt');
-		} else {
-			var imgAlt = 'Empty';
+		var imgAlt = el.getAttribute('data-alt');
+		if (!imgAlt) {
+			imgAlt = 'Empty';
 		}
 		if (el.hasAttribute('data-' + rtnimg)) {
 			var imgSrc = el.getAttribute('data-' + rtnimg),
-				imgEl = '<img src="' + imgSrc + '" alt="' + imgAlt + '" itemprop="image">';
-			el.insertAdjacentHTML('afterbegin', imgEl);
+				imgEl = new Image();
+				imgEl.src = imgSrc;
+				imgEl.alt = imgAlt;
+			el.appendChild(imgEl);
 		}
 	});
 	
@@ -100,7 +108,7 @@ window.addEventListener('load', function () {
 			el.style.backgroundImage = "url(/" +imgSrc + ")";
 		}
 	});
-	
+		
 	// Mobile only scripts
 	if (viewport < 600) {
 		var menuHelper = document.getElementById('menu-helper');
@@ -115,6 +123,7 @@ window.addEventListener('load', function () {
 			this.classList.remove('nav--open');
 		});
 	} else {
+		// Tablets and desktop scripts
 		(function() {
 			var position = window.pageYOffset || document.documentElement.scrollTop;
 			window.addEventListener('scroll', function() {
@@ -141,7 +150,4 @@ window.addEventListener('load', function () {
 			el.setAttribute('href', "https://www.google.it/maps/place/43%C2%B018'02.9%22N+13%C2%B027'26.6%22E/@43.300797,13.457395,105m/data=!3m1!1e3!4m2!3m1!1s0x0:0x0");
 		});
 	}
-	
-	
-	
 });
