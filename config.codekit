@@ -442,6 +442,171 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/htdocs\/imgs\/head-about-1280.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 71807,
+		"inputAbbreviatedPath": "\/htdocs\/imgs\/head-about-1280.jpg",
+		"outputAbbreviatedPath": "\/htdocs\/imgs\/head-about-1280.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/htdocs\/imgs\/head-about-2560.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 297245,
+		"inputAbbreviatedPath": "\/htdocs\/imgs\/head-about-2560.jpg",
+		"outputAbbreviatedPath": "\/htdocs\/imgs\/head-about-2560.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/htdocs\/imgs\/head-about-800.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 76754,
+		"inputAbbreviatedPath": "\/htdocs\/imgs\/head-about-800.jpg",
+		"outputAbbreviatedPath": "\/htdocs\/imgs\/head-about-800.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/htdocs\/imgs\/head-serv-1280-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 117964,
+		"inputAbbreviatedPath": "\/htdocs\/imgs\/head-serv-1280-1.jpg",
+		"outputAbbreviatedPath": "\/htdocs\/imgs\/head-serv-1280-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/htdocs\/imgs\/head-serv-1280-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 120021,
+		"inputAbbreviatedPath": "\/htdocs\/imgs\/head-serv-1280-2.jpg",
+		"outputAbbreviatedPath": "\/htdocs\/imgs\/head-serv-1280-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/htdocs\/imgs\/head-serv-1280-3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 125730,
+		"inputAbbreviatedPath": "\/htdocs\/imgs\/head-serv-1280-3.jpg",
+		"outputAbbreviatedPath": "\/htdocs\/imgs\/head-serv-1280-3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/htdocs\/imgs\/head-serv-1280-4.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 87977,
+		"inputAbbreviatedPath": "\/htdocs\/imgs\/head-serv-1280-4.jpg",
+		"outputAbbreviatedPath": "\/htdocs\/imgs\/head-serv-1280-4.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/htdocs\/imgs\/head-serv-2560-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 537961,
+		"inputAbbreviatedPath": "\/htdocs\/imgs\/head-serv-2560-1.jpg",
+		"outputAbbreviatedPath": "\/htdocs\/imgs\/head-serv-2560-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/htdocs\/imgs\/head-serv-2560-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 503841,
+		"inputAbbreviatedPath": "\/htdocs\/imgs\/head-serv-2560-2.jpg",
+		"outputAbbreviatedPath": "\/htdocs\/imgs\/head-serv-2560-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/htdocs\/imgs\/head-serv-2560-3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 245157,
+		"inputAbbreviatedPath": "\/htdocs\/imgs\/head-serv-2560-3.jpg",
+		"outputAbbreviatedPath": "\/htdocs\/imgs\/head-serv-2560-3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/htdocs\/imgs\/head-serv-2560-4.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 375687,
+		"inputAbbreviatedPath": "\/htdocs\/imgs\/head-serv-2560-4.jpg",
+		"outputAbbreviatedPath": "\/htdocs\/imgs\/head-serv-2560-4.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/htdocs\/imgs\/head-serv-800-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 101244,
+		"inputAbbreviatedPath": "\/htdocs\/imgs\/head-serv-800-1.jpg",
+		"outputAbbreviatedPath": "\/htdocs\/imgs\/head-serv-800-1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/htdocs\/imgs\/head-serv-800-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 105618,
+		"inputAbbreviatedPath": "\/htdocs\/imgs\/head-serv-800-2.jpg",
+		"outputAbbreviatedPath": "\/htdocs\/imgs\/head-serv-800-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/htdocs\/imgs\/head-serv-800-3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 161739,
+		"inputAbbreviatedPath": "\/htdocs\/imgs\/head-serv-800-3.jpg",
+		"outputAbbreviatedPath": "\/htdocs\/imgs\/head-serv-800-3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/htdocs\/imgs\/head-serv-800-4.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 88557,
+		"inputAbbreviatedPath": "\/htdocs\/imgs\/head-serv-800-4.jpg",
+		"outputAbbreviatedPath": "\/htdocs\/imgs\/head-serv-800-4.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/htdocs\/imgs\/logo-gravida.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -2301,6 +2466,15 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/templates\/_mammoccio.kit",
 		"outputAbbreviatedPath": "\/templates\/_mammoccio.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/templates\/_page-no-header.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/templates\/_page-no-header.kit",
+		"outputAbbreviatedPath": "\/templates\/_page-no-header.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},

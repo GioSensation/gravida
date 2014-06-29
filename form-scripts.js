@@ -203,7 +203,7 @@ window.addEventListener('load', function() {
 			document.querySelector('.submit-label').classList.add('shake');
 			document.getElementById('formSubmit').classList.add('shake');
 			setTimeout(function () {
-				scrollTo(0, 400);
+				scrollTo(document.getElementById('contact-page').offsetTop - 80, 400);
 				document.querySelector('.submit-label').classList.remove('shake');
 				document.getElementById('formSubmit').classList.remove('shake');
 			}, 400);
