@@ -170,6 +170,7 @@ button {
 	outline: none;
 	-webkit-appearance: none;
 	-moz-appearance: none;
+	cursor: pointer;
 }
 
 .apple-like-box {
@@ -195,13 +196,6 @@ footer {
 
 	> * {
 		padding: 0 1.25rem;			// 20px
-	}
-	
-	@media (min-width: 1200px) {
-		
-		> * {
-			padding: 0;
-		}
 	}
 }
 
@@ -338,6 +332,7 @@ body > header {
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
+	pointer-events: none;
 	
 	> li {
 		float: left;
@@ -348,7 +343,6 @@ body > header {
 		background-color: rgba(255, 255, 255, .9);
 		transition: all .3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 		transform: translateY(-100%);
-		pointer-events: none;
 		
 		a {
 			color: $gray;
@@ -371,9 +365,12 @@ body > header {
 		}
 	}
 	
-	&.nav--open li {
-		transform: translateY(0);
+	&.nav--open {
 		pointer-events: auto;
+		
+		li {
+			transform: translateY(0);
+		}
 	}
 	
 	@media(min-width: 600px) {
@@ -382,6 +379,7 @@ body > header {
 		float: right;
 		text-align: right;
 		overflow: visible;
+		pointer-events: auto;
 		
 		> li {
 			display: inline-block;
@@ -391,7 +389,6 @@ body > header {
 			text-align: right;
 			background-color: transparent;
 			transform: translateY(0);
-			pointer-events: auto;
 			
 			a {
 				position: relative;
@@ -644,7 +641,7 @@ body > header {
 	100% {
 		background-position: top left;
 	}
-}
+}*/
 
 .logo-big {
 	width: 100px;
@@ -673,13 +670,6 @@ body > header {
 		font-weight: normal;
 		text-transform: uppercase;
 		line-height: 1;
-	}
-	
-	@media(min-width:600px) {
-		
-		h2 {
-			
-		}
 	}
 }
 
@@ -1166,7 +1156,7 @@ body > header {
 .project-details,
 .mammoccio-details {
 	
-	@media (min-width: 600px) {
+	@media (min-width: 1200px) {
 		width: 48%;
 		float: right;
 		clear: right;
@@ -1183,7 +1173,7 @@ body > header {
 		width: 100%;
 	}
 	
-	@media (min-width: 600px) {
+	@media (min-width: 1200px) {
 		width: 48%;
 		float: left;
 	}
@@ -1440,10 +1430,13 @@ output {
 		&:checked + label {
 			background-color: $green;
 			color: white;
+			border-color: $green;
 		}
 		
-		&:checked:focus + label {
-			border: 1px solid darken($green, 10%);
+		&:checked:focus + label,
+		&:checked + label:hover {
+			background-color: darken($green, 5%);
+			border: 1px solid darken($green, 13%);
 		}
 	}
 	
@@ -1457,10 +1450,12 @@ output {
 		text-transform: none;
 		cursor: pointer;
 		transition: all .2s ease-in-out;
+		border: 1px solid $lighter;
 		border-radius: 2px;
 		
 		&:hover {
 			background-color: #E6E6E6;
+			border-color: #E6E6E6;
 		}
 	}
 }
@@ -1514,6 +1509,11 @@ input[type=submit] {
 #wait.showWait {
 	z-index: 100;
 	box-shadow: inset 0px 0 200px #222;
+	
+	@media (min-width: 1200px) {
+		box-shadow: none;
+		background-color: rgba(255, 255, 255, .8);
+	}
 }
 
 .spinner {
