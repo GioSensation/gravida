@@ -1,4 +1,3 @@
-Header add Cache-Control "max-age=1"
 AddType text/cache-manifest .appcache
 
 <IfModule mod_rewrite.c>
