@@ -1,5 +1,6 @@
 <?php 
-$response_body = '<!DOCTYPE html>
+
+$response_template = '<!DOCTYPE html>
 <html lang="en">
 <head>
 <title>Gravida | Procreative</title>
@@ -141,7 +142,8 @@ $response_body = '<!DOCTYPE html>
 <p style="line-height: 1.75;">'. $message .'</p>
 <h2 style="font-size: 28px; margin-top: 2em; color: #EF4D58; font-weight: normal;">What else?</h2>
 <p style="line-height: 1.75;">Now, if you feel like you left something out of the frame, feel free to answer this email and add all the details.</p>
-<p style="line-height: 1.75;">In the meantime you can check out our usual work process or <a href="http://" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; color: #DD9098 !important; text-decoration: none;">previous work</a>.</p>																
+<p style="line-height: 1.75;">In the meantime you can check out some of our <a href="http://gravida.pro/portfolio" title="Gravida Portfolio | Web agency and creative business" style="-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; color: #DD9098 !important; text-decoration: none;">previous work</a>.</p>
+																
 															</td>
 														</tr>
 													</table>

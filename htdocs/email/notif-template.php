@@ -1,5 +1,6 @@
 <?php 
-$notif_body = '<!DOCTYPE html>
+
+$notif_template = '<!DOCTYPE html>
 <html lang="en">
 <head>
 <title>Gravida | Procreative</title>
@@ -135,14 +136,15 @@ $notif_body = '<!DOCTYPE html>
 																
 																<td style="">
 	<h1>Hi Gravida. Good news.</h1>
-	<p><strong>'. $name .'</strong> has submitted an enquiry from the contact form, asking for <strong>'. $services .'</strong>, with an estimated launch date of '. $date_string .' and a ridiculously low budget at <strong> € '. $budget .'</strong>.</p>
+	<p><strong>'. $name .'</strong> has submitted an enquiry from the contact form, asking for <strong>'. $services .'</strong>, with an estimated launch date of '. $date_string .' and a ridiculously low budget of <strong> € '. $budget .'</strong>.</p>
 	<p>The current website is <a href="'. $website .'">'. $website .'</a>, and here is a summary of the project details:</p>
 	<p>'. $message .'</p>
 	<p>An answer is due within '. $answer_due_date .' at <a href="'. $email .'?subject=Thank you for your enquiry">'. $email .'</a>.</p>
 	<h2>What to do now</h2>
 	<p>Before celebrating, please, keep grounded, read carefully the specs provided and react accordingly.</p>
 	<h2>Cheers!</h2>
-</td>																
+</td>
+																
 															</td>
 														</tr>
 													</table>

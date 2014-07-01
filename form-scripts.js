@@ -122,6 +122,13 @@ window.addEventListener('load', function() {
 		}
 	}, true);
 	
+	emailInput.addEventListener('focus', function() {
+		this.nextElementSibling.nextElementSibling.classList.add('show');
+		this.addEventListener('blur', function(event) {
+			this.nextElementSibling.nextElementSibling.classList.remove('show');
+		}, true);
+	}, true);
+	
 	emailInput.addEventListener('blur', function() {
 		if ( !valueIsValid( this, 'email' )) {
 			errorFlash( this );
@@ -174,7 +181,7 @@ window.addEventListener('load', function() {
 		// We define what will happen if the data are successfully sent
 		XHR.addEventListener("load", function(event) {
 			wait.className = wait.className.replace( /(?:^|\s)showWait(?!\S)/g , '' );
-			document.body.scrollTop = document.documentElement.scrollTop = 0;
+			scrollTo(document.getElementById('contact-page').offsetTop - 80, 400);
 			formContainer.innerHTML = event.target.responseText;
 		});
 

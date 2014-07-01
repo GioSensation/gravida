@@ -83,20 +83,26 @@ if ( $_POST ) {
 			foreach ($_POST['services'] as $chiave => $valore) {
 				
 				switch ($valore) {
-					case 'website':
+					case 'website-serv':
 						$services_arr[] = 'a website';
+						break;
+					case 'ecommerce':
+						$services_arr[] = 'an e-commerce website';
 						break;
 					case 'photo':
 						$services_arr[] = 'a photo shooting';
 						break;
-					case 'business-card':
-						$services_arr[] = 'a business card design';
+					case 'corporate':
+						$services_arr[] = 'a corporate identity design';
 						break;
 					case 'social':
 						$services_arr[] = 'a social media marketing campaign';
 						break;
-					case 'ui':
-						$services_arr[] = 'an interface design';
+					case 'seo':
+						$services_arr[] = 'a search engine optimization service';
+						break;
+					case 'print':
+						$services_arr[] = 'a print advertising design';
 						break;
 					default:
 						$services_arr[] = 'this voice is not permitted';
@@ -160,7 +166,7 @@ if ( $_POST ) {
 	
 	// FIRE THE ACTUAL THING
 	if ( !$errors ) {
-		$admin = 'HelloGravida<feliziani.emanuele@gmail.com>';
+		$admin = 'HelloGravida<hello@gravida.pro>';
 		$subject = 'Everybody wants Gravida';
 		$headers_notif = 'From: Gravida<hello@gravida.pro>' . "\r\n" .
 					'Reply-To: Gravida<hello@gravida.pro>' . "\r\n" .

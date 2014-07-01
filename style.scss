@@ -952,6 +952,7 @@ body > header {
 	
 	h1 {
 		color: white;
+		margin-bottom: .7em;
 	}
 	
 	p {
@@ -1238,6 +1239,7 @@ form {
 		margin: 0 auto;
 		color: orange;
 		z-index: -1;
+		opacity: 0;
 		transform: translateY(-100%);
 		transition: all .3s;
 	}
@@ -1273,8 +1275,24 @@ $move: 10px;
 		}
 	}
 	
-	small {
+	small:not(.reassure) {
+		opacity: 1;
 		transform: translateY(0);
+	}
+}
+
+.reassure {
+	color: green;
+	transform: translateY(-100%) !important;
+	
+	&.show {
+		opacity: 1;
+		transform: translateY(50%) !important;
+		
+		@media(min-width: 482px) {
+			transform: translateY(0) !important;
+			white-space: nowrap;
+		}
 	}
 }
 
@@ -1312,6 +1330,10 @@ output {
 	float: left;
 	text-transform: uppercase;
 	cursor: pointer;
+}
+
+.label {
+	cursor: auto;
 }
 
 output {
