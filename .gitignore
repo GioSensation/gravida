@@ -15,3 +15,7 @@
 /htdocs/imgs/*
 
 /htdocs/imgs_originals/
+
+/htdocs/apple-touch-icon.png
+/htdocs/favicon.ico
+/htdocs/favicons/

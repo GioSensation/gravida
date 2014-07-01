@@ -245,6 +245,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/htdocs\/apple-touch-icon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6953,
+		"inputAbbreviatedPath": "\/htdocs\/apple-touch-icon.png",
+		"outputAbbreviatedPath": "\/htdocs\/apple-touch-icon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/htdocs\/bad-client-bad-work.html": {
 		"fileType": 8192,
 		"ignore": 1,
@@ -388,6 +399,94 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/htdocs\/favicons\/apple-touch-icon-114x114.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6502,
+		"inputAbbreviatedPath": "\/htdocs\/favicons\/apple-touch-icon-114x114.png",
+		"outputAbbreviatedPath": "\/htdocs\/favicons\/apple-touch-icon-114x114.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/htdocs\/favicons\/apple-touch-icon-120x120.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6953,
+		"inputAbbreviatedPath": "\/htdocs\/favicons\/apple-touch-icon-120x120.png",
+		"outputAbbreviatedPath": "\/htdocs\/favicons\/apple-touch-icon-120x120.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/htdocs\/favicons\/apple-touch-icon-144x144.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8393,
+		"inputAbbreviatedPath": "\/htdocs\/favicons\/apple-touch-icon-144x144.png",
+		"outputAbbreviatedPath": "\/htdocs\/favicons\/apple-touch-icon-144x144.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/htdocs\/favicons\/apple-touch-icon-152x152.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5655,
+		"inputAbbreviatedPath": "\/htdocs\/favicons\/apple-touch-icon-152x152.png",
+		"outputAbbreviatedPath": "\/htdocs\/favicons\/apple-touch-icon-152x152.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/htdocs\/favicons\/apple-touch-icon-57x57.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4394,
+		"inputAbbreviatedPath": "\/htdocs\/favicons\/apple-touch-icon-57x57.png",
+		"outputAbbreviatedPath": "\/htdocs\/favicons\/apple-touch-icon-57x57.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/htdocs\/favicons\/apple-touch-icon-72x72.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4843,
+		"inputAbbreviatedPath": "\/htdocs\/favicons\/apple-touch-icon-72x72.png",
+		"outputAbbreviatedPath": "\/htdocs\/favicons\/apple-touch-icon-72x72.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/htdocs\/favicons\/apple-touch-icon-76x76.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4924,
+		"inputAbbreviatedPath": "\/htdocs\/favicons\/apple-touch-icon-76x76.png",
+		"outputAbbreviatedPath": "\/htdocs\/favicons\/apple-touch-icon-76x76.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/htdocs\/favicons\/favicon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5655,
+		"inputAbbreviatedPath": "\/htdocs\/favicons\/favicon.png",
+		"outputAbbreviatedPath": "\/htdocs\/favicons\/favicon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/htdocs\/graphic-print-design.html": {
 		"fileType": 8192,
