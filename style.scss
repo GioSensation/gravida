@@ -805,7 +805,7 @@ body > header {
 	}
 }
 
-#about {
+/*#about {
 	position: relative;
 	margin-top: 0;
 	z-index: 1;
@@ -828,10 +828,10 @@ body > header {
 			column-count: 2;
 			column-fill: balance;
 			column-gap: 7em;
-			/*column-rule: 1px solid lighten($light-gray, 23%);*/
+			/*column-rule: 1px solid lighten($light-gray, 23%);*!/
 		}
 	}
-}
+}*/
 
 #newabout {
 	text-align: center;
