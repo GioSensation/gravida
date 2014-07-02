@@ -1,34 +1,7 @@
 var viewport = document.documentElement.clientWidth,
 	dpi = window.devicePixelRatio,
 	rtnimg = 'large';
-
-/***************** SMALL *****************/
-if (
-	viewport < 481 // smartphones
-	||
-	viewport < 767 && dpi < 1.5 // regular dpi tablets and small computers
-	) {
-	rtnimg = 'small';
-	}
-
-/***************** MEDIUM *****************/
-if (
-	viewport >= 481 && viewport < 1200 && dpi > 1.5 // hidpi tablets
-	||
-	viewport >= 767 && viewport < 1900 && dpi < 1.5 // standard laptops & desktops up to 21.5"
-	) {
-		rtnimg = 'medium';
-	}
-
-/***************** LARGE *****************/
-if (
-	viewport >= 1200 && dpi > 1.5 // hidpi laptops
-	||
-	viewport >= 1900 // big desktops
-	) {
-		rtnimg = 'large';
-	}
-
+	
 function scrollTo(to, duration) {
 	var FF = !(window.mozInnerScreenX == null),
 		bodyToScroll;
@@ -84,7 +57,34 @@ window.addEventListener('load', function () {
 			scrollTo(document.getElementById('gravida-tease').offsetTop - 300, 400);
 		});
 	}
-		
+	
+	/***************** SMALL *****************/
+	if (
+		viewport < 481 // smartphones
+		||
+		viewport < 767 && dpi < 1.5 // regular dpi tablets and small computers
+		) {
+		rtnimg = 'small';
+		}
+	
+	/***************** MEDIUM *****************/
+	if (
+		viewport >= 481 && viewport < 1200 && dpi > 1.5 // hidpi tablets
+		||
+		viewport >= 767 && viewport < 1900 && dpi < 1.5 // standard laptops & desktops up to 21.5"
+		) {
+			rtnimg = 'medium';
+		}
+	
+	/***************** LARGE *****************/
+	if (
+		viewport >= 1200 && dpi > 1.5 // hidpi laptops
+		||
+		viewport >= 1900 // big desktops
+		) {
+			rtnimg = 'large';
+		}
+	
 	/***************** RETINA MAGIC HAPPENS HERE *****************/
 	var responsiveImages = document.querySelectorAll('.responsive_image');
 	[].forEach.call( responsiveImages, function(el) {
@@ -108,36 +108,88 @@ window.addEventListener('load', function () {
 			el.style.backgroundImage = "url(/" +imgSrc + ")";
 		}
 	});
-		
-	// Mobile only scripts
-	if (viewport < 600) {
-		var menuHelper = document.getElementById('menu-helper');
-		
-		menuHelper.addEventListener('click', function() {
-			this.classList.toggle('menu-helper--open');
-			this.nextElementSibling.classList.toggle('nav--open');
-		});
-		
-		document.getElementById('nav').addEventListener('click', function() {
-			menuHelper.classList.remove('menu-helper--open');
-			this.classList.remove('nav--open');
-		});
-	} else {
-		// Tablets and desktop scripts
-		(function() {
-			var position = window.pageYOffset || document.documentElement.scrollTop;
-			window.addEventListener('scroll', function() {
-				var distanceY = window.pageYOffset || document.documentElement.scrollTop;
-				if (distanceY > position && position > 0) {
-					header.classList.add('shrinked');
-				} else if (position < 30) {
-					header.classList.remove('shrinked');
-				}
-				position = distanceY;
-			});
-		})();
-	}
 	
+	function viewportDependantScripts() {
+		var viewport = document.documentElement.clientWidth,
+			viewportH = document.documentElement.clientHeight;
+		
+		// Mobile only scripts
+		if (viewport < 600) {
+			var menuHelper = document.getElementById('menu-helper');
+			// This is the helper to open the menu …
+			menuHelper.addEventListener('click', function() {
+				this.classList.toggle('menu-helper--open');
+				this.nextElementSibling.classList.toggle('nav--open');
+			});
+			// … and then close it
+			document.getElementById('nav').addEventListener('click', function() {
+				menuHelper.classList.remove('menu-helper--open');
+				this.classList.remove('nav--open');
+			});
+		} else if (viewport < 1025) {
+			// Only tablets
+			
+			
+		} else {
+			// More than 1025, so mainly desktop scripts
+			(function() {
+				var position = window.pageYOffset || document.documentElement.scrollTop,
+					toFade = document.querySelectorAll('.fade-it-in'),
+					toFade_heights = [];
+				
+				if (toFade.length > 0) {
+					// Let's immediately fade in the first one
+					toFade[0].classList.add('now');
+					// Then we get the point on the scroll at which each element fades in
+					for (var i = 0; i < toFade.length; i++) {
+						toFade_heights[i] = toFade[i].getBoundingClientRect().top - viewportH * 0.9;
+					}
+				}
+				
+				/***************** FADE STUFF IN *****************/
+				function fadeItIn() {
+					if (toFade.length > 0) {
+						// For each element we check whether we are at the point set above, if yes add the class .now
+						for (var i = 0; i < toFade.length; i++) {
+							if (!toFade[i].classList.contains('now')) {
+								if (position > toFade_heights[i]) {
+									toFade[i].classList.add('now');
+								}
+							}
+						}
+					}
+				}
+				
+				fadeItIn();
+				
+				function onScrollStuff() {
+					// This needs to be set inside the function because it needs to be updated every time the function fires: we have to see where we are on the page
+					var distanceY = window.pageYOffset || document.documentElement.scrollTop;
+					
+					/***************** SHRINK HEADER *****************/
+					if (distanceY > position && position > 0) {
+						header.classList.add('shrinked');
+					} else if (position < 30) {
+						header.classList.remove('shrinked');
+					}
+					fadeItIn();
+					// This updates the initial position with the scrolled position, so that we can check where we are going with the scroll
+					position = distanceY;
+				}
+				
+				// This gets the whole thing going: when the window is scrolled, fire the function
+				window.addEventListener('scroll', function() {
+					setTimeout(onScrollStuff, 150);
+				});
+			})();
+		}
+	} // end viewport dependant
+		
+	viewportDependantScripts();
+	
+	window.addEventListener('resize', function() {
+		setTimeout(viewportDependantScripts, 700);
+	});
 	
 	
 	/***************** MAP APP THING *****************/
