@@ -518,7 +518,7 @@ body > header {
 	}
 	
 	h2 {
-		font-size: 9vw;
+		font-size: 8vw;
 		line-height: 1;
 		color: white;
 		margin-bottom: .8rem;
@@ -532,6 +532,7 @@ body > header {
 	}
 	
 	a {
+		white-space: nowrap;
 		margin-top: 2em;
 	}
 	
@@ -540,10 +541,10 @@ body > header {
 	}
 	
 	@media(min-width: 600px) {
-		min-height: 90vh;
+		min-height: 94vh;
 		
 		h2 {
-			font-size: 4rem;
+			font-size: 4rem !important;
 		}
 		
 		p {
@@ -1819,7 +1820,7 @@ footer {
 		background-color: rgba(white, .8);
 		z-index: 10;
 		transform: translateY(-100%);
-		transition: all .4s cubic-bezier(0.6, 0.8, 0, 1.05);
+		transition: all .4s .1s cubic-bezier(0.6, 0.8, 0, 1.05);
 	}
 	
 	.enl-container {
@@ -1944,10 +1945,10 @@ footer {
 	.fade-it-in > * {
 		opacity: 0;
 		transform: translate3D(0, 20px, 0);
-		transition: all .7s 0s ease-out;
+		transition: all .7s 0.5s ease-out;
 	}
 	
-	@for $nth from 2 through 4 {
+	@for $nth from 1 through 4 {
 		.fade-it-in > *:nth-child(#{$nth}) {
 			transition-delay: $nth * 0.1s;
 		}
