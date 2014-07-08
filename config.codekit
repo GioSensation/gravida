@@ -215,7 +215,7 @@
 		"outputAbbreviatedPath": "\/min\/_form-scripts-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 1,
-		"outputStyle": 0,
+		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
 	"\/graphics.kit": {
@@ -254,7 +254,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/apple-touch-icon.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/bad-client-bad-work.html": {
 		"fileType": 8192,
@@ -409,7 +409,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/favicons\/apple-touch-icon-114x114.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/favicons\/apple-touch-icon-120x120.png": {
 		"fileType": 32768,
@@ -420,7 +420,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/favicons\/apple-touch-icon-120x120.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/favicons\/apple-touch-icon-144x144.png": {
 		"fileType": 32768,
@@ -431,7 +431,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/favicons\/apple-touch-icon-144x144.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/favicons\/apple-touch-icon-152x152.png": {
 		"fileType": 32768,
@@ -442,7 +442,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/favicons\/apple-touch-icon-152x152.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/favicons\/apple-touch-icon-57x57.png": {
 		"fileType": 32768,
@@ -453,7 +453,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/favicons\/apple-touch-icon-57x57.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/favicons\/apple-touch-icon-72x72.png": {
 		"fileType": 32768,
@@ -464,7 +464,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/favicons\/apple-touch-icon-72x72.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/favicons\/apple-touch-icon-76x76.png": {
 		"fileType": 32768,
@@ -475,7 +475,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/favicons\/apple-touch-icon-76x76.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/favicons\/favicon.png": {
 		"fileType": 32768,
@@ -486,7 +486,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/favicons\/favicon.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/graphic-print-design.html": {
 		"fileType": 8192,
@@ -506,7 +506,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/both.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/edo-home-7.jpg": {
 		"fileType": 16384,
@@ -517,7 +517,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/edo-home-7.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/ema-home-21.jpg": {
 		"fileType": 16384,
@@ -528,7 +528,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/ema-home-21.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/ema.jpg": {
 		"fileType": 16384,
@@ -539,7 +539,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/ema.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/head-about-1280.jpg": {
 		"fileType": 16384,
@@ -550,7 +550,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/head-about-1280.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/head-about-2560.jpg": {
 		"fileType": 16384,
@@ -561,7 +561,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/head-about-2560.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/head-about-800.jpg": {
 		"fileType": 16384,
@@ -572,7 +572,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/head-about-800.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/head-serv-1280-1.jpg": {
 		"fileType": 16384,
@@ -583,7 +583,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/head-serv-1280-1.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/head-serv-1280-2.jpg": {
 		"fileType": 16384,
@@ -594,7 +594,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/head-serv-1280-2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/head-serv-1280-3.jpg": {
 		"fileType": 16384,
@@ -605,7 +605,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/head-serv-1280-3.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/head-serv-1280-4.jpg": {
 		"fileType": 16384,
@@ -616,7 +616,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/head-serv-1280-4.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/head-serv-2560-1.jpg": {
 		"fileType": 16384,
@@ -627,7 +627,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/head-serv-2560-1.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/head-serv-2560-2.jpg": {
 		"fileType": 16384,
@@ -638,7 +638,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/head-serv-2560-2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/head-serv-2560-3.jpg": {
 		"fileType": 16384,
@@ -649,7 +649,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/head-serv-2560-3.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/head-serv-2560-4.jpg": {
 		"fileType": 16384,
@@ -660,7 +660,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/head-serv-2560-4.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/head-serv-800-1.jpg": {
 		"fileType": 16384,
@@ -671,7 +671,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/head-serv-800-1.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/head-serv-800-2.jpg": {
 		"fileType": 16384,
@@ -682,7 +682,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/head-serv-800-2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/head-serv-800-3.jpg": {
 		"fileType": 16384,
@@ -693,7 +693,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/head-serv-800-3.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/head-serv-800-4.jpg": {
 		"fileType": 16384,
@@ -704,7 +704,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/head-serv-800-4.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/logo-gravida.png": {
 		"fileType": 32768,
@@ -715,7 +715,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/logo-gravida.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/main-home-800.jpg": {
 		"fileType": 16384,
@@ -726,7 +726,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/main-home-800.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/main-home-alt.jpg": {
 		"fileType": 16384,
@@ -737,7 +737,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/main-home-alt.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/main-home.jpg": {
 		"fileType": 16384,
@@ -748,7 +748,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/main-home.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/mammocci\/edo-home-10.jpg": {
 		"fileType": 16384,
@@ -759,7 +759,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/mammocci\/edo-home-10.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/mammocci\/edo-home-11.jpg": {
 		"fileType": 16384,
@@ -770,7 +770,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/mammocci\/edo-home-11.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/mammocci\/edo-home-12.jpg": {
 		"fileType": 16384,
@@ -781,7 +781,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/mammocci\/edo-home-12.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/mammocci\/edo-home-13.jpg": {
 		"fileType": 16384,
@@ -792,7 +792,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/mammocci\/edo-home-13.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/mammocci\/edo-home-14.jpg": {
 		"fileType": 16384,
@@ -803,7 +803,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/mammocci\/edo-home-14.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/mammocci\/edo-home-15.jpg": {
 		"fileType": 16384,
@@ -814,7 +814,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/mammocci\/edo-home-15.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/mammocci\/edo-home-16.jpg": {
 		"fileType": 16384,
@@ -825,7 +825,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/mammocci\/edo-home-16.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/mammocci\/edo-home-2.jpg": {
 		"fileType": 16384,
@@ -836,7 +836,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/mammocci\/edo-home-2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/mammocci\/edo-home-3.jpg": {
 		"fileType": 16384,
@@ -847,7 +847,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/mammocci\/edo-home-3.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/mammocci\/edo-home-4.jpg": {
 		"fileType": 16384,
@@ -858,7 +858,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/mammocci\/edo-home-4.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/mammocci\/edo-home-5.jpg": {
 		"fileType": 16384,
@@ -869,7 +869,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/mammocci\/edo-home-5.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/mammocci\/edo-home-6.jpg": {
 		"fileType": 16384,
@@ -880,7 +880,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/mammocci\/edo-home-6.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/mammocci\/edo-home-640-10.jpg": {
 		"fileType": 16384,
@@ -891,7 +891,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/mammocci\/edo-home-640-10.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/mammocci\/edo-home-640-11.jpg": {
 		"fileType": 16384,
@@ -902,7 +902,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/mammocci\/edo-home-640-11.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/mammocci\/edo-home-640-12.jpg": {
 		"fileType": 16384,
@@ -913,7 +913,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/mammocci\/edo-home-640-12.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/mammocci\/edo-home-640-13.jpg": {
 		"fileType": 16384,
@@ -924,7 +924,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/mammocci\/edo-home-640-13.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/mammocci\/edo-home-640-14.jpg": {
 		"fileType": 16384,
@@ -935,7 +935,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/mammocci\/edo-home-640-14.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/mammocci\/edo-home-640-15.jpg": {
 		"fileType": 16384,
@@ -946,7 +946,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/mammocci\/edo-home-640-15.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/mammocci\/edo-home-640-2.jpg": {
 		"fileType": 16384,
@@ -957,7 +957,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/mammocci\/edo-home-640-2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/mammocci\/edo-home-640-3.jpg": {
 		"fileType": 16384,
@@ -968,7 +968,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/mammocci\/edo-home-640-3.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/mammocci\/edo-home-640-4.jpg": {
 		"fileType": 16384,
@@ -979,7 +979,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/mammocci\/edo-home-640-4.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/mammocci\/edo-home-640-5.jpg": {
 		"fileType": 16384,
@@ -990,7 +990,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/mammocci\/edo-home-640-5.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/mammocci\/edo-home-640-6.jpg": {
 		"fileType": 16384,
@@ -1001,7 +1001,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/mammocci\/edo-home-640-6.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/mammocci\/edo-home-640-7.jpg": {
 		"fileType": 16384,
@@ -1012,7 +1012,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/mammocci\/edo-home-640-7.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/mammocci\/edo-home-640-8.jpg": {
 		"fileType": 16384,
@@ -1023,7 +1023,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/mammocci\/edo-home-640-8.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/mammocci\/edo-home-640-9.jpg": {
 		"fileType": 16384,
@@ -1034,7 +1034,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/mammocci\/edo-home-640-9.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/mammocci\/edo-home-640.jpg": {
 		"fileType": 16384,
@@ -1045,7 +1045,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/mammocci\/edo-home-640.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/mammocci\/edo-home-7.jpg": {
 		"fileType": 16384,
@@ -1056,7 +1056,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/mammocci\/edo-home-7.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/mammocci\/edo-home-8.jpg": {
 		"fileType": 16384,
@@ -1067,7 +1067,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/mammocci\/edo-home-8.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/mammocci\/edo-home-9.jpg": {
 		"fileType": 16384,
@@ -1078,7 +1078,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/mammocci\/edo-home-9.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/mammocci\/edo-home.jpg": {
 		"fileType": 16384,
@@ -1089,7 +1089,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/mammocci\/edo-home.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/mammocci\/ema-home-10.jpg": {
 		"fileType": 16384,
@@ -1100,7 +1100,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/mammocci\/ema-home-10.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/mammocci\/ema-home-11.jpg": {
 		"fileType": 16384,
@@ -1111,7 +1111,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/mammocci\/ema-home-11.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/mammocci\/ema-home-12.jpg": {
 		"fileType": 16384,
@@ -1122,7 +1122,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/mammocci\/ema-home-12.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/mammocci\/ema-home-13.jpg": {
 		"fileType": 16384,
@@ -1133,7 +1133,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/mammocci\/ema-home-13.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/mammocci\/ema-home-14.jpg": {
 		"fileType": 16384,
@@ -1144,7 +1144,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/mammocci\/ema-home-14.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/mammocci\/ema-home-15.jpg": {
 		"fileType": 16384,
@@ -1155,7 +1155,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/mammocci\/ema-home-15.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/mammocci\/ema-home-16.jpg": {
 		"fileType": 16384,
@@ -1166,7 +1166,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/mammocci\/ema-home-16.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/mammocci\/ema-home-17.jpg": {
 		"fileType": 16384,
@@ -1177,7 +1177,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/mammocci\/ema-home-17.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/mammocci\/ema-home-18.jpg": {
 		"fileType": 16384,
@@ -1188,7 +1188,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/mammocci\/ema-home-18.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/mammocci\/ema-home-19.jpg": {
 		"fileType": 16384,
@@ -1199,7 +1199,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/mammocci\/ema-home-19.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/mammocci\/ema-home-2.jpg": {
 		"fileType": 16384,
@@ -1210,7 +1210,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/mammocci\/ema-home-2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/mammocci\/ema-home-20.jpg": {
 		"fileType": 16384,
@@ -1221,7 +1221,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/mammocci\/ema-home-20.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/mammocci\/ema-home-21.jpg": {
 		"fileType": 16384,
@@ -1232,7 +1232,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/mammocci\/ema-home-21.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/mammocci\/ema-home-3.jpg": {
 		"fileType": 16384,
@@ -1243,7 +1243,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/mammocci\/ema-home-3.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/mammocci\/ema-home-4.jpg": {
 		"fileType": 16384,
@@ -1254,7 +1254,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/mammocci\/ema-home-4.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/mammocci\/ema-home-5.jpg": {
 		"fileType": 16384,
@@ -1265,7 +1265,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/mammocci\/ema-home-5.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/mammocci\/ema-home-6.jpg": {
 		"fileType": 16384,
@@ -1276,7 +1276,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/mammocci\/ema-home-6.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/mammocci\/ema-home-640-10.jpg": {
 		"fileType": 16384,
@@ -1287,7 +1287,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/mammocci\/ema-home-640-10.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/mammocci\/ema-home-640-11.jpg": {
 		"fileType": 16384,
@@ -1298,7 +1298,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/mammocci\/ema-home-640-11.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/mammocci\/ema-home-640-12.jpg": {
 		"fileType": 16384,
@@ -1309,7 +1309,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/mammocci\/ema-home-640-12.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/mammocci\/ema-home-640-13.jpg": {
 		"fileType": 16384,
@@ -1320,7 +1320,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/mammocci\/ema-home-640-13.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/mammocci\/ema-home-640-14.jpg": {
 		"fileType": 16384,
@@ -1331,7 +1331,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/mammocci\/ema-home-640-14.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/mammocci\/ema-home-640-15.jpg": {
 		"fileType": 16384,
@@ -1342,7 +1342,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/mammocci\/ema-home-640-15.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/mammocci\/ema-home-640-16.jpg": {
 		"fileType": 16384,
@@ -1353,7 +1353,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/mammocci\/ema-home-640-16.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/mammocci\/ema-home-640-17.jpg": {
 		"fileType": 16384,
@@ -1364,7 +1364,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/mammocci\/ema-home-640-17.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/mammocci\/ema-home-640-18.jpg": {
 		"fileType": 16384,
@@ -1375,7 +1375,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/mammocci\/ema-home-640-18.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/mammocci\/ema-home-640-19.jpg": {
 		"fileType": 16384,
@@ -1386,7 +1386,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/mammocci\/ema-home-640-19.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/mammocci\/ema-home-640-2.jpg": {
 		"fileType": 16384,
@@ -1397,7 +1397,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/mammocci\/ema-home-640-2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/mammocci\/ema-home-640-20.jpg": {
 		"fileType": 16384,
@@ -1408,7 +1408,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/mammocci\/ema-home-640-20.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/mammocci\/ema-home-640-21.jpg": {
 		"fileType": 16384,
@@ -1419,7 +1419,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/mammocci\/ema-home-640-21.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/mammocci\/ema-home-640-3.jpg": {
 		"fileType": 16384,
@@ -1430,7 +1430,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/mammocci\/ema-home-640-3.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/mammocci\/ema-home-640-4.jpg": {
 		"fileType": 16384,
@@ -1441,7 +1441,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/mammocci\/ema-home-640-4.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/mammocci\/ema-home-640-5.jpg": {
 		"fileType": 16384,
@@ -1452,7 +1452,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/mammocci\/ema-home-640-5.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/mammocci\/ema-home-640-6.jpg": {
 		"fileType": 16384,
@@ -1463,7 +1463,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/mammocci\/ema-home-640-6.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/mammocci\/ema-home-640-7.jpg": {
 		"fileType": 16384,
@@ -1474,7 +1474,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/mammocci\/ema-home-640-7.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/mammocci\/ema-home-640-8.jpg": {
 		"fileType": 16384,
@@ -1485,7 +1485,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/mammocci\/ema-home-640-8.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/mammocci\/ema-home-640-9.jpg": {
 		"fileType": 16384,
@@ -1496,7 +1496,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/mammocci\/ema-home-640-9.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/mammocci\/ema-home-640.jpg": {
 		"fileType": 16384,
@@ -1507,7 +1507,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/mammocci\/ema-home-640.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/mammocci\/ema-home-7.jpg": {
 		"fileType": 16384,
@@ -1518,7 +1518,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/mammocci\/ema-home-7.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/mammocci\/ema-home-8.jpg": {
 		"fileType": 16384,
@@ -1529,7 +1529,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/mammocci\/ema-home-8.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/mammocci\/ema-home-9.jpg": {
 		"fileType": 16384,
@@ -1540,7 +1540,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/mammocci\/ema-home-9.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/mammocci\/ema-home.jpg": {
 		"fileType": 16384,
@@ -1551,7 +1551,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/mammocci\/ema-home.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/no-javascript-bg.jpg": {
 		"fileType": 16384,
@@ -1562,7 +1562,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/no-javascript-bg.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/projects\/appunimi-portfolio.jpg": {
 		"fileType": 16384,
@@ -1573,7 +1573,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/projects\/appunimi-portfolio.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/projects\/insulin\/insulin-portfolio-1280.jpg": {
 		"fileType": 16384,
@@ -1584,7 +1584,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/projects\/insulin\/insulin-portfolio-1280.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/projects\/insulin\/insulin-portfolio-640.jpg": {
 		"fileType": 16384,
@@ -1595,7 +1595,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/projects\/insulin\/insulin-portfolio-640.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/projects\/insulin\/insulin-portfolio.jpg": {
 		"fileType": 16384,
@@ -1606,7 +1606,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/projects\/insulin\/insulin-portfolio.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/projects\/insulin\/insulin-single-2.jpg": {
 		"fileType": 16384,
@@ -1617,7 +1617,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/projects\/insulin\/insulin-single-2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/projects\/insulin\/insulin-single-2560-2.jpg": {
 		"fileType": 16384,
@@ -1628,7 +1628,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/projects\/insulin\/insulin-single-2560-2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/projects\/insulin\/insulin-single-2560-4.jpg": {
 		"fileType": 16384,
@@ -1639,7 +1639,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/projects\/insulin\/insulin-single-2560-4.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/projects\/insulin\/insulin-single-4.jpg": {
 		"fileType": 16384,
@@ -1650,7 +1650,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/projects\/insulin\/insulin-single-4.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/projects\/insulin\/insulin-single-5.jpg": {
 		"fileType": 16384,
@@ -1661,7 +1661,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/projects\/insulin\/insulin-single-5.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/projects\/insulin\/insulin-single-640-2.jpg": {
 		"fileType": 16384,
@@ -1672,7 +1672,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/projects\/insulin\/insulin-single-640-2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/projects\/insulin\/insulin-single-640-4.jpg": {
 		"fileType": 16384,
@@ -1683,7 +1683,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/projects\/insulin\/insulin-single-640-4.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/projects\/insulin\/insulin-single-640.jpg": {
 		"fileType": 16384,
@@ -1694,7 +1694,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/projects\/insulin\/insulin-single-640.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/projects\/insulin\/insulin-single.jpg": {
 		"fileType": 16384,
@@ -1705,7 +1705,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/projects\/insulin\/insulin-single.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/projects\/webapp\/webapp-portfolio-1280.jpg": {
 		"fileType": 16384,
@@ -1716,7 +1716,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/projects\/webapp\/webapp-portfolio-1280.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/projects\/webapp\/webapp-portfolio.jpg": {
 		"fileType": 16384,
@@ -1727,7 +1727,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/projects\/webapp\/webapp-portfolio.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/projects\/webapp\/webapp-single-1.jpg": {
 		"fileType": 16384,
@@ -1738,7 +1738,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/projects\/webapp\/webapp-single-1.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/projects\/webapp\/webapp-single-2.jpg": {
 		"fileType": 16384,
@@ -1749,7 +1749,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/projects\/webapp\/webapp-single-2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/projects\/webapp\/webapp-single-2560-1.jpg": {
 		"fileType": 16384,
@@ -1760,7 +1760,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/projects\/webapp\/webapp-single-2560-1.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/projects\/webapp\/webapp-single-2560-2.jpg": {
 		"fileType": 16384,
@@ -1771,7 +1771,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/projects\/webapp\/webapp-single-2560-2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/projects\/webapp\/webapp-single-2560-3.jpg": {
 		"fileType": 16384,
@@ -1782,7 +1782,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/projects\/webapp\/webapp-single-2560-3.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/projects\/webapp\/webapp-single-2560-4.jpg": {
 		"fileType": 16384,
@@ -1793,7 +1793,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/projects\/webapp\/webapp-single-2560-4.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/projects\/webapp\/webapp-single-2560-5.jpg": {
 		"fileType": 16384,
@@ -1804,7 +1804,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/projects\/webapp\/webapp-single-2560-5.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/projects\/webapp\/webapp-single-3.jpg": {
 		"fileType": 16384,
@@ -1815,7 +1815,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/projects\/webapp\/webapp-single-3.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/projects\/webapp\/webapp-single-4.jpg": {
 		"fileType": 16384,
@@ -1826,7 +1826,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/projects\/webapp\/webapp-single-4.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/projects\/webapp\/webapp-single-5.jpg": {
 		"fileType": 16384,
@@ -1837,7 +1837,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/projects\/webapp\/webapp-single-5.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/projects\/webapp\/webapp-single-640-1.jpg": {
 		"fileType": 16384,
@@ -1848,7 +1848,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/projects\/webapp\/webapp-single-640-1.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/projects\/webapp\/webapp-single-640-2.jpg": {
 		"fileType": 16384,
@@ -1859,7 +1859,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/projects\/webapp\/webapp-single-640-2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/projects\/webapp\/webapp-single-640-3.jpg": {
 		"fileType": 16384,
@@ -1870,7 +1870,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/projects\/webapp\/webapp-single-640-3.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/projects\/webapp\/webapp-single-640-4.jpg": {
 		"fileType": 16384,
@@ -1881,7 +1881,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/projects\/webapp\/webapp-single-640-4.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/projects\/webapp\/webapp-single-640-5.jpg": {
 		"fileType": 16384,
@@ -1892,7 +1892,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/projects\/webapp\/webapp-single-640-5.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/projects\/yoon-1.png": {
 		"fileType": 32768,
@@ -1903,7 +1903,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/projects\/yoon-1.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/projects\/yoon-2.png": {
 		"fileType": 32768,
@@ -1914,7 +1914,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/projects\/yoon-2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/projects\/yoon-3.png": {
 		"fileType": 32768,
@@ -1925,7 +1925,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/projects\/yoon-3.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/projects\/yoon-4.png": {
 		"fileType": 32768,
@@ -1936,7 +1936,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/projects\/yoon-4.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/projects\/yoon-portfolio-1280.jpg": {
 		"fileType": 16384,
@@ -1947,7 +1947,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/projects\/yoon-portfolio-1280.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/projects\/yoon-portfolio.jpg": {
 		"fileType": 16384,
@@ -1958,7 +1958,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/projects\/yoon-portfolio.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/projects\/yoon\/yoon-portfolio-1280.jpg": {
 		"fileType": 16384,
@@ -1969,7 +1969,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/projects\/yoon\/yoon-portfolio-1280.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/projects\/yoon\/yoon-portfolio-640.jpg": {
 		"fileType": 16384,
@@ -1980,7 +1980,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/projects\/yoon\/yoon-portfolio-640.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/projects\/yoon\/yoon-portfolio.jpg": {
 		"fileType": 16384,
@@ -1991,7 +1991,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/projects\/yoon\/yoon-portfolio.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/projects\/yoon\/yoon-single-1.jpg": {
 		"fileType": 16384,
@@ -2002,7 +2002,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/projects\/yoon\/yoon-single-1.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/projects\/yoon\/yoon-single-2.jpg": {
 		"fileType": 16384,
@@ -2013,7 +2013,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/projects\/yoon\/yoon-single-2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/projects\/yoon\/yoon-single-2560-1.jpg": {
 		"fileType": 16384,
@@ -2024,7 +2024,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/projects\/yoon\/yoon-single-2560-1.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/projects\/yoon\/yoon-single-2560-2.jpg": {
 		"fileType": 16384,
@@ -2035,7 +2035,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/projects\/yoon\/yoon-single-2560-2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/projects\/yoon\/yoon-single-2560-3.jpg": {
 		"fileType": 16384,
@@ -2046,7 +2046,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/projects\/yoon\/yoon-single-2560-3.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/projects\/yoon\/yoon-single-2560-4.jpg": {
 		"fileType": 16384,
@@ -2057,7 +2057,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/projects\/yoon\/yoon-single-2560-4.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/projects\/yoon\/yoon-single-2560-5.jpg": {
 		"fileType": 16384,
@@ -2068,7 +2068,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/projects\/yoon\/yoon-single-2560-5.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/projects\/yoon\/yoon-single-2560-6.jpg": {
 		"fileType": 16384,
@@ -2079,7 +2079,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/projects\/yoon\/yoon-single-2560-6.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/projects\/yoon\/yoon-single-3.jpg": {
 		"fileType": 16384,
@@ -2090,7 +2090,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/projects\/yoon\/yoon-single-3.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/projects\/yoon\/yoon-single-4.jpg": {
 		"fileType": 16384,
@@ -2101,7 +2101,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/projects\/yoon\/yoon-single-4.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/projects\/yoon\/yoon-single-5.jpg": {
 		"fileType": 16384,
@@ -2112,7 +2112,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/projects\/yoon\/yoon-single-5.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/projects\/yoon\/yoon-single-6.jpg": {
 		"fileType": 16384,
@@ -2123,7 +2123,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/projects\/yoon\/yoon-single-6.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/projects\/yoon\/yoon-single-640-1.jpg": {
 		"fileType": 16384,
@@ -2134,7 +2134,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/projects\/yoon\/yoon-single-640-1.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/projects\/yoon\/yoon-single-640-2.jpg": {
 		"fileType": 16384,
@@ -2145,7 +2145,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/projects\/yoon\/yoon-single-640-2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/projects\/yoon\/yoon-single-640-3.jpg": {
 		"fileType": 16384,
@@ -2156,7 +2156,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/projects\/yoon\/yoon-single-640-3.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/projects\/yoon\/yoon-single-640-4.jpg": {
 		"fileType": 16384,
@@ -2167,7 +2167,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/projects\/yoon\/yoon-single-640-4.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/projects\/yoon\/yoon-single-640-5.jpg": {
 		"fileType": 16384,
@@ -2178,7 +2178,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/projects\/yoon\/yoon-single-640-5.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/projects\/yoon\/yoon-single-640-6.jpg": {
 		"fileType": 16384,
@@ -2189,7 +2189,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/projects\/yoon\/yoon-single-640-6.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/projects\/yoon\/yoon-single-640-7.jpg": {
 		"fileType": 16384,
@@ -2200,7 +2200,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/projects\/yoon\/yoon-single-640-7.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/projects\/yoon\/yoon-single-640-8.jpg": {
 		"fileType": 16384,
@@ -2211,7 +2211,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/projects\/yoon\/yoon-single-640-8.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/projects\/yoon\/yoon-single-7.jpg": {
 		"fileType": 16384,
@@ -2222,7 +2222,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/projects\/yoon\/yoon-single-7.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/projects\/yoon\/yoon-single-8.jpg": {
 		"fileType": 16384,
@@ -2233,7 +2233,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/projects\/yoon\/yoon-single-8.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/serv-home-1.jpg": {
 		"fileType": 16384,
@@ -2244,7 +2244,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/serv-home-1.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/serv-home-2.jpg": {
 		"fileType": 16384,
@@ -2255,7 +2255,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/serv-home-2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/serv-home-3.jpg": {
 		"fileType": 16384,
@@ -2266,7 +2266,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/serv-home-3.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/serv-home-4.jpg": {
 		"fileType": 16384,
@@ -2277,7 +2277,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/serv-home-4.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/serv-home-5.jpg": {
 		"fileType": 16384,
@@ -2288,7 +2288,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/serv-home-5.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/serv-home-6.jpg": {
 		"fileType": 16384,
@@ -2299,7 +2299,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/serv-home-6.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/serv-home-640-1.jpg": {
 		"fileType": 16384,
@@ -2310,7 +2310,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/serv-home-640-1.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/serv-home-640-2.jpg": {
 		"fileType": 16384,
@@ -2321,7 +2321,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/serv-home-640-2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/serv-home-640-3.jpg": {
 		"fileType": 16384,
@@ -2332,7 +2332,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/serv-home-640-3.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/serv-home-640-4.jpg": {
 		"fileType": 16384,
@@ -2343,7 +2343,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/serv-home-640-4.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/serv-home-640-5.jpg": {
 		"fileType": 16384,
@@ -2354,7 +2354,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/serv-home-640-5.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/imgs\/serv-home-640-6.jpg": {
 		"fileType": 16384,
@@ -2365,7 +2365,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/serv-home-640-6.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/htdocs\/index.html": {
 		"fileType": 8192,
@@ -2556,7 +2556,7 @@
 		"outputAbbreviatedPath": "\/htdocs\/scripts-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 1,
-		"outputStyle": 0,
+		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
 	"\/style.scss": {
