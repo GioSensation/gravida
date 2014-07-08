@@ -1,6 +1,6 @@
 <?php 
 
-$notif_template = '<!DOCTYPE html>
+$notif_body = '<!DOCTYPE html>
 <html lang="en">
 <head>
 <title>Gravida | Procreative</title>

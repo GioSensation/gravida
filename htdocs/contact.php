@@ -175,7 +175,7 @@ if ( $_POST ) {
 		$thank_you = $email_txts['greeting'] . $name .'!<br><br>'. $email_txts['body'];
 		
 		// This is sent to the admin
-		@include('email/notif-template.php');
+		@require_once('email/notif-template.php');
 		mail($admin, $subject, $notif_body, $headers_notif);
 		
 		// This is sent to who has submitted the form
@@ -184,7 +184,7 @@ if ( $_POST ) {
 					'MIME-Version: 1.0' . "\r\n" .
 					'Content-Type: text/html; charset=utf-8' . "\r\n";
 		
-		@include('email/response-template.php');
+		@require_once('email/response-template.php');
 		mail($email, $email_txts['subject'], $response_body, $headers_response);
 		
 		echo '<div class="form-success">
