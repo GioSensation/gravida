@@ -105,7 +105,7 @@ window.addEventListener('load', function () {
 	[].forEach.call( responsiveBgImages, function(el) {
 		if (el.hasAttribute('data-' + rtnimg)) {
 			var imgSrc = el.getAttribute('data-' + rtnimg);
-			el.style.backgroundImage = "url(/" +imgSrc + ")";
+			el.style.backgroundImage = "url(" +imgSrc + ")";
 		}
 	});
 	
