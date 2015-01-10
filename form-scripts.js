@@ -52,7 +52,7 @@ window.addEventListener('load', function() {
 		nameInput = theForm.name,
 		emailInput = theForm.email,
 		errorMessageEmpty = 'This field is required.',
-		errorMessageLenght = 'This is way too long to be real.',
+		errorMessageLength = 'This is way too long to be real.',
 		errorMessageInvalidEmail = 'Please, insert a valid email address',
 		errorMessage = '',
 		wait = document.getElementById('wait');
@@ -82,7 +82,7 @@ window.addEventListener('load', function() {
 			errorMessage = errorMessageEmpty;
 			return false;
 		} else if ( input.length > maxlen ) {
-			errorMessage = errorMessageLenght;
+			errorMessage = errorMessageLength;
 			return false;
 		} else { // input not empty and normal lenght
 		
@@ -137,7 +137,7 @@ window.addEventListener('load', function() {
 	}, true);
 	
 	function validate() {
-		var validty = false,
+		var validity = false,
 			validName = false,
 			validEmail = false;
 		
@@ -155,7 +155,7 @@ window.addEventListener('load', function() {
 		}
 		
 		if ( validName === true && validEmail === true ) {
-			validty = true;
+			validity = true;
 		}
 		
 		// Force "next month" when no date is submitted, this prevents empty data on the server side of life
@@ -169,7 +169,7 @@ window.addEventListener('load', function() {
 			}
 		}
 		
-		return validty;
+		return validity;
 	}
 	
 	function sendData() {
