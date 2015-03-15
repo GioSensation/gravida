@@ -1,4 +1,4 @@
-window.addEventListener('load', function() {
+window.addEventListener('DOMContentLoaded', function() {
 	var budget = document.getElementById('budget'),
 		budgetOutput = document.querySelector('#range-output');
 		

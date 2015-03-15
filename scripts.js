@@ -37,7 +37,7 @@ Math.easeInOutQuad = function (t, b, c, d) {
     return -c/2 * (t*(t-2) - 1) + b;
 };
 
-window.addEventListener('load', function () {
+window.addEventListener('DOMContentLoaded', function () {
 	var header = document.querySelector('body > header');
 	
 	// FastClick magic
