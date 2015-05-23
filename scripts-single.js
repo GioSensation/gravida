@@ -1,3 +1,35 @@
+window.addEventListener( 'DOMContentLoaded', function() {
+		
+	/***************** FIX MAIN LAYOUT IN SINGLE-PROJECT *****************/
+	var main = document.querySelector('.single-project');
+	
+	if (main) {
+		var adjustMain = function() {
+			viewport = document.documentElement.clientWidth;
+			if (viewport > 1199) {
+				
+				if (!main.classList.contains('centered')) {
+					main.classList.add('centered');
+				}
+			} else {
+				if (main.classList.contains('centered')) {
+					main.classList.remove('centered');
+				}
+			}
+		};
+		
+		var resizeTimer;
+		
+		window.addEventListener('resize', function() {
+			clearTimeout(resizeTimer);
+			resizeTimer = setTimeout(adjustMain, 50);
+		});
+		
+		adjustMain();
+	}
+	
+}, false);
+
 window.addEventListener('load', function() {
 	
 	/***************** ENLIGHTEN *****************/
@@ -123,34 +155,6 @@ window.addEventListener('load', function() {
 		for (var i = 0; i < enl_els.length; i++) {
 			enlMe(enl_els[i], i);
 		}
-	}
-		
-	/***************** FIX MAIN LAYOUT IN SINGLE-PROJECT *****************/
-	var main = document.querySelector('.single-project');
-	
-	if (main) {
-		var adjustMain = function() {
-			viewport = document.documentElement.clientWidth;
-			if (viewport > 1199) {
-				
-				if (!main.classList.contains('centered')) {
-					main.classList.add('centered');
-				}
-			} else {
-				if (main.classList.contains('centered')) {
-					main.classList.remove('centered');
-				}
-			}
-		};
-		
-		var resizeTimer;
-		
-		window.addEventListener('resize', function() {
-			clearTimeout(resizeTimer);
-			resizeTimer = setTimeout(adjustMain, 50);
-		});
-		
-		adjustMain();
 	}
 	
 });
