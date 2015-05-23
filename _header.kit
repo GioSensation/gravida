@@ -1,44 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="<!-- $lang -->">
 <head>
-	<meta charset="utf-8">
-	<title><!-- $metaTitle --></title>
-	<meta name="description" content="<!-- $metaDescription -->" />
-	<link rel="stylesheet" href="style.css" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimal-ui" />
-	<meta name="apple-mobile-web-app-capable" content="yes">
-	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-	<meta name="format-detection" content="telephone=no" />
-	<link rel="icon" href="favicons/favicon.png">
-	<link rel="apple-touch-icon" href="favicons/apple-touch-icon-120x120.png">
-	<link rel="apple-touch-icon" sizes="76x76" href="favicons/apple-touch-icon-76x76.png">
-	<link rel="apple-touch-icon" sizes="120x120" href="favicons/apple-touch-icon-120x120.png">
-	<link rel="apple-touch-icon" sizes="152x152" href="favicons/apple-touch-icon-152x152.png">
-	<meta name="msapplication-TileColor" content="#ffffff">
-	<meta name="msapplication-TileImage" content="imgs/apple-touch-icon.png">
-	<!--[if lt IE 9]>
-	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->
-	<noscript><style>.responsive_bg_image {background-image: url(imgs/no-javascript-bg.jpg)}.fade-it-in > * {opacity: 1;transform: translate3D(0, 0, 0);}</style></noscript>
+<meta charset="utf-8">
+<title><!-- $metaTitle --></title>
+<meta name="description" content="<!-- $metaDescription -->" />
+<link rel="stylesheet" href="/style.css" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimal-ui" />
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="format-detection" content="telephone=no" />
+<link rel="icon" href="favicons/favicon.png">
+<link rel="apple-touch-icon" href="favicons/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="76x76" href="favicons/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="120x120" href="favicons/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="152x152" href="favicons/apple-touch-icon-152x152.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="favicons/apple-touch-icon-152x152.png">
+<!-- for Facebook -->          
+<meta property="og:title" content="<!-- $metaTitle -->" />
+<meta property="og:type" content="website" />
+<meta property="og:image" content="http://gravida.pro/gravida-logo.png" />
+<meta property="og:url" content="http://gravida.pro" />
+<meta property="og:description" content="<!-- $metaDescription -->" />
+<meta property="og:site_name" content="Gravida | Procreative" />
+<!-- for Twitter -->          
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="<!-- $metaTitle -->" />
+<meta name="twitter:description" content="<!-- $metaDescription -->" />
+<meta name="twitter:image" content="http://gravida.pro/gravida-logo.png" />
+<noscript><style>.responsive_bg_image {background-image: url(/imgs/no-javascript-bg.jpg)}.fade-it-in > * {opacity: 1;transform: translate3D(0, 0, 0);}</style></noscript>
+<script type="text/javascript" id="inspectletjs">window.__insp = window.__insp || [];__insp.push(['wid', 227857809]);(function(){function __ldinsp(){var insp = document.createElement('script'); insp.type = 'text/javascript'; insp.async = true; insp.id = "inspsync"; insp.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://cdn.inspectlet.com/inspectlet.js'; var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(insp, x); }if (window.attachEvent){window.attachEvent('onload', __ldinsp);}else{window.addEventListener('load', __ldinsp, false);}})();</script>
 </head>
 <body>
 
 <header>
 	<div id="inner-header" itemscope itemtype="http://schema.org/Organization">
-		<a href="/" title="Gravida | Web agency and creative business in Macerata" class="logo" itemprop="url">
-			<img src="imgs/logo-gravida.svg" width="40" height="27" alt="Gravida | Web agency and creative business in Macerata" itemprop="logo" /><h1 itemprop="name">Gravida</h1>
+		<a href="<!-- $urlHomeLink -->" title="<!-- $titleHomeLink -->" class="logo" itemprop="url">
+			<img src="/imgs/logo-gravida.svg" width="40" height="27" alt="<!-- $titleHomeLink -->" itemprop="logo" /><h1 itemprop="name">Gravida</h1>
 		</a>
 		
 		<button type="button" id="menu-helper"><span></span><span></span><span></span></button>
 		
 		<ul id="nav">
-			<li><a href="/" title="Gravida | Web agency and creative business in center Italy">Home</a></li>
-			<li><a href="about" title="About Gravida | Web agency and creative business in Macerata">About</a></li>
-			<li><a href="portfolio" title="See some of our work">Work</a></li>
-			<li><a href="#footer" title="Get in touch with us" id="contacts-nav-link">Contacts</a></li>
-			<li class="fullwidth-mobile-link"><a href="lets-work-together" title="Work with Gravida for your next web or offline project" id="work-together-nav" class="apple-like-box special-link" style="display: block;">Let's work together</a></li>
+			<li><a href="<!-- $urlHomeLink -->" title="<!-- $titleHomeLink -->">Home</a></li>
+			<li><a href="<!-- $urlAboutLink -->" title="<!-- $titleAboutLink -->">About</a></li>
+			<li><a href="<!-- $urlWorkLink -->" title="<!-- $titleWorkLink -->">Work</a></li>
+			<li><a href="#footer" title="<!-- $titleContactsLink -->" id="contacts-nav-link"><!-- $anchorContactsLink --></a></li>
+			<li class="fullwidth-mobile-link"><a href="<!-- $urlTogetherLink -->" title="<!-- $titleTogetherLink -->" id="work-together-nav" class="apple-like-box special-link" style="display: block;"><!-- $anchorTogetherLink --></a></li>
 		</ul>
 		
-		<a href="lets-work-together" title="Work with Gravida for your next web or offline project" class="apple-like-box special-link">Let's work together</a>
+		<a href="<!-- $urlTogetherLink -->" title="<!-- $titleTogetherLink -->" class="apple-like-box special-link"><!-- $anchorTogetherLink --></a>
 	</div>
 </header>

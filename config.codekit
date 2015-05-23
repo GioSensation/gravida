@@ -1,6 +1,6 @@
 {
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
-"creatorBuild": "17018",
+"creatorBuild": "19022",
 "files": {
 	"\/404-page-not-found.kit": {
 		"fileType": 2048,
@@ -32,7 +32,7 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_footer.kit",
-		"outputAbbreviatedPath": "\/_footer.html",
+		"outputAbbreviatedPath": "\/htdocs\/_footer.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -41,7 +41,34 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_header.kit",
-		"outputAbbreviatedPath": "\/_header.html",
+		"outputAbbreviatedPath": "\/htdocs\/_header.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_language-en.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_language-en.kit",
+		"outputAbbreviatedPath": "\/htdocs\/_language-en.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_language-it.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_language-it.kit",
+		"outputAbbreviatedPath": "\/htdocs\/_language-it.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/_links-en.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
+		"inputAbbreviatedPath": "\/_links-en.kit",
+		"outputAbbreviatedPath": "\/htdocs\/_links-en.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -56,12 +83,23 @@
 		},
 	"\/bad-client-bad-work.kit": {
 		"fileType": 2048,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/bad-client-bad-work.kit",
 		"outputAbbreviatedPath": "\/htdocs\/bad-client-bad-work.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 1
+		},
+	"\/bower_components\/fastclick\/bower.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/fastclick\/bower.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/bower_components\/fastclick\/bower-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
 		},
 	"\/bower_components\/fastclick\/lib\/fastclick.js": {
 		"fileType": 64,
@@ -75,16 +113,36 @@
 		"syntaxCheckerStyle": 0
 		},
 	"\/bower_components\/fastclick\/README.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
+		"criticStyle": 0,
+		"enableFootnotes": 0,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bower_components\/fastclick\/README.md",
+		"maskEmailAddresses": 1,
 		"outputAbbreviatedPath": "\/bower_components\/fastclick\/README.html",
+		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
+		},
+	"\/bower_components\/viewport-units-buggyfill\/bower.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/viewport-units-buggyfill\/bower.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/bower_components\/viewport-units-buggyfill\/bower-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
 		},
 	"\/bower_components\/viewport-units-buggyfill\/Gruntfile.js": {
 		"fileType": 64,
@@ -92,6 +150,28 @@
 		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/bower_components\/viewport-units-buggyfill\/Gruntfile.js",
 		"outputAbbreviatedPath": "\/bower_components\/viewport-units-buggyfill\/min\/Gruntfile-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/bower_components\/viewport-units-buggyfill\/package.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/viewport-units-buggyfill\/package.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/bower_components\/viewport-units-buggyfill\/package-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
+	"\/bower_components\/viewport-units-buggyfill\/viewport-units-buggyfill.hacks.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bower_components\/viewport-units-buggyfill\/viewport-units-buggyfill.hacks.js",
+		"outputAbbreviatedPath": "\/bower_components\/viewport-units-buggyfill\/min\/viewport-units-buggyfill.hacks-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -131,7 +211,7 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/contents\/_edo-cont-ita.kit",
-		"outputAbbreviatedPath": "\/contents\/_edo-cont-ita.html",
+		"outputAbbreviatedPath": "\/htdocs\/_edo-cont-ita.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -140,7 +220,16 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/contents\/_edo-cont.kit",
-		"outputAbbreviatedPath": "\/contents\/_edo-cont.html",
+		"outputAbbreviatedPath": "\/htdocs\/_edo-cont.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/contents\/_ema-cont-ita.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/contents\/_ema-cont-ita.kit",
+		"outputAbbreviatedPath": "\/htdocs\/_ema-cont-ita.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -149,16 +238,16 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/contents\/_ema-cont.kit",
-		"outputAbbreviatedPath": "\/contents\/_ema-cont.html",
+		"outputAbbreviatedPath": "\/htdocs\/_ema-cont.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/contents\/_links.kit": {
+	"\/contents\/projects\/_insulin-and-food-content-it.kit": {
 		"fileType": 2048,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/contents\/_links.kit",
-		"outputAbbreviatedPath": "\/contents\/_links.html",
+		"inputAbbreviatedPath": "\/contents\/projects\/_insulin-and-food-content-it.kit",
+		"outputAbbreviatedPath": "\/htdocs\/_insulin-and-food-content-it.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -167,7 +256,7 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/contents\/projects\/_insulin-and-food-content.kit",
-		"outputAbbreviatedPath": "\/contents\/projects\/_insulin-and-food-content.html",
+		"outputAbbreviatedPath": "\/htdocs\/_insulin-and-food-content.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -176,7 +265,16 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/contents\/projects\/_webapp-content.kit",
-		"outputAbbreviatedPath": "\/contents\/projects\/_webapp-content.html",
+		"outputAbbreviatedPath": "\/htdocs\/_webapp-content.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/contents\/projects\/_yoon-content-it.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/contents\/projects\/_yoon-content-it.kit",
+		"outputAbbreviatedPath": "\/htdocs\/_yoon-content-it.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -185,7 +283,7 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/contents\/projects\/_yoon-content.kit",
-		"outputAbbreviatedPath": "\/contents\/projects\/_yoon-content.html",
+		"outputAbbreviatedPath": "\/htdocs\/_yoon-content.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -244,6 +342,17 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/htdocs\/apple-touch-icon-120x120.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2744,
+		"inputAbbreviatedPath": "\/htdocs\/apple-touch-icon-120x120.png",
+		"outputAbbreviatedPath": "\/htdocs\/apple-touch-icon-120x120.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/htdocs\/apple-touch-icon.png": {
 		"fileType": 32768,
@@ -315,7 +424,7 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/htdocs\/email\/_gravida-processed.kit",
-		"outputAbbreviatedPath": "\/htdocs\/email\/_gravida-processed.html",
+		"outputAbbreviatedPath": "\/htdocs\/_gravida-processed.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -333,7 +442,7 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/htdocs\/email\/notif-template.kit",
-		"outputAbbreviatedPath": "\/htdocs\/email\/notif-template.php",
+		"outputAbbreviatedPath": "\/htdocs\/notif-template.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 1
 		},
@@ -351,7 +460,7 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/htdocs\/email\/partials\/_email-template.kit",
-		"outputAbbreviatedPath": "\/htdocs\/email\/partials\/_email-template.html",
+		"outputAbbreviatedPath": "\/htdocs\/_email-template.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -360,7 +469,7 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/htdocs\/email\/partials\/_notif-content.kit",
-		"outputAbbreviatedPath": "\/htdocs\/email\/partials\/_notif-content.html",
+		"outputAbbreviatedPath": "\/htdocs\/_notif-content.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -369,7 +478,7 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/htdocs\/email\/partials\/_response-content.kit",
-		"outputAbbreviatedPath": "\/htdocs\/email\/partials\/_response-content.html",
+		"outputAbbreviatedPath": "\/htdocs\/_response-content.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -378,7 +487,7 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/htdocs\/email\/response-template.kit",
-		"outputAbbreviatedPath": "\/htdocs\/email\/response-template.php",
+		"outputAbbreviatedPath": "\/htdocs\/response-template.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 1
 		},
@@ -496,6 +605,17 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/htdocs\/gravida-logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/htdocs\/gravida-logo.png",
+		"outputAbbreviatedPath": "\/htdocs\/gravida-logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/htdocs\/imgs\/both.jpg": {
 		"fileType": 16384,
@@ -776,7 +896,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 198631,
+		"initialSize": 172243,
 		"inputAbbreviatedPath": "\/htdocs\/imgs\/mammocci\/edo-home-12.jpg",
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/mammocci\/edo-home-12.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -842,7 +962,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 214953,
+		"initialSize": 180765,
 		"inputAbbreviatedPath": "\/htdocs\/imgs\/mammocci\/edo-home-3.jpg",
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/mammocci\/edo-home-3.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -908,7 +1028,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 77496,
+		"initialSize": 188344,
 		"inputAbbreviatedPath": "\/htdocs\/imgs\/mammocci\/edo-home-640-12.jpg",
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/mammocci\/edo-home-640-12.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -963,7 +1083,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 63446,
+		"initialSize": 200592,
 		"inputAbbreviatedPath": "\/htdocs\/imgs\/mammocci\/edo-home-640-3.jpg",
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/mammocci\/edo-home-640-3.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -1018,7 +1138,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 76811,
+		"initialSize": 185291,
 		"inputAbbreviatedPath": "\/htdocs\/imgs\/mammocci\/edo-home-640-8.jpg",
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/mammocci\/edo-home-640-8.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -1040,7 +1160,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 63286,
+		"initialSize": 199204,
 		"inputAbbreviatedPath": "\/htdocs\/imgs\/mammocci\/edo-home-640.jpg",
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/mammocci\/edo-home-640.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -1062,7 +1182,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 120878,
+		"initialSize": 169400,
 		"inputAbbreviatedPath": "\/htdocs\/imgs\/mammocci\/edo-home-8.jpg",
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/mammocci\/edo-home-8.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -1084,7 +1204,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 223587,
+		"initialSize": 188148,
 		"inputAbbreviatedPath": "\/htdocs\/imgs\/mammocci\/edo-home.jpg",
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/mammocci\/edo-home.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -1238,7 +1358,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 199133,
+		"initialSize": 202300,
 		"inputAbbreviatedPath": "\/htdocs\/imgs\/mammocci\/ema-home-3.jpg",
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/mammocci\/ema-home-3.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -1425,7 +1545,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 59804,
+		"initialSize": 200363,
 		"inputAbbreviatedPath": "\/htdocs\/imgs\/mammocci\/ema-home-640-3.jpg",
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/mammocci\/ema-home-640-3.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -1733,7 +1853,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 223174,
+		"initialSize": 100595,
 		"inputAbbreviatedPath": "\/htdocs\/imgs\/projects\/webapp\/webapp-single-1.jpg",
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/projects\/webapp\/webapp-single-1.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -1744,7 +1864,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 158769,
+		"initialSize": 71922,
 		"inputAbbreviatedPath": "\/htdocs\/imgs\/projects\/webapp\/webapp-single-2.jpg",
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/projects\/webapp\/webapp-single-2.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -1810,7 +1930,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 203435,
+		"initialSize": 104153,
 		"inputAbbreviatedPath": "\/htdocs\/imgs\/projects\/webapp\/webapp-single-3.jpg",
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/projects\/webapp\/webapp-single-3.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -1821,7 +1941,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 327361,
+		"initialSize": 85416,
 		"inputAbbreviatedPath": "\/htdocs\/imgs\/projects\/webapp\/webapp-single-4.jpg",
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/projects\/webapp\/webapp-single-4.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -1843,7 +1963,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 88654,
+		"initialSize": 36880,
 		"inputAbbreviatedPath": "\/htdocs\/imgs\/projects\/webapp\/webapp-single-640-1.jpg",
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/projects\/webapp\/webapp-single-640-1.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -1854,7 +1974,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 61439,
+		"initialSize": 26480,
 		"inputAbbreviatedPath": "\/htdocs\/imgs\/projects\/webapp\/webapp-single-640-2.jpg",
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/projects\/webapp\/webapp-single-640-2.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -1865,7 +1985,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 81228,
+		"initialSize": 38650,
 		"inputAbbreviatedPath": "\/htdocs\/imgs\/projects\/webapp\/webapp-single-640-3.jpg",
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/projects\/webapp\/webapp-single-640-3.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -1876,7 +1996,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 128820,
+		"initialSize": 33417,
 		"inputAbbreviatedPath": "\/htdocs\/imgs\/projects\/webapp\/webapp-single-640-4.jpg",
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/projects\/webapp\/webapp-single-640-4.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -2041,7 +2161,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 182746,
+		"initialSize": 49152,
 		"inputAbbreviatedPath": "\/htdocs\/imgs\/projects\/yoon\/yoon-single-2560-3.jpg",
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/projects\/yoon\/yoon-single-2560-3.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -2063,7 +2183,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 448656,
+		"initialSize": 106496,
 		"inputAbbreviatedPath": "\/htdocs\/imgs\/projects\/yoon\/yoon-single-2560-5.jpg",
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/projects\/yoon\/yoon-single-2560-5.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -2074,7 +2194,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 513265,
+		"initialSize": 4096,
 		"inputAbbreviatedPath": "\/htdocs\/imgs\/projects\/yoon\/yoon-single-2560-6.jpg",
 		"outputAbbreviatedPath": "\/htdocs\/imgs\/projects\/yoon\/yoon-single-2560-6.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -2385,6 +2505,87 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/htdocs\/it\/about.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/htdocs\/it\/about.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/htdocs\/it\/branding-identita-aziendale.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/htdocs\/it\/branding-identita-aziendale.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/htdocs\/it\/contatti-cambiare-nome.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/htdocs\/it\/contatti-cambiare-nome.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/htdocs\/it\/edoardo-sportelli-graphic-designer.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/htdocs\/it\/edoardo-sportelli-graphic-designer.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/htdocs\/it\/emanuele-feliziani-web-developer.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/htdocs\/it\/emanuele-feliziani-web-developer.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/htdocs\/it\/graphic-print-design.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/htdocs\/it\/graphic-print-design.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/htdocs\/it\/index.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/htdocs\/it\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/htdocs\/it\/insulin-and-food-ios-app-design.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/htdocs\/it\/insulin-and-food-ios-app-design.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/htdocs\/it\/portfolio.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/htdocs\/it\/portfolio.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/htdocs\/lets-work-together.html": {
 		"fileType": 8192,
 		"ignore": 1,
@@ -2468,23 +2669,129 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 1
 		},
+	"\/it\/about.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/it\/about.kit",
+		"outputAbbreviatedPath": "\/htdocs\/it\/about.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1
+		},
+	"\/it\/branding.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/it\/branding.kit",
+		"outputAbbreviatedPath": "\/htdocs\/it\/branding-identita-aziendale.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1
+		},
+	"\/it\/contacts.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/it\/contacts.kit",
+		"outputAbbreviatedPath": "\/htdocs\/it\/contatti-cambiare-nome.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1
+		},
+	"\/it\/edoardo.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/it\/edoardo.kit",
+		"outputAbbreviatedPath": "\/htdocs\/it\/edoardo-sportelli-graphic-designer.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1
+		},
+	"\/it\/emanuele.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/it\/emanuele.kit",
+		"outputAbbreviatedPath": "\/htdocs\/it\/emanuele-feliziani-web-developer.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1
+		},
+	"\/it\/graphics.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/it\/graphics.kit",
+		"outputAbbreviatedPath": "\/htdocs\/it\/graphic-print-design.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1
+		},
+	"\/it\/index.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/it\/index.kit",
+		"outputAbbreviatedPath": "\/htdocs\/it\/index.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1
+		},
+	"\/it\/portfolio.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/it\/portfolio.kit",
+		"outputAbbreviatedPath": "\/htdocs\/it\/portfolio.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1
+		},
+	"\/it\/projects\/diet-activity-tracker-webapp.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/it\/projects\/diet-activity-tracker-webapp.kit",
+		"outputAbbreviatedPath": "\/htdocs\/diet-activity-tracker-webapp.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/it\/projects\/insulin-and-food-ios-app-design.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/it\/projects\/insulin-and-food-ios-app-design.kit",
+		"outputAbbreviatedPath": "\/htdocs\/it\/insulin-and-food-ios-app-design.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1
+		},
+	"\/it\/projects\/yoon-website-ecommerce-creation-brand-redesign.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/it\/projects\/yoon-website-ecommerce-creation-brand-redesign.kit",
+		"outputAbbreviatedPath": "\/htdocs\/yoon-website-ecommerce-creation-brand-redesign.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/it\/ui-ux.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/it\/ui-ux.kit",
+		"outputAbbreviatedPath": "\/htdocs\/it\/user-interface-design.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1
+		},
+	"\/it\/web-development.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/it\/web-development.kit",
+		"outputAbbreviatedPath": "\/htdocs\/it\/sviluppo-siti-web-social-media-marketing.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1
+		},
 	"\/min\/_form-scripts-min.js": {
 		"fileType": 64,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/min\/_form-scripts-min.js",
 		"outputAbbreviatedPath": "\/min\/min\/_form-scripts-min-ck.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/min\/enlighten-ck.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/min\/enlighten-ck.js",
-		"outputAbbreviatedPath": "\/min\/min\/enlighten-ck-ck.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -2580,7 +2887,7 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/templates\/_mammoccio.kit",
-		"outputAbbreviatedPath": "\/templates\/_mammoccio.html",
+		"outputAbbreviatedPath": "\/htdocs\/_mammoccio.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -2589,7 +2896,7 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/templates\/_page-no-header.kit",
-		"outputAbbreviatedPath": "\/templates\/_page-no-header.html",
+		"outputAbbreviatedPath": "\/htdocs\/_page-no-header.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -2598,7 +2905,7 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/templates\/_page.kit",
-		"outputAbbreviatedPath": "\/templates\/_page.html",
+		"outputAbbreviatedPath": "\/htdocs\/_page.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -2607,7 +2914,7 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/templates\/_portfolio-single.kit",
-		"outputAbbreviatedPath": "\/templates\/_portfolio-single.html",
+		"outputAbbreviatedPath": "\/htdocs\/_portfolio-single.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -2616,7 +2923,7 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/templates\/_single-project.kit",
-		"outputAbbreviatedPath": "\/templates\/_single-project.html",
+		"outputAbbreviatedPath": "\/htdocs\/_single-project.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -2625,7 +2932,7 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/templates\/_social-template.kit",
-		"outputAbbreviatedPath": "\/templates\/_social-template.html",
+		"outputAbbreviatedPath": "\/htdocs\/_social-template.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -2671,7 +2978,7 @@
 	"bowerAbbreviatedPath": "",
 	"displayValue": "newgravida",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "brackets_yellow"
+	"iconImageName": "\/htdocs\/gravida-logo.png"
 	},
 "projectSettings": {
 	"alwaysUseExternalServer": 1,
@@ -2680,6 +2987,8 @@
 	"autoprefixerBrowserString": "> 1%, last 2 versions, ff 17, opera 12.1",
 	"autoSyncProjectSettingsFile": 1,
 	"browserRefreshDelay": 0,
+	"coffeeAutoOutputPathEnabled": 1,
+	"coffeeAutoOutputPathFilenamePattern": "*.js",
 	"coffeeAutoOutputPathRelativePath": "",
 	"coffeeAutoOutputPathReplace1": "",
 	"coffeeAutoOutputPathReplace2": "",
@@ -2708,6 +3017,10 @@
 			},
 		"empty_constructor_needs_parens": {
 			"active": 0,
+			"flagValue": -1
+			},
+		"ensure_comprehensions": {
+			"active": 1,
 			"flagValue": -1
 			},
 		"indentation": {
@@ -2794,8 +3107,16 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"prefer_english_operator": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"space_operators": {
 			"active": 0,
+			"flagValue": -1
+			},
+		"spacing_after_comma": {
+			"active": 1,
 			"flagValue": -1
 			}
 		},
@@ -2805,6 +3126,8 @@
 	"externalServerAddress": "http:\/\/gravida.dio",
 	"externalServerPreviewPathAddition": "",
 	"genericWebpageFileExtensionsString": "html, htm, shtml, shtm, xhtml, php, jsp, asp, aspx, erb, ctp",
+	"hamlAutoOutputPathEnabled": 1,
+	"hamlAutoOutputPathFilenamePattern": "*.html",
 	"hamlAutoOutputPathRelativePath": "",
 	"hamlAutoOutputPathReplace1": "",
 	"hamlAutoOutputPathReplace2": "",
@@ -2816,19 +3139,22 @@
 	"hamlUseCDATA": 0,
 	"hamlUseDoubleQuotes": 0,
 	"hamlUseUnixNewlines": 0,
+	"jadeAutoOutputPathEnabled": 1,
+	"jadeAutoOutputPathFilenamePattern": "*.html",
 	"jadeAutoOutputPathRelativePath": "",
 	"jadeAutoOutputPathReplace1": "",
 	"jadeAutoOutputPathReplace2": "",
 	"jadeAutoOutputPathStyle": 0,
 	"jadeCompileDebug": 1,
 	"jadeOutputStyle": 0,
+	"javascriptAutoOutputPathEnabled": 1,
+	"javascriptAutoOutputPathFilenamePattern": "*-min.js",
 	"javascriptAutoOutputPathRelativePath": "\/min",
 	"javascriptAutoOutputPathReplace1": "",
 	"javascriptAutoOutputPathReplace2": "",
 	"javascriptAutoOutputPathStyle": 2,
 	"javascriptCreateSourceMap": 1,
 	"javascriptOutputStyle": 1,
-	"javascriptOutputSuffix": "-ck",
 	"javascriptSyntaxCheckerStyle": 1,
 	"jsCheckerReservedNamesString": "",
 	"jsHintFlags2": {
@@ -2846,6 +3172,10 @@
 			},
 		"browser": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"browserify": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"camelcase": {
@@ -2870,6 +3200,10 @@
 			},
 		"dojo": {
 			"active": 0,
+			"flagValue": -1
+			},
+		"elision": {
+			"active": 1,
 			"flagValue": -1
 			},
 		"eqeqeq": {
@@ -2908,6 +3242,10 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"futurehostile": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"globalstrict": {
 			"active": 0,
 			"flagValue": -1
@@ -2921,6 +3259,10 @@
 			"flagValue": 4
 			},
 		"iterator": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"jasmine": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -2968,6 +3310,10 @@
 			"active": 0,
 			"flagValue": 4
 			},
+		"mocha": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"mootools": {
 			"active": 0,
 			"flagValue": -1
@@ -2986,6 +3332,10 @@
 			},
 		"noarg": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"nocomma": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"node": {
@@ -3036,6 +3386,10 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"qunit": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"regexp": {
 			"active": 1,
 			"flagValue": -1
@@ -3053,6 +3407,10 @@
 			"flagValue": -1
 			},
 		"shelljs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"singleGroups": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -3078,6 +3436,10 @@
 			},
 		"unused": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"varstmt": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"withstmt": {
@@ -3203,11 +3565,23 @@
 			"flagValue": -1
 			}
 		},
-	"kitAutoOutputPathRelativePath": "",
+	"jsonAutoOutputPathEnabled": 0,
+	"jsonAutoOutputPathFilenamePattern": "*-min.json",
+	"jsonAutoOutputPathRelativePath": "",
+	"jsonAutoOutputPathReplace1": "",
+	"jsonAutoOutputPathReplace2": "",
+	"jsonAutoOutputPathStyle": 0,
+	"jsonOrderOutput": 0,
+	"jsonOutputStyle": 1,
+	"kitAutoOutputPathEnabled": 1,
+	"kitAutoOutputPathFilenamePattern": "*.html",
+	"kitAutoOutputPathRelativePath": "htdocs",
 	"kitAutoOutputPathReplace1": "",
 	"kitAutoOutputPathReplace2": "",
-	"kitAutoOutputPathStyle": 0,
+	"kitAutoOutputPathStyle": 1,
 	"lessAllowInsecureImports": 0,
+	"lessAutoOutputPathEnabled": 1,
+	"lessAutoOutputPathFilenamePattern": "*.css",
 	"lessAutoOutputPathRelativePath": "..\/css",
 	"lessAutoOutputPathReplace1": "less",
 	"lessAutoOutputPathReplace2": "css",
@@ -3220,14 +3594,27 @@
 	"lessStrictImports": 0,
 	"lessStrictMath": 0,
 	"lessStrictUnits": 0,
+	"markdownAutoOutputPathEnabled": 1,
+	"markdownAutoOutputPathFilenamePattern": "*.html",
 	"markdownAutoOutputPathRelativePath": "",
 	"markdownAutoOutputPathReplace1": "",
 	"markdownAutoOutputPathReplace2": "",
 	"markdownAutoOutputPathStyle": 0,
+	"markdownCriticStyle": 0,
 	"markdownEnableFootnotes": 0,
-	"markdownEnableSmartyPants": 1,
-	"markdownExpandTabs": 1,
+	"markdownEnableLabels": 1,
+	"markdownEnableSmartQuotes": 1,
+	"markdownEscapeLineBreaks": 0,
+	"markdownMaskEmailAddresses": 1,
+	"markdownOutputFormat": 0,
+	"markdownOutputStyle": 0,
+	"markdownParseMetadata": 1,
+	"markdownProcessHTML": 0,
+	"markdownRandomFootnoteNumbers": 0,
+	"markdownUseCompatibilityMode": 0,
 	"reloadFileURLs": 0,
+	"sassAutoOutputPathEnabled": 1,
+	"sassAutoOutputPathFilenamePattern": "*.css",
 	"sassAutoOutputPathRelativePath": "..\/css",
 	"sassAutoOutputPathReplace1": "sass",
 	"sassAutoOutputPathReplace2": "css",
@@ -3240,22 +3627,30 @@
 	"shouldRunAutoprefixer": 0,
 	"shouldRunBless": 0,
 	"skippedItemsString": "_cache, logs, \/newgravida.esproj, _logs, cache, .git, log, .svn, .hg",
+	"slimAutoOutputPathEnabled": 1,
+	"slimAutoOutputPathFilenamePattern": "*.html",
 	"slimAutoOutputPathRelativePath": "",
 	"slimAutoOutputPathReplace1": "",
 	"slimAutoOutputPathReplace2": "",
 	"slimAutoOutputPathStyle": 0,
 	"slimCompileOnly": 0,
 	"slimLogicless": 0,
+	"slimOutputFormat": 0,
 	"slimOutputStyle": 1,
 	"slimRailsCompatible": 0,
+	"stylusAutoOutputPathEnabled": 1,
+	"stylusAutoOutputPathFilenamePattern": "*.css",
 	"stylusAutoOutputPathRelativePath": "..\/css",
 	"stylusAutoOutputPathReplace1": "stylus",
 	"stylusAutoOutputPathReplace2": "css",
 	"stylusAutoOutputPathStyle": 2,
+	"stylusCreateSourceMap": 0,
 	"stylusDebugStyle": 0,
 	"stylusImportCSS": 0,
 	"stylusOutputStyle": 0,
 	"stylusResolveRelativeURLS": 0,
+	"typescriptAutoOutputPathEnabled": 1,
+	"typescriptAutoOutputPathFilenamePattern": "*.js",
 	"typescriptAutoOutputPathRelativePath": "\/js",
 	"typescriptAutoOutputPathReplace1": "",
 	"typescriptAutoOutputPathReplace2": "",
@@ -3265,12 +3660,17 @@
 	"typescriptMinifyOutput": 0,
 	"typescriptModuleType": 0,
 	"typescriptNoImplicitAny": 0,
-	"typescriptNoResolve": 0,
+	"typescriptPreserveConstEnums": 0,
 	"typescriptRemoveComments": 0,
+	"typescriptSuppressImplicitAnyIndexErrors": 0,
 	"typescriptTargetECMAVersion": 0,
 	"uglifyDefinesString": "",
 	"uglifyFlags2": {
 		"ascii-only": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"bare-returns": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -3303,6 +3703,10 @@
 			"flagValue": -1
 			},
 		"dead_code": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"drop_console": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -3346,6 +3750,14 @@
 			"active": 1,
 			"flagValue": -1
 			},
+		"keep_fargs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"keep_fnames": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"loops": {
 			"active": 1,
 			"flagValue": -1
@@ -3358,8 +3770,16 @@
 			"active": 1,
 			"flagValue": 32000
 			},
+		"negate_iife": {
+			"active": 1,
+			"flagValue": -1
+			},
 		"properties": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"pure_getters": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"quote-keys": {

@@ -1,0 +1,59 @@
+<!-- META STUFF -->
+<!-- $metaTitle = Parlaci del tuo prossimo progetto web o applicazione -->
+<!-- $metaDescription = Saremmo felici di collaborare con te nel tuo prossimo progetto, che sia una app, un sito web, o un brand redesign. -->
+<!-- @import ../language-it -->
+<!-- @import ../header -->
+<div class="hero hero-text">
+	<div class="centered centered-tight fade-it-in">
+		<h1>Let's work together</h1>
+		<p>Saremmo entusiasti di aiutarti con il tuo prossimo progetto. Di qualunque cosa si tratti, scrivici due righe e ne parliamo insieme. Non temere, la tua privacy è importante per noi: niente spam e i tuoi dati sono al sicuro. Promesso.</p>
+	</div>
+</div>
+<main role="main" id="contact-page" class="centered">
+	
+	<form name="contactForm" id="contactForm" method="post" accept-charset="utf-8" action="/contact.php" class="fade-it-in">
+		<p><label for="name">Ciao, mi chiamo</label>
+		<input type="text" name="name" value="" id="name" placeholder="Mario Rossi della Rossi s.r.l." autocomplete="on" spellcheck="false" required tabindex="1" /><small></small></p>
+		<p><label for="website">il mio attuale sito web è</label>
+		<input type="url" name="website" value="" id="website" placeholder="sito-web.com (opzionale)" autocomplete="on" tabindex="2" /><small></small></p>
+		<p><label for="email">questo è il mio indirizzo email</label>
+		<input type="email" name="email" value="" id="email" placeholder="mario@sito-web.com" autocomplete="on" required tabindex="3" /><small></small><small class="reassure">Non preoccuparti, la tua email è al sicuro. Non la cederemo a terzi e non la useremo per scocciarti.</small></p>
+		<p><label for="message">La mia idea è</label>
+		<textarea name="message" spellcheck="true" placeholder="Pensavo di fare questo sito straordinario per il mio progetto di conquista del pianeta. Avrò bisogno di un backend per i miei accoliti e di un grosso bottone rosso per avviare il processo." tabindex="4"></textarea></p>
+		<p><label for="date">Lo voglio pronto per</label>
+		<input type="month" name="date" value="" id="date" tabindex="5" /><small></small></p>
+		<p class="budget-container">
+			<label for="budget">Ho un budget di € </label><output id="range-output">2500</output>
+			<input type="range" name="budget" value="2500" id="budget" min="1000" max="7000" step="500" tabindex="6" />
+		</p>
+		<span class="label">Mi servirà:</span>
+		<div class="checkboxes">
+			<input type="checkbox" name="services[]" value="website-serv" id="website-serv" tabindex="7" />
+			<label for="website-serv">sito web</label>
+			<input type="checkbox" name="services[]" value="ecommerce" id="ecommerce" tabindex="8" />
+			<label for="ecommerce">e-commerce</label>
+			<input type="checkbox" name="services[]" value="photo" id="photo" tabindex="9" />
+			<label for="photo">fotografia</label>
+			<input type="checkbox" name="services[]" value="corporate" id="corporate" tabindex="10" />
+			<label for="corporate">corporate identity</label>
+			<input type="checkbox" name="services[]" value="social" id="social" tabindex="11" />
+			<label for="social">social</label>
+			<input type="checkbox" name="services[]" value="seo" id="seo" tabindex="12" />
+			<label for="seo">seo</label>
+			<input type="checkbox" name="services[]" value="print" id="print" tabindex="13" />
+			<label for="print">print advertising</label>
+		</div>
+		<input type="hidden" name="lang" value="en" />
+		<label for="formSubmit" class="submit-label">Perfetto, è tutto?</label>
+		<input type="submit" name="formSubmit" id="formSubmit" value="Invia" tabindex="14" />
+	</form>
+</main>
+<div id="wait">
+	<div class="spinner">
+	  <div class="bounce1"></div>
+	  <div class="bounce2"></div>
+	  <div class="bounce3"></div>
+	</div>
+</div>
+<script><!-- @import ../min/_form-scripts-min.js --></script>
+<!-- @import ../footer -->
