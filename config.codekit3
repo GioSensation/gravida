@@ -1,0 +1,4586 @@
+{
+"AAInfo": "This is a CodeKit 3 project config file. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. Doing so will cause CodeKit to crash and\/or corrupt your project. I know it looks like JSON, but it is *not*. Many numbers in this file are 64-bit long long bitFlags, which JSON does not support. These numbers *cannot* be treated as discrete values and if you attempt to parse this file as standard JSON with any public JSON parser, these values will be corrupted. This file is not backwards-compatible with CodeKit 1 or 2. For more information, see https:\/\/codekitapp.com\/",
+"buildSteps": [
+	{
+		"name": "Process All Remaining Files and Folders",
+		"stepType": 1,
+		"uuidString": "84DD42BF-CDED-4F4F-8D9D-71317717BBDE"
+		}
+	],
+"creatorBuild": "25479",
+"files": {
+	"\/.gitignore": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/.gitignore",
+		"oF": 0
+		},
+	"\/.sass-cache\/87f490f7ad672c936c6864746fe5f4aef4724ac4\/_fontello.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/87f490f7ad672c936c6864746fe5f4aef4724ac4\/_fontello.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/87f490f7ad672c936c6864746fe5f4aef4724ac4\/style.scssc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/.sass-cache\/87f490f7ad672c936c6864746fe5f4aef4724ac4\/style.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/cbeba193e979e870038d11246ee089bd7bc6d65d\/_fontello.scssc": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.sass-cache\/cbeba193e979e870038d11246ee089bd7bc6d65d\/_fontello.scssc",
+		"oF": 0
+		},
+	"\/.sass-cache\/cbeba193e979e870038d11246ee089bd7bc6d65d\/style.scssc": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/.sass-cache\/cbeba193e979e870038d11246ee089bd7bc6d65d\/style.scssc",
+		"oF": 0
+		},
+	"\/404-page-not-found.kit": {
+		"ft": 2048,
+		"oA": 0,
+		"oAP": "\/htdocs\/404-page-not-found.html",
+		"oF": 2
+		},
+	"\/_fontello.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 5,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/_fontello.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/_footer.kit": {
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/htdocs\/_footer.html",
+		"oF": 0
+		},
+	"\/_header.kit": {
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/htdocs\/_header.html",
+		"oF": 0
+		},
+	"\/_language-en.kit": {
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/htdocs\/_language-en.html",
+		"oF": 0
+		},
+	"\/_language-it.kit": {
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/htdocs\/_language-it.html",
+		"oF": 0
+		},
+	"\/_links-en.kit": {
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/htdocs\/_links-en.html",
+		"oF": 1
+		},
+	"\/about.kit": {
+		"ft": 2048,
+		"oA": 0,
+		"oAP": "\/htdocs\/about.html",
+		"oF": 2
+		},
+	"\/bad-client-bad-work.kit": {
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/htdocs\/bad-client-bad-work.html",
+		"oF": 3
+		},
+	"\/bower_components\/fastclick\/.bower.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/bower_components\/fastclick\/.bower.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/fastclick\/bower.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/bower_components\/fastclick\/bower.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/fastclick\/lib\/fastclick.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/fastclick\/lib\/fastclick.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/bower_components\/fastclick\/LICENSE": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/fastclick\/LICENSE",
+		"oF": 0
+		},
+	"\/bower_components\/fastclick\/README.md": {
+		"cS": 0,
+		"eF": 0,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/bower_components\/fastclick\/README.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/bower_components\/viewport-units-buggyfill\/.bower.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/bower_components\/viewport-units-buggyfill\/.bower.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/viewport-units-buggyfill\/bower.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/bower_components\/viewport-units-buggyfill\/bower.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/viewport-units-buggyfill\/Gruntfile.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/viewport-units-buggyfill\/Gruntfile.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/viewport-units-buggyfill\/LICENSE.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/viewport-units-buggyfill\/LICENSE.txt",
+		"oF": 0
+		},
+	"\/bower_components\/viewport-units-buggyfill\/package.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/bower_components\/viewport-units-buggyfill\/package.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/viewport-units-buggyfill\/viewport-units-buggyfill.hacks.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/viewport-units-buggyfill\/viewport-units-buggyfill.hacks.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/viewport-units-buggyfill\/viewport-units-buggyfill.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/viewport-units-buggyfill\/viewport-units-buggyfill.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/branding.kit": {
+		"ft": 2048,
+		"oA": 0,
+		"oAP": "\/htdocs\/branding-corporate-identity.html",
+		"oF": 2
+		},
+	"\/contacts.kit": {
+		"ft": 2048,
+		"oA": 0,
+		"oAP": "\/htdocs\/lets-work-together.html",
+		"oF": 2
+		},
+	"\/contents\/_edo-cont-ita.kit": {
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/htdocs\/_edo-cont-ita.html",
+		"oF": 0
+		},
+	"\/contents\/_edo-cont.kit": {
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/htdocs\/_edo-cont.html",
+		"oF": 0
+		},
+	"\/contents\/_ema-cont-ita.kit": {
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/htdocs\/_ema-cont-ita.html",
+		"oF": 0
+		},
+	"\/contents\/_ema-cont.kit": {
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/htdocs\/_ema-cont.html",
+		"oF": 0
+		},
+	"\/contents\/projects\/_insulin-and-food-content-it.kit": {
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/htdocs\/_insulin-and-food-content-it.html",
+		"oF": 0
+		},
+	"\/contents\/projects\/_insulin-and-food-content.kit": {
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/htdocs\/_insulin-and-food-content.html",
+		"oF": 0
+		},
+	"\/contents\/projects\/_webapp-content.kit": {
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/htdocs\/_webapp-content.html",
+		"oF": 0
+		},
+	"\/contents\/projects\/_yoon-content-it.kit": {
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/htdocs\/_yoon-content-it.html",
+		"oF": 0
+		},
+	"\/contents\/projects\/_yoon-content.kit": {
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/htdocs\/_yoon-content.html",
+		"oF": 0
+		},
+	"\/edoardo.kit": {
+		"ft": 2048,
+		"oA": 0,
+		"oAP": "\/htdocs\/edoardo-sportelli-graphic-designer.html",
+		"oF": 2
+		},
+	"\/emanuele.kit": {
+		"ft": 2048,
+		"oA": 0,
+		"oAP": "\/htdocs\/emanuele-feliziani-web-developer.html",
+		"oF": 2
+		},
+	"\/form-scripts.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/min\/_form-scripts-min.js",
+		"oF": 2,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/graphics.kit": {
+		"ft": 2048,
+		"oA": 0,
+		"oAP": "\/htdocs\/graphic-print-design.html",
+		"oF": 2
+		},
+	"\/htdocs\/.htaccess": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/htdocs\/.htaccess",
+		"oF": 0
+		},
+	"\/htdocs\/404-page-not-found.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/htdocs\/404-page-not-found.html",
+		"oF": 0
+		},
+	"\/htdocs\/about.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/htdocs\/about.html",
+		"oF": 0
+		},
+	"\/htdocs\/apple-touch-icon-120x120.png": {
+		"ft": 32768,
+		"iS": 2744,
+		"oA": 0,
+		"oAP": "\/htdocs\/apple-touch-icon-120x120.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/apple-touch-icon.png": {
+		"ft": 32768,
+		"iS": 6953,
+		"oA": 0,
+		"oAP": "\/htdocs\/apple-touch-icon.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/bad-client-bad-work.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/htdocs\/bad-client-bad-work.html",
+		"oF": 0
+		},
+	"\/htdocs\/branding-corporate-identity.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/htdocs\/branding-corporate-identity.html",
+		"oF": 0
+		},
+	"\/htdocs\/contact.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/htdocs\/contact.php",
+		"oF": 0
+		},
+	"\/htdocs\/contacts.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/htdocs\/contacts.html",
+		"oF": 0
+		},
+	"\/htdocs\/diet-activity-tracker-webapp.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/htdocs\/diet-activity-tracker-webapp.html",
+		"oF": 0
+		},
+	"\/htdocs\/edoardo-sportelli-graphic-designer.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/htdocs\/edoardo-sportelli-graphic-designer.html",
+		"oF": 0
+		},
+	"\/htdocs\/email\/_gravida-processed.kit": {
+		"ft": 2048,
+		"oA": 0,
+		"oAP": "\/htdocs\/_gravida-processed.html",
+		"oF": 0
+		},
+	"\/htdocs\/email\/gravida.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/htdocs\/email\/gravida.html",
+		"oF": 0
+		},
+	"\/htdocs\/email\/notif-template.kit": {
+		"ft": 2048,
+		"oA": 0,
+		"oAP": "\/htdocs\/notif-template.html",
+		"oF": 2
+		},
+	"\/htdocs\/email\/notif-template.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/htdocs\/email\/notif-template.php",
+		"oF": 0
+		},
+	"\/htdocs\/email\/partials\/_email-template.kit": {
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/htdocs\/_email-template.html",
+		"oF": 0
+		},
+	"\/htdocs\/email\/partials\/_notif-content.kit": {
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/htdocs\/_notif-content.html",
+		"oF": 0
+		},
+	"\/htdocs\/email\/partials\/_response-content.kit": {
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/htdocs\/_response-content.html",
+		"oF": 0
+		},
+	"\/htdocs\/email\/response-template.kit": {
+		"ft": 2048,
+		"oA": 0,
+		"oAP": "\/htdocs\/response-template.html",
+		"oF": 2
+		},
+	"\/htdocs\/email\/response-template.php": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/htdocs\/email\/response-template.php",
+		"oF": 0
+		},
+	"\/htdocs\/emanuele-feliziani-web-developer.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/htdocs\/emanuele-feliziani-web-developer.html",
+		"oF": 0
+		},
+	"\/htdocs\/favicon.ico": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/htdocs\/favicon.ico",
+		"oF": 0
+		},
+	"\/htdocs\/favicons\/apple-touch-icon-114x114.png": {
+		"ft": 32768,
+		"iS": 6502,
+		"oA": 0,
+		"oAP": "\/htdocs\/favicons\/apple-touch-icon-114x114.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/favicons\/apple-touch-icon-120x120.png": {
+		"ft": 32768,
+		"iS": 6953,
+		"oA": 0,
+		"oAP": "\/htdocs\/favicons\/apple-touch-icon-120x120.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/favicons\/apple-touch-icon-144x144.png": {
+		"ft": 32768,
+		"iS": 8393,
+		"oA": 0,
+		"oAP": "\/htdocs\/favicons\/apple-touch-icon-144x144.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/favicons\/apple-touch-icon-152x152.png": {
+		"ft": 32768,
+		"iS": 5655,
+		"oA": 0,
+		"oAP": "\/htdocs\/favicons\/apple-touch-icon-152x152.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/favicons\/apple-touch-icon-57x57.png": {
+		"ft": 32768,
+		"iS": 4394,
+		"oA": 0,
+		"oAP": "\/htdocs\/favicons\/apple-touch-icon-57x57.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/favicons\/apple-touch-icon-72x72.png": {
+		"ft": 32768,
+		"iS": 4843,
+		"oA": 0,
+		"oAP": "\/htdocs\/favicons\/apple-touch-icon-72x72.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/favicons\/apple-touch-icon-76x76.png": {
+		"ft": 32768,
+		"iS": 4924,
+		"oA": 0,
+		"oAP": "\/htdocs\/favicons\/apple-touch-icon-76x76.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/favicons\/favicon.png": {
+		"ft": 32768,
+		"iS": 5655,
+		"oA": 0,
+		"oAP": "\/htdocs\/favicons\/favicon.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/font\/fontello.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/htdocs\/font\/fontello.eot",
+		"oF": 0
+		},
+	"\/htdocs\/font\/fontello.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/htdocs\/font\/fontello.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/htdocs\/font\/fontello.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/htdocs\/font\/fontello.ttf",
+		"oF": 0
+		},
+	"\/htdocs\/font\/fontello.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/htdocs\/font\/fontello.woff",
+		"oF": 0
+		},
+	"\/htdocs\/font\/GOTHIC.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/htdocs\/font\/GOTHIC.eot",
+		"oF": 0
+		},
+	"\/htdocs\/font\/GOTHIC.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/htdocs\/font\/GOTHIC.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/htdocs\/font\/GOTHIC.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/htdocs\/font\/GOTHIC.ttf",
+		"oF": 0
+		},
+	"\/htdocs\/font\/GOTHIC.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/htdocs\/font\/GOTHIC.woff",
+		"oF": 0
+		},
+	"\/htdocs\/font\/GOTHIC_old.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/htdocs\/font\/GOTHIC_old.eot",
+		"oF": 0
+		},
+	"\/htdocs\/font\/GOTHIC_old.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/htdocs\/font\/GOTHIC_old.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/htdocs\/font\/GOTHIC_old.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/htdocs\/font\/GOTHIC_old.ttf",
+		"oF": 0
+		},
+	"\/htdocs\/font\/GOTHIC_old.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/htdocs\/font\/GOTHIC_old.woff",
+		"oF": 0
+		},
+	"\/htdocs\/graphic-print-design.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/htdocs\/graphic-print-design.html",
+		"oF": 0
+		},
+	"\/htdocs\/gravida-logo.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/htdocs\/gravida-logo.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/both.jpg": {
+		"ft": 16384,
+		"iS": 342283,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/both.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/edo-home-7.jpg": {
+		"ft": 16384,
+		"iS": 185467,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/edo-home-7.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/ema-home-21.jpg": {
+		"ft": 16384,
+		"iS": 178611,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/ema-home-21.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/ema.jpg": {
+		"ft": 16384,
+		"iS": 37892,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/ema.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/gravida-gocce.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/htdocs\/imgs\/gravida-gocce.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/htdocs\/imgs\/head-about-1280.jpg": {
+		"ft": 16384,
+		"iS": 71807,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/head-about-1280.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/head-about-2560.jpg": {
+		"ft": 16384,
+		"iS": 297245,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/head-about-2560.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/head-about-800.jpg": {
+		"ft": 16384,
+		"iS": 76754,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/head-about-800.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/head-serv-1280-1.jpg": {
+		"ft": 16384,
+		"iS": 117964,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/head-serv-1280-1.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/head-serv-1280-2.jpg": {
+		"ft": 16384,
+		"iS": 120021,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/head-serv-1280-2.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/head-serv-1280-3.jpg": {
+		"ft": 16384,
+		"iS": 125730,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/head-serv-1280-3.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/head-serv-1280-4.jpg": {
+		"ft": 16384,
+		"iS": 87977,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/head-serv-1280-4.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/head-serv-2560-1.jpg": {
+		"ft": 16384,
+		"iS": 537961,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/head-serv-2560-1.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/head-serv-2560-2.jpg": {
+		"ft": 16384,
+		"iS": 503841,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/head-serv-2560-2.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/head-serv-2560-3.jpg": {
+		"ft": 16384,
+		"iS": 245157,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/head-serv-2560-3.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/head-serv-2560-4.jpg": {
+		"ft": 16384,
+		"iS": 375687,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/head-serv-2560-4.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/head-serv-800-1.jpg": {
+		"ft": 16384,
+		"iS": 101244,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/head-serv-800-1.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/head-serv-800-2.jpg": {
+		"ft": 16384,
+		"iS": 105618,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/head-serv-800-2.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/head-serv-800-3.jpg": {
+		"ft": 16384,
+		"iS": 161739,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/head-serv-800-3.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/head-serv-800-4.jpg": {
+		"ft": 16384,
+		"iS": 88557,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/head-serv-800-4.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/logo-gravida.png": {
+		"ft": 32768,
+		"iS": 3381,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/logo-gravida.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/logo-gravida.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/htdocs\/imgs\/logo-gravida.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/htdocs\/imgs\/main-home-800.jpg": {
+		"ft": 16384,
+		"iS": 54431,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/main-home-800.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/main-home-alt.jpg": {
+		"ft": 16384,
+		"iS": 170448,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/main-home-alt.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/main-home.jpg": {
+		"ft": 16384,
+		"iS": 179579,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/main-home.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/mammocci\/edo-home-10.jpg": {
+		"ft": 16384,
+		"iS": 168333,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/mammocci\/edo-home-10.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/mammocci\/edo-home-11.jpg": {
+		"ft": 16384,
+		"iS": 168273,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/mammocci\/edo-home-11.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/mammocci\/edo-home-12.jpg": {
+		"ft": 16384,
+		"iS": 198631,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/mammocci\/edo-home-12.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/mammocci\/edo-home-13.jpg": {
+		"ft": 16384,
+		"iS": 178174,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/mammocci\/edo-home-13.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/mammocci\/edo-home-14.jpg": {
+		"ft": 16384,
+		"iS": 176796,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/mammocci\/edo-home-14.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/mammocci\/edo-home-15.jpg": {
+		"ft": 16384,
+		"iS": 180065,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/mammocci\/edo-home-15.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/mammocci\/edo-home-16.jpg": {
+		"ft": 16384,
+		"iS": 106114,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/mammocci\/edo-home-16.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/mammocci\/edo-home-2.jpg": {
+		"ft": 16384,
+		"iS": 183229,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/mammocci\/edo-home-2.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/mammocci\/edo-home-3.jpg": {
+		"ft": 16384,
+		"iS": 214953,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/mammocci\/edo-home-3.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/mammocci\/edo-home-4.jpg": {
+		"ft": 16384,
+		"iS": 186062,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/mammocci\/edo-home-4.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/mammocci\/edo-home-5.jpg": {
+		"ft": 16384,
+		"iS": 185884,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/mammocci\/edo-home-5.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/mammocci\/edo-home-6.jpg": {
+		"ft": 16384,
+		"iS": 180149,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/mammocci\/edo-home-6.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/mammocci\/edo-home-640-10.jpg": {
+		"ft": 16384,
+		"iS": 189744,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/mammocci\/edo-home-640-10.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/mammocci\/edo-home-640-11.jpg": {
+		"ft": 16384,
+		"iS": 200876,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/mammocci\/edo-home-640-11.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/mammocci\/edo-home-640-12.jpg": {
+		"ft": 16384,
+		"iS": 77496,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/mammocci\/edo-home-640-12.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/mammocci\/edo-home-640-13.jpg": {
+		"ft": 16384,
+		"iS": 198341,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/mammocci\/edo-home-640-13.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/mammocci\/edo-home-640-14.jpg": {
+		"ft": 16384,
+		"iS": 137028,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/mammocci\/edo-home-640-14.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/mammocci\/edo-home-640-15.jpg": {
+		"ft": 16384,
+		"iS": 191408,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/mammocci\/edo-home-640-15.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/mammocci\/edo-home-640-2.jpg": {
+		"ft": 16384,
+		"iS": 200693,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/mammocci\/edo-home-640-2.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/mammocci\/edo-home-640-3.jpg": {
+		"ft": 16384,
+		"iS": 63446,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/mammocci\/edo-home-640-3.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/mammocci\/edo-home-640-4.jpg": {
+		"ft": 16384,
+		"iS": 202370,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/mammocci\/edo-home-640-4.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/mammocci\/edo-home-640-5.jpg": {
+		"ft": 16384,
+		"iS": 200114,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/mammocci\/edo-home-640-5.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/mammocci\/edo-home-640-6.jpg": {
+		"ft": 16384,
+		"iS": 197464,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/mammocci\/edo-home-640-6.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/mammocci\/edo-home-640-7.jpg": {
+		"ft": 16384,
+		"iS": 198305,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/mammocci\/edo-home-640-7.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/mammocci\/edo-home-640-8.jpg": {
+		"ft": 16384,
+		"iS": 76811,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/mammocci\/edo-home-640-8.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/mammocci\/edo-home-640-9.jpg": {
+		"ft": 16384,
+		"iS": 200997,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/mammocci\/edo-home-640-9.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/mammocci\/edo-home-640.jpg": {
+		"ft": 16384,
+		"iS": 63286,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/mammocci\/edo-home-640.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/mammocci\/edo-home-7.jpg": {
+		"ft": 16384,
+		"iS": 185467,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/mammocci\/edo-home-7.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/mammocci\/edo-home-8.jpg": {
+		"ft": 16384,
+		"iS": 120878,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/mammocci\/edo-home-8.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/mammocci\/edo-home-9.jpg": {
+		"ft": 16384,
+		"iS": 164338,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/mammocci\/edo-home-9.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/mammocci\/edo-home.jpg": {
+		"ft": 16384,
+		"iS": 223587,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/mammocci\/edo-home.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/mammocci\/ema-home-10.jpg": {
+		"ft": 16384,
+		"iS": 177238,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/mammocci\/ema-home-10.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/mammocci\/ema-home-11.jpg": {
+		"ft": 16384,
+		"iS": 189699,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/mammocci\/ema-home-11.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/mammocci\/ema-home-12.jpg": {
+		"ft": 16384,
+		"iS": 180932,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/mammocci\/ema-home-12.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/mammocci\/ema-home-13.jpg": {
+		"ft": 16384,
+		"iS": 187399,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/mammocci\/ema-home-13.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/mammocci\/ema-home-14.jpg": {
+		"ft": 16384,
+		"iS": 179334,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/mammocci\/ema-home-14.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/mammocci\/ema-home-15.jpg": {
+		"ft": 16384,
+		"iS": 192179,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/mammocci\/ema-home-15.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/mammocci\/ema-home-16.jpg": {
+		"ft": 16384,
+		"iS": 173277,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/mammocci\/ema-home-16.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/mammocci\/ema-home-17.jpg": {
+		"ft": 16384,
+		"iS": 179838,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/mammocci\/ema-home-17.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/mammocci\/ema-home-18.jpg": {
+		"ft": 16384,
+		"iS": 175259,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/mammocci\/ema-home-18.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/mammocci\/ema-home-19.jpg": {
+		"ft": 16384,
+		"iS": 166917,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/mammocci\/ema-home-19.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/mammocci\/ema-home-2.jpg": {
+		"ft": 16384,
+		"iS": 200501,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/mammocci\/ema-home-2.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/mammocci\/ema-home-20.jpg": {
+		"ft": 16384,
+		"iS": 187843,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/mammocci\/ema-home-20.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/mammocci\/ema-home-21.jpg": {
+		"ft": 16384,
+		"iS": 178611,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/mammocci\/ema-home-21.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/mammocci\/ema-home-3.jpg": {
+		"ft": 16384,
+		"iS": 199133,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/mammocci\/ema-home-3.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/mammocci\/ema-home-4.jpg": {
+		"ft": 16384,
+		"iS": 166905,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/mammocci\/ema-home-4.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/mammocci\/ema-home-5.jpg": {
+		"ft": 16384,
+		"iS": 203621,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/mammocci\/ema-home-5.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/mammocci\/ema-home-6.jpg": {
+		"ft": 16384,
+		"iS": 168737,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/mammocci\/ema-home-6.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/mammocci\/ema-home-640-10.jpg": {
+		"ft": 16384,
+		"iS": 136451,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/mammocci\/ema-home-640-10.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/mammocci\/ema-home-640-11.jpg": {
+		"ft": 16384,
+		"iS": 140257,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/mammocci\/ema-home-640-11.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/mammocci\/ema-home-640-12.jpg": {
+		"ft": 16384,
+		"iS": 140144,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/mammocci\/ema-home-640-12.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/mammocci\/ema-home-640-13.jpg": {
+		"ft": 16384,
+		"iS": 140829,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/mammocci\/ema-home-640-13.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/mammocci\/ema-home-640-14.jpg": {
+		"ft": 16384,
+		"iS": 139920,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/mammocci\/ema-home-640-14.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/mammocci\/ema-home-640-15.jpg": {
+		"ft": 16384,
+		"iS": 142624,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/mammocci\/ema-home-640-15.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/mammocci\/ema-home-640-16.jpg": {
+		"ft": 16384,
+		"iS": 195511,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/mammocci\/ema-home-640-16.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/mammocci\/ema-home-640-17.jpg": {
+		"ft": 16384,
+		"iS": 196577,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/mammocci\/ema-home-640-17.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/mammocci\/ema-home-640-18.jpg": {
+		"ft": 16384,
+		"iS": 197261,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/mammocci\/ema-home-640-18.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/mammocci\/ema-home-640-19.jpg": {
+		"ft": 16384,
+		"iS": 189246,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/mammocci\/ema-home-640-19.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/mammocci\/ema-home-640-2.jpg": {
+		"ft": 16384,
+		"iS": 194777,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/mammocci\/ema-home-640-2.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/mammocci\/ema-home-640-20.jpg": {
+		"ft": 16384,
+		"iS": 138332,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/mammocci\/ema-home-640-20.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/mammocci\/ema-home-640-21.jpg": {
+		"ft": 16384,
+		"iS": 201333,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/mammocci\/ema-home-640-21.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/mammocci\/ema-home-640-3.jpg": {
+		"ft": 16384,
+		"iS": 59804,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/mammocci\/ema-home-640-3.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/mammocci\/ema-home-640-4.jpg": {
+		"ft": 16384,
+		"iS": 199361,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/mammocci\/ema-home-640-4.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/mammocci\/ema-home-640-5.jpg": {
+		"ft": 16384,
+		"iS": 196652,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/mammocci\/ema-home-640-5.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/mammocci\/ema-home-640-6.jpg": {
+		"ft": 16384,
+		"iS": 196177,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/mammocci\/ema-home-640-6.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/mammocci\/ema-home-640-7.jpg": {
+		"ft": 16384,
+		"iS": 144471,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/mammocci\/ema-home-640-7.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/mammocci\/ema-home-640-8.jpg": {
+		"ft": 16384,
+		"iS": 145059,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/mammocci\/ema-home-640-8.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/mammocci\/ema-home-640-9.jpg": {
+		"ft": 16384,
+		"iS": 199467,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/mammocci\/ema-home-640-9.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/mammocci\/ema-home-640.jpg": {
+		"ft": 16384,
+		"iS": 194760,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/mammocci\/ema-home-640.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/mammocci\/ema-home-7.jpg": {
+		"ft": 16384,
+		"iS": 194554,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/mammocci\/ema-home-7.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/mammocci\/ema-home-8.jpg": {
+		"ft": 16384,
+		"iS": 186576,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/mammocci\/ema-home-8.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/mammocci\/ema-home-9.jpg": {
+		"ft": 16384,
+		"iS": 170364,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/mammocci\/ema-home-9.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/mammocci\/ema-home.jpg": {
+		"ft": 16384,
+		"iS": 167948,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/mammocci\/ema-home.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/no-javascript-bg.jpg": {
+		"ft": 16384,
+		"iS": 43045,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/no-javascript-bg.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/projects\/appunimi-portfolio.jpg": {
+		"ft": 16384,
+		"iS": 166017,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/projects\/appunimi-portfolio.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/projects\/insulin\/insulin-portfolio-1280.jpg": {
+		"ft": 16384,
+		"iS": 26127,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/projects\/insulin\/insulin-portfolio-1280.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/projects\/insulin\/insulin-portfolio-640.jpg": {
+		"ft": 16384,
+		"iS": 10196,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/projects\/insulin\/insulin-portfolio-640.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/projects\/insulin\/insulin-portfolio.jpg": {
+		"ft": 16384,
+		"iS": 65240,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/projects\/insulin\/insulin-portfolio.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/projects\/insulin\/insulin-single-10.gif": {
+		"ft": 4194304,
+		"iS": 86711,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/projects\/insulin\/insulin-single-10.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/projects\/insulin\/insulin-single-11.gif": {
+		"ft": 4194304,
+		"iS": 84388,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/projects\/insulin\/insulin-single-11.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/projects\/insulin\/insulin-single-2.jpg": {
+		"ft": 16384,
+		"iS": 204349,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/projects\/insulin\/insulin-single-2.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/projects\/insulin\/insulin-single-2560-2.jpg": {
+		"ft": 16384,
+		"iS": 109647,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/projects\/insulin\/insulin-single-2560-2.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/projects\/insulin\/insulin-single-2560-4.jpg": {
+		"ft": 16384,
+		"iS": 297394,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/projects\/insulin\/insulin-single-2560-4.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/projects\/insulin\/insulin-single-2560-5.gif": {
+		"ft": 4194304,
+		"iS": 197230,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/projects\/insulin\/insulin-single-2560-5.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/projects\/insulin\/insulin-single-2560-6.gif": {
+		"ft": 4194304,
+		"iS": 195063,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/projects\/insulin\/insulin-single-2560-6.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/projects\/insulin\/insulin-single-2560-7.gif": {
+		"ft": 4194304,
+		"iS": 719966,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/projects\/insulin\/insulin-single-2560-7.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/projects\/insulin\/insulin-single-4.jpg": {
+		"ft": 16384,
+		"iS": 126101,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/projects\/insulin\/insulin-single-4.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/projects\/insulin\/insulin-single-5.jpg": {
+		"ft": 16384,
+		"iS": 94897,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/projects\/insulin\/insulin-single-5.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/projects\/insulin\/insulin-single-6.gif": {
+		"ft": 4194304,
+		"iS": 84388,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/projects\/insulin\/insulin-single-6.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/projects\/insulin\/insulin-single-640-10.gif": {
+		"ft": 4194304,
+		"iS": 37375,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/projects\/insulin\/insulin-single-640-10.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/projects\/insulin\/insulin-single-640-11.gif": {
+		"ft": 4194304,
+		"iS": 36569,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/projects\/insulin\/insulin-single-640-11.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/projects\/insulin\/insulin-single-640-2.jpg": {
+		"ft": 16384,
+		"iS": 68379,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/projects\/insulin\/insulin-single-640-2.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/projects\/insulin\/insulin-single-640-4.jpg": {
+		"ft": 16384,
+		"iS": 64747,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/projects\/insulin\/insulin-single-640-4.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/projects\/insulin\/insulin-single-640-5.gif": {
+		"ft": 4194304,
+		"iS": 42032,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/projects\/insulin\/insulin-single-640-5.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/projects\/insulin\/insulin-single-640-6.gif": {
+		"ft": 4194304,
+		"iS": 36569,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/projects\/insulin\/insulin-single-640-6.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/projects\/insulin\/insulin-single-640-7.gif": {
+		"ft": 4194304,
+		"iS": 96188,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/projects\/insulin\/insulin-single-640-7.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/projects\/insulin\/insulin-single-640-8.gif": {
+		"ft": 4194304,
+		"iS": 41971,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/projects\/insulin\/insulin-single-640-8.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/projects\/insulin\/insulin-single-640-9.gif": {
+		"ft": 4194304,
+		"iS": 125723,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/projects\/insulin\/insulin-single-640-9.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/projects\/insulin\/insulin-single-640.jpg": {
+		"ft": 16384,
+		"iS": 37025,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/projects\/insulin\/insulin-single-640.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/projects\/insulin\/insulin-single-7.gif": {
+		"ft": 4194304,
+		"iS": 268158,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/projects\/insulin\/insulin-single-7.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/projects\/insulin\/insulin-single-8.gif": {
+		"ft": 4194304,
+		"iS": 112106,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/projects\/insulin\/insulin-single-8.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/projects\/insulin\/insulin-single-9.gif": {
+		"ft": 4194304,
+		"iS": 391847,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/projects\/insulin\/insulin-single-9.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/projects\/insulin\/insulin-single.jpg": {
+		"ft": 16384,
+		"iS": 104041,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/projects\/insulin\/insulin-single.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/projects\/webapp\/webapp-portfolio-1280.jpg": {
+		"ft": 16384,
+		"iS": 61539,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/projects\/webapp\/webapp-portfolio-1280.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/projects\/webapp\/webapp-portfolio.jpg": {
+		"ft": 16384,
+		"iS": 166017,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/projects\/webapp\/webapp-portfolio.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/projects\/webapp\/webapp-single-1.jpg": {
+		"ft": 16384,
+		"iS": 223174,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/projects\/webapp\/webapp-single-1.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/projects\/webapp\/webapp-single-2.jpg": {
+		"ft": 16384,
+		"iS": 158769,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/projects\/webapp\/webapp-single-2.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/projects\/webapp\/webapp-single-2560-1.jpg": {
+		"ft": 16384,
+		"iS": 266252,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/projects\/webapp\/webapp-single-2560-1.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/projects\/webapp\/webapp-single-2560-2.jpg": {
+		"ft": 16384,
+		"iS": 187714,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/projects\/webapp\/webapp-single-2560-2.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/projects\/webapp\/webapp-single-2560-3.jpg": {
+		"ft": 16384,
+		"iS": 293081,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/projects\/webapp\/webapp-single-2560-3.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/projects\/webapp\/webapp-single-2560-4.jpg": {
+		"ft": 16384,
+		"iS": 216060,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/projects\/webapp\/webapp-single-2560-4.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/projects\/webapp\/webapp-single-2560-5.jpg": {
+		"ft": 16384,
+		"iS": 182675,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/projects\/webapp\/webapp-single-2560-5.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/projects\/webapp\/webapp-single-3.jpg": {
+		"ft": 16384,
+		"iS": 203435,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/projects\/webapp\/webapp-single-3.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/projects\/webapp\/webapp-single-4.jpg": {
+		"ft": 16384,
+		"iS": 327361,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/projects\/webapp\/webapp-single-4.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/projects\/webapp\/webapp-single-5.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/projects\/webapp\/webapp-single-5.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/projects\/webapp\/webapp-single-640-1.jpg": {
+		"ft": 16384,
+		"iS": 88654,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/projects\/webapp\/webapp-single-640-1.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/projects\/webapp\/webapp-single-640-2.jpg": {
+		"ft": 16384,
+		"iS": 61439,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/projects\/webapp\/webapp-single-640-2.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/projects\/webapp\/webapp-single-640-3.jpg": {
+		"ft": 16384,
+		"iS": 81228,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/projects\/webapp\/webapp-single-640-3.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/projects\/webapp\/webapp-single-640-4.jpg": {
+		"ft": 16384,
+		"iS": 128820,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/projects\/webapp\/webapp-single-640-4.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/projects\/webapp\/webapp-single-640-5.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/projects\/webapp\/webapp-single-640-5.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/projects\/yoon-1.png": {
+		"ft": 32768,
+		"iS": 149689,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/projects\/yoon-1.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/projects\/yoon-2.png": {
+		"ft": 32768,
+		"iS": 193759,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/projects\/yoon-2.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/projects\/yoon-3.png": {
+		"ft": 32768,
+		"iS": 70438,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/projects\/yoon-3.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/projects\/yoon-4.png": {
+		"ft": 32768,
+		"iS": 198262,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/projects\/yoon-4.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/projects\/yoon-portfolio-1280.jpg": {
+		"ft": 16384,
+		"iS": 86237,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/projects\/yoon-portfolio-1280.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/projects\/yoon-portfolio.jpg": {
+		"ft": 16384,
+		"iS": 240351,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/projects\/yoon-portfolio.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/projects\/yoon\/yoon-portfolio-1280.jpg": {
+		"ft": 16384,
+		"iS": 63622,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/projects\/yoon\/yoon-portfolio-1280.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/projects\/yoon\/yoon-portfolio-640.jpg": {
+		"ft": 16384,
+		"iS": 184922,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/projects\/yoon\/yoon-portfolio-640.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/projects\/yoon\/yoon-portfolio.jpg": {
+		"ft": 16384,
+		"iS": 184922,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/projects\/yoon\/yoon-portfolio.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/projects\/yoon\/yoon-single-1.jpg": {
+		"ft": 16384,
+		"iS": 155392,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/projects\/yoon\/yoon-single-1.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/projects\/yoon\/yoon-single-2.jpg": {
+		"ft": 16384,
+		"iS": 189467,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/projects\/yoon\/yoon-single-2.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/projects\/yoon\/yoon-single-2560-1.jpg": {
+		"ft": 16384,
+		"iS": 723074,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/projects\/yoon\/yoon-single-2560-1.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/projects\/yoon\/yoon-single-2560-2.jpg": {
+		"ft": 16384,
+		"iS": 174216,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/projects\/yoon\/yoon-single-2560-2.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/projects\/yoon\/yoon-single-2560-3.jpg": {
+		"ft": 16384,
+		"iS": 182746,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/projects\/yoon\/yoon-single-2560-3.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/projects\/yoon\/yoon-single-2560-4.jpg": {
+		"ft": 16384,
+		"iS": 174553,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/projects\/yoon\/yoon-single-2560-4.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/projects\/yoon\/yoon-single-2560-5.jpg": {
+		"ft": 16384,
+		"iS": 448656,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/projects\/yoon\/yoon-single-2560-5.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/projects\/yoon\/yoon-single-2560-6.jpg": {
+		"ft": 16384,
+		"iS": 513265,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/projects\/yoon\/yoon-single-2560-6.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/projects\/yoon\/yoon-single-3.jpg": {
+		"ft": 16384,
+		"iS": 150938,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/projects\/yoon\/yoon-single-3.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/projects\/yoon\/yoon-single-4.jpg": {
+		"ft": 16384,
+		"iS": 171083,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/projects\/yoon\/yoon-single-4.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/projects\/yoon\/yoon-single-5.jpg": {
+		"ft": 16384,
+		"iS": 185598,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/projects\/yoon\/yoon-single-5.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/projects\/yoon\/yoon-single-6.jpg": {
+		"ft": 16384,
+		"iS": 187476,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/projects\/yoon\/yoon-single-6.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/projects\/yoon\/yoon-single-640-1.jpg": {
+		"ft": 16384,
+		"iS": 100569,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/projects\/yoon\/yoon-single-640-1.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/projects\/yoon\/yoon-single-640-2.jpg": {
+		"ft": 16384,
+		"iS": 95338,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/projects\/yoon\/yoon-single-640-2.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/projects\/yoon\/yoon-single-640-3.jpg": {
+		"ft": 16384,
+		"iS": 108935,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/projects\/yoon\/yoon-single-640-3.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/projects\/yoon\/yoon-single-640-4.jpg": {
+		"ft": 16384,
+		"iS": 84516,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/projects\/yoon\/yoon-single-640-4.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/projects\/yoon\/yoon-single-640-5.jpg": {
+		"ft": 16384,
+		"iS": 172305,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/projects\/yoon\/yoon-single-640-5.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/projects\/yoon\/yoon-single-640-6.jpg": {
+		"ft": 16384,
+		"iS": 148266,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/projects\/yoon\/yoon-single-640-6.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/projects\/yoon\/yoon-single-640-7.jpg": {
+		"ft": 16384,
+		"iS": 79829,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/projects\/yoon\/yoon-single-640-7.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/projects\/yoon\/yoon-single-640-8.jpg": {
+		"ft": 16384,
+		"iS": 83679,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/projects\/yoon\/yoon-single-640-8.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/projects\/yoon\/yoon-single-7.jpg": {
+		"ft": 16384,
+		"iS": 187173,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/projects\/yoon\/yoon-single-7.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/projects\/yoon\/yoon-single-8.jpg": {
+		"ft": 16384,
+		"iS": 190708,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/projects\/yoon\/yoon-single-8.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/serv-home-1.jpg": {
+		"ft": 16384,
+		"iS": 71550,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/serv-home-1.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/serv-home-2.jpg": {
+		"ft": 16384,
+		"iS": 982511,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/serv-home-2.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/serv-home-3.jpg": {
+		"ft": 16384,
+		"iS": 371219,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/serv-home-3.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/serv-home-4.jpg": {
+		"ft": 16384,
+		"iS": 843722,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/serv-home-4.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/serv-home-5.jpg": {
+		"ft": 16384,
+		"iS": 261053,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/serv-home-5.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/serv-home-6.jpg": {
+		"ft": 16384,
+		"iS": 1037150,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/serv-home-6.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/serv-home-640-1.jpg": {
+		"ft": 16384,
+		"iS": 24516,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/serv-home-640-1.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/serv-home-640-2.jpg": {
+		"ft": 16384,
+		"iS": 240988,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/serv-home-640-2.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/serv-home-640-3.jpg": {
+		"ft": 16384,
+		"iS": 371219,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/serv-home-640-3.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/serv-home-640-4.jpg": {
+		"ft": 16384,
+		"iS": 200054,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/serv-home-640-4.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/serv-home-640-5.jpg": {
+		"ft": 16384,
+		"iS": 71685,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/serv-home-640-5.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/imgs\/serv-home-640-6.jpg": {
+		"ft": 16384,
+		"iS": 243569,
+		"oA": 0,
+		"oAP": "\/htdocs\/imgs\/serv-home-640-6.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/htdocs\/index.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/htdocs\/index.html",
+		"oF": 0
+		},
+	"\/htdocs\/insulin-and-food-ios-app-design.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/htdocs\/insulin-and-food-ios-app-design.html",
+		"oF": 0
+		},
+	"\/htdocs\/it\/about.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/htdocs\/it\/about.html",
+		"oF": 0
+		},
+	"\/htdocs\/it\/branding-identita-aziendale.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/htdocs\/it\/branding-identita-aziendale.html",
+		"oF": 0
+		},
+	"\/htdocs\/it\/contatti-cambiare-nome.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/htdocs\/it\/contatti-cambiare-nome.html",
+		"oF": 0
+		},
+	"\/htdocs\/it\/edoardo-sportelli-graphic-designer.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/htdocs\/it\/edoardo-sportelli-graphic-designer.html",
+		"oF": 0
+		},
+	"\/htdocs\/it\/emanuele-feliziani-web-developer.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/htdocs\/it\/emanuele-feliziani-web-developer.html",
+		"oF": 0
+		},
+	"\/htdocs\/it\/graphic-print-design.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/htdocs\/it\/graphic-print-design.html",
+		"oF": 0
+		},
+	"\/htdocs\/it\/index.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/htdocs\/it\/index.html",
+		"oF": 0
+		},
+	"\/htdocs\/it\/insulin-and-food-ios-app-design.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/htdocs\/it\/insulin-and-food-ios-app-design.html",
+		"oF": 0
+		},
+	"\/htdocs\/it\/portfolio.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/htdocs\/it\/portfolio.html",
+		"oF": 0
+		},
+	"\/htdocs\/lets-work-together.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/htdocs\/lets-work-together.html",
+		"oF": 0
+		},
+	"\/htdocs\/manifest.appcache": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/htdocs\/manifest.appcache",
+		"oF": 0
+		},
+	"\/htdocs\/portfolio.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/htdocs\/portfolio.html",
+		"oF": 0
+		},
+	"\/htdocs\/scripts-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/htdocs\/min\/scripts-min-ck.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/htdocs\/single-project.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/htdocs\/single-project.html",
+		"oF": 0
+		},
+	"\/htdocs\/sitemap.xml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/htdocs\/sitemap.xml",
+		"oF": 0
+		},
+	"\/htdocs\/style.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/htdocs\/style-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/htdocs\/ui-ux-design.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/htdocs\/ui-ux-design.html",
+		"oF": 0
+		},
+	"\/htdocs\/web-development-social-marketing.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/htdocs\/web-development-social-marketing.html",
+		"oF": 0
+		},
+	"\/htdocs\/yoon-website-ecommerce-creation-brand-redesign.html": {
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/htdocs\/yoon-website-ecommerce-creation-brand-redesign.html",
+		"oF": 0
+		},
+	"\/index.kit": {
+		"ft": 2048,
+		"oA": 0,
+		"oAP": "\/htdocs\/index.html",
+		"oF": 2
+		},
+	"\/it\/about.kit": {
+		"ft": 2048,
+		"oA": 0,
+		"oAP": "\/htdocs\/it\/about.html",
+		"oF": 2
+		},
+	"\/it\/branding.kit": {
+		"ft": 2048,
+		"oA": 0,
+		"oAP": "\/htdocs\/it\/branding-identita-aziendale.html",
+		"oF": 2
+		},
+	"\/it\/contacts.kit": {
+		"ft": 2048,
+		"oA": 0,
+		"oAP": "\/htdocs\/it\/contatti-cambiare-nome.html",
+		"oF": 2
+		},
+	"\/it\/edoardo.kit": {
+		"ft": 2048,
+		"oA": 0,
+		"oAP": "\/htdocs\/it\/edoardo-sportelli-graphic-designer.html",
+		"oF": 2
+		},
+	"\/it\/emanuele.kit": {
+		"ft": 2048,
+		"oA": 0,
+		"oAP": "\/htdocs\/it\/emanuele-feliziani-web-developer.html",
+		"oF": 2
+		},
+	"\/it\/graphics.kit": {
+		"ft": 2048,
+		"oA": 0,
+		"oAP": "\/htdocs\/it\/graphic-print-design.html",
+		"oF": 2
+		},
+	"\/it\/index.kit": {
+		"ft": 2048,
+		"oA": 0,
+		"oAP": "\/htdocs\/it\/index.html",
+		"oF": 2
+		},
+	"\/it\/portfolio.kit": {
+		"ft": 2048,
+		"oA": 0,
+		"oAP": "\/htdocs\/it\/portfolio.html",
+		"oF": 2
+		},
+	"\/it\/projects\/diet-activity-tracker-webapp.kit": {
+		"ft": 2048,
+		"oA": 0,
+		"oAP": "\/htdocs\/diet-activity-tracker-webapp.html",
+		"oF": 0
+		},
+	"\/it\/projects\/insulin-and-food-ios-app-design.kit": {
+		"ft": 2048,
+		"oA": 0,
+		"oAP": "\/htdocs\/it\/insulin-and-food-ios-app-design.html",
+		"oF": 2
+		},
+	"\/it\/projects\/yoon-website-ecommerce-creation-brand-redesign.kit": {
+		"ft": 2048,
+		"oA": 0,
+		"oAP": "\/htdocs\/yoon-website-ecommerce-creation-brand-redesign.html",
+		"oF": 0
+		},
+	"\/it\/ui-ux.kit": {
+		"ft": 2048,
+		"oA": 0,
+		"oAP": "\/htdocs\/it\/user-interface-design.html",
+		"oF": 2
+		},
+	"\/it\/web-development.kit": {
+		"ft": 2048,
+		"oA": 0,
+		"oAP": "\/htdocs\/it\/sviluppo-siti-web-social-media-marketing.html",
+		"oF": 2
+		},
+	"\/min\/_form-scripts-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/min\/min\/_form-scripts-min-ck.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/min\/scripts-single-ck.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "\/min\/min\/scripts-single-ck-ck.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/newgravida.esproj\/Project.espressostorage": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/newgravida.esproj\/Project.espressostorage",
+		"oF": 0
+		},
+	"\/newgravida.esproj\/user.Emanuele.espressostorage": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/newgravida.esproj\/user.Emanuele.espressostorage",
+		"oF": 0
+		},
+	"\/newgravida.esproj\/user.Emanuele.ProjectGlyph.png": {
+		"ft": 32768,
+		"iS": 4322,
+		"oA": 0,
+		"oAP": "\/newgravida.esproj\/user.Emanuele.ProjectGlyph.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/newgravida.esproj\/user.GioSensation.espressostorage": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/newgravida.esproj\/user.GioSensation.espressostorage",
+		"oF": 0
+		},
+	"\/newgravida.esproj\/user.GioSensation.ProjectGlyph.png": {
+		"ft": 32768,
+		"iS": 4322,
+		"oA": 0,
+		"oAP": "\/newgravida.esproj\/user.GioSensation.ProjectGlyph.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/portfolio.kit": {
+		"ft": 2048,
+		"oA": 0,
+		"oAP": "\/htdocs\/portfolio.html",
+		"oF": 2
+		},
+	"\/projects\/diet-activity-tracker-webapp.kit": {
+		"ft": 2048,
+		"oA": 0,
+		"oAP": "\/htdocs\/diet-activity-tracker-webapp.html",
+		"oF": 2
+		},
+	"\/projects\/insulin-and-food-ios-app-design.kit": {
+		"ft": 2048,
+		"oA": 0,
+		"oAP": "\/htdocs\/insulin-and-food-ios-app-design.html",
+		"oF": 2
+		},
+	"\/projects\/yoon-website-ecommerce-creation-brand-redesign.kit": {
+		"ft": 2048,
+		"oA": 0,
+		"oAP": "\/htdocs\/yoon-website-ecommerce-creation-brand-redesign.html",
+		"oF": 2
+		},
+	"\/scripts-single.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/min\/scripts-single-ck.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/scripts.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/htdocs\/scripts-min.js",
+		"oF": 2,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/style.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 5,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/htdocs\/style.css",
+		"oF": 2,
+		"oS": 3,
+		"uL": 1
+		},
+	"\/templates\/_mammoccio.kit": {
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/htdocs\/_mammoccio.html",
+		"oF": 0
+		},
+	"\/templates\/_page-no-header.kit": {
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/htdocs\/_page-no-header.html",
+		"oF": 0
+		},
+	"\/templates\/_page.kit": {
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/htdocs\/_page.html",
+		"oF": 0
+		},
+	"\/templates\/_portfolio-single.kit": {
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/htdocs\/_portfolio-single.html",
+		"oF": 0
+		},
+	"\/templates\/_single-project.kit": {
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/htdocs\/_single-project.html",
+		"oF": 0
+		},
+	"\/templates\/_social-template.kit": {
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/htdocs\/_social-template.html",
+		"oF": 0
+		},
+	"\/ui-ux.kit": {
+		"ft": 2048,
+		"oA": 0,
+		"oAP": "\/htdocs\/ui-ux-design.html",
+		"oF": 2
+		},
+	"\/web-development.kit": {
+		"ft": 2048,
+		"oA": 0,
+		"oAP": "\/htdocs\/web-development-social-marketing.html",
+		"oF": 2
+		}
+	},
+"hooks": [
+	],
+"manualImportLinks": {
+	"\/scripts.js": [
+		{
+			"followForSyntaxChecking": 0,
+			"linkedFileAbbreviatedPath": "\/bower_components\/fastclick\/lib\/fastclick.js",
+			"position": 0,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 0,
+			"linkedFileAbbreviatedPath": "\/bower_components\/viewport-units-buggyfill\/viewport-units-buggyfill.js",
+			"position": 1,
+			"type": 0
+			}
+		]
+	},
+"projectAttributes": {
+	"creationDate": 505323160,
+	"displayValue": "newgravida",
+	"displayValueWasSetByUser": 0,
+	"iconImageName": "\/htdocs\/gravida-logo.png"
+	},
+"projectSettings": {
+	"abortBuildOnError": 1,
+	"alwaysUseExternalServer": 1,
+	"animateCSSInjections": 1,
+	"autoBuildNewItems": 1,
+	"autoprefixerBrowserString": "> 1%, last 2 versions, ff 17, opera 12.1",
+	"babelAuxiliaryCommentAfter": "",
+	"babelAuxiliaryCommentBefore": "",
+	"babelConfigFileHandlingType": 0,
+	"babelCustomPluginsList": "",
+	"babelCustomPresetsList": "",
+	"babelInsertModuleIDs": 0,
+	"babelModuleID": "",
+	"babelNoComments": 0,
+	"babelPlugins": {
+		"async-generator-functions": {
+			"active": 0
+			},
+		"async-to-generator": {
+			"active": 0
+			},
+		"async-to-module-method": {
+			"active": 0
+			},
+		"class-properties": {
+			"active": 0
+			},
+		"decorators": {
+			"active": 0
+			},
+		"decorators-legacy": {
+			"active": 0
+			},
+		"do-expressions": {
+			"active": 0
+			},
+		"es2015-arrow-functions": {
+			"active": 0
+			},
+		"es2015-block-scoped-functions": {
+			"active": 0
+			},
+		"es2015-block-scoping": {
+			"active": 0
+			},
+		"es2015-classes": {
+			"active": 0
+			},
+		"es2015-computed-properties": {
+			"active": 0
+			},
+		"es2015-constants": {
+			"active": 0
+			},
+		"es2015-destructuring": {
+			"active": 0
+			},
+		"es2015-duplicate-keys": {
+			"active": 0
+			},
+		"es2015-for-of": {
+			"active": 0
+			},
+		"es2015-function-name": {
+			"active": 0
+			},
+		"es2015-literals": {
+			"active": 0
+			},
+		"es2015-modules-amd": {
+			"active": 0
+			},
+		"es2015-modules-commonjs": {
+			"active": 0
+			},
+		"es2015-modules-systemjs": {
+			"active": 0
+			},
+		"es2015-modules-umd": {
+			"active": 0
+			},
+		"es2015-object-super": {
+			"active": 0
+			},
+		"es2015-parameters": {
+			"active": 0
+			},
+		"es2015-shorthand-properties": {
+			"active": 0
+			},
+		"es2015-spread": {
+			"active": 0
+			},
+		"es2015-sticky-regex": {
+			"active": 0
+			},
+		"es2015-template-literals": {
+			"active": 0
+			},
+		"es2015-typeof-symbol": {
+			"active": 0
+			},
+		"es2015-unicode-regex": {
+			"active": 0
+			},
+		"es3-member-expression-literals": {
+			"active": 0
+			},
+		"es3-property-literals": {
+			"active": 0
+			},
+		"es5-property-mutators": {
+			"active": 0
+			},
+		"eval": {
+			"active": 0
+			},
+		"exponentiation-operator": {
+			"active": 0
+			},
+		"export-extensions": {
+			"active": 0
+			},
+		"external-helpers": {
+			"active": 0
+			},
+		"flow-comments": {
+			"active": 0
+			},
+		"flow-strip-types": {
+			"active": 0
+			},
+		"function-bind": {
+			"active": 0
+			},
+		"inline-environment-variables": {
+			"active": 0
+			},
+		"jscript": {
+			"active": 0
+			},
+		"member-expression-literals": {
+			"active": 0
+			},
+		"merge-sibling-variables": {
+			"active": 0
+			},
+		"minify-booleans": {
+			"active": 0
+			},
+		"node-env-inline": {
+			"active": 0
+			},
+		"object-assign": {
+			"active": 0
+			},
+		"object-rest-spread": {
+			"active": 0
+			},
+		"object-set-prototype-of-to-assign": {
+			"active": 0
+			},
+		"property-literals": {
+			"active": 0
+			},
+		"proto-to-assign": {
+			"active": 0
+			},
+		"react-constant-elements": {
+			"active": 0
+			},
+		"react-display-name": {
+			"active": 0
+			},
+		"react-inline-elements": {
+			"active": 0
+			},
+		"react-jsx": {
+			"active": 0
+			},
+		"react-jsx-compat": {
+			"active": 0
+			},
+		"react-jsx-self": {
+			"active": 0
+			},
+		"react-jsx-source": {
+			"active": 0
+			},
+		"regenerator": {
+			"active": 0
+			},
+		"remove-console": {
+			"active": 0
+			},
+		"remove-debugger": {
+			"active": 0
+			},
+		"runtime": {
+			"active": 0
+			},
+		"simplify-comparison-operators": {
+			"active": 0
+			},
+		"strict-mode": {
+			"active": 0
+			},
+		"syntax-async-generators": {
+			"active": 0
+			},
+		"syntax-class-properties": {
+			"active": 0
+			},
+		"syntax-decorators": {
+			"active": 0
+			},
+		"syntax-do-expressions": {
+			"active": 0
+			},
+		"syntax-export-extensions": {
+			"active": 0
+			},
+		"syntax-flow": {
+			"active": 0
+			},
+		"syntax-function-bind": {
+			"active": 0
+			},
+		"syntax-function-sent": {
+			"active": 0
+			},
+		"syntax-jsx": {
+			"active": 0
+			},
+		"syntax-object-rest-spread": {
+			"active": 0
+			},
+		"undeclared-variables-check": {
+			"active": 0
+			},
+		"undefined-to-void": {
+			"active": 0
+			}
+		},
+	"babelPresetType": 193,
+	"babelRetainLines": 0,
+	"bowerAbbreviatedPath": "bower_components",
+	"bowerAutoCreateInfoFile": 1,
+	"bowerInstallDevDependencies": 0,
+	"bowerSaveDependencies": 1,
+	"bowerSaveDevDependencies": 0,
+	"bowerUseExactVersion": 0,
+	"browserRefreshDelay": 0,
+	"buildFolderActive": 0,
+	"buildFolderName": "build",
+	"cleanBuild": 1,
+	"coffeeLintFlags2": {
+		"arrow_spacing": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"camel_case_classes": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"colon_assignment_spacing": {
+			"active": 0,
+			"flagValue": 1
+			},
+		"cyclomatic_complexity": {
+			"active": 0,
+			"flagValue": 10
+			},
+		"duplicate_key": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"empty_constructor_needs_parens": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"ensure_comprehensions": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"indentation": {
+			"active": 1,
+			"flagValue": 2
+			},
+		"line_endings": {
+			"active": 0,
+			"flagValue": 0
+			},
+		"max_line_length": {
+			"active": 0,
+			"flagValue": 150
+			},
+		"missing_fat_arrows": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"newlines_after_classes": {
+			"active": 0,
+			"flagValue": 3
+			},
+		"no_backticks": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_debugger": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_empty_functions": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_empty_param_list": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_implicit_braces": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_implicit_parens": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_interpolation_in_single_quotes": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_nested_string_interpolation": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_plusplus": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_private_function_fat_arrows": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_stand_alone_at": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_tabs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_this": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_throwing_strings": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_trailing_semicolons": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_trailing_whitespace": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_unnecessary_double_quotes": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_unnecessary_fat_arrows": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"non_empty_constructor_needs_parens": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"prefer_english_operator": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"space_operators": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"spacing_after_comma": {
+			"active": 1,
+			"flagValue": -1
+			}
+		},
+	"esLintConfigFileHandlingType": 0,
+	"esLintECMAVersion": 7,
+	"esLintEnvironmentsMask": 1,
+	"esLintRules": {
+		"accessor-pairs": {
+			"active": 0,
+			"optionString": "{'setWithoutGet': true, 'getWithoutSet': false}"
+			},
+		"array-bracket-spacing": {
+			"active": 0,
+			"optionString": "'never', {'singleValue': false, 'objectsInArrays': false, 'arraysInArrays': false}"
+			},
+		"array-callback-return": {
+			"active": 0,
+			"optionString": ""
+			},
+		"arrow-body-style": {
+			"active": 0,
+			"optionString": "'as-needed', {'requireReturnForObjectLiteral': false}"
+			},
+		"arrow-parens": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"arrow-spacing": {
+			"active": 0,
+			"optionString": "{'before': true, 'after': true}"
+			},
+		"block-scoped-var": {
+			"active": 0,
+			"optionString": ""
+			},
+		"block-spacing": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"brace-style": {
+			"active": 0,
+			"optionString": "'1tbs', {'allowSingleLine': true}"
+			},
+		"callback-return": {
+			"active": 0,
+			"optionString": "['callback', 'cb', 'next']"
+			},
+		"camelcase": {
+			"active": 0,
+			"optionString": "{'properties': 'always'}"
+			},
+		"capitalized-comments": {
+			"active": 0,
+			"optionString": "'always', {'ignoreInlineComments': false, 'ignoreConsecutiveComments': false}"
+			},
+		"class-methods-use-this": {
+			"active": 0,
+			"optionString": "{'exceptMethods': []}"
+			},
+		"comma-dangle": {
+			"active": 1,
+			"optionString": "'never'"
+			},
+		"comma-spacing": {
+			"active": 0,
+			"optionString": "{'before': false, 'after': true}"
+			},
+		"comma-style": {
+			"active": 0,
+			"optionString": "'last'"
+			},
+		"complexity": {
+			"active": 0,
+			"optionString": "20"
+			},
+		"computed-property-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"consistent-return": {
+			"active": 0,
+			"optionString": "{'treatUndefinedAsUnspecified': false}"
+			},
+		"consistent-this": {
+			"active": 0,
+			"optionString": "'that'"
+			},
+		"constructor-super": {
+			"active": 1,
+			"optionString": ""
+			},
+		"curly": {
+			"active": 0,
+			"optionString": "'all'"
+			},
+		"default-case": {
+			"active": 0,
+			"optionString": ""
+			},
+		"dot-location": {
+			"active": 0,
+			"optionString": "'object'"
+			},
+		"dot-notation": {
+			"active": 0,
+			"optionString": "{'allowKeywords': false}"
+			},
+		"eol-last": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"eqeqeq": {
+			"active": 0,
+			"optionString": "'always', {'null': 'always'}"
+			},
+		"func-call-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"func-name-matching": {
+			"active": 0,
+			"optionString": "'always', {'includeCommonJSModuleExports': false}"
+			},
+		"func-names": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"func-style": {
+			"active": 0,
+			"optionString": "'expression'"
+			},
+		"generator-star-spacing": {
+			"active": 0,
+			"optionString": "{'before': true, 'after': false}"
+			},
+		"global-require": {
+			"active": 0,
+			"optionString": ""
+			},
+		"guard-for-in": {
+			"active": 0,
+			"optionString": ""
+			},
+		"handle-callback-err": {
+			"active": 0,
+			"optionString": "'err'"
+			},
+		"id-blacklist": {
+			"active": 0,
+			"optionString": "'data', 'err', 'e', 'cb', 'callback'"
+			},
+		"id-length": {
+			"active": 0,
+			"optionString": "{'min': 2, 'max': 1000, 'properties': 'always', 'exceptions': ['x', 'i', 'y']}"
+			},
+		"id-match": {
+			"active": 0,
+			"optionString": "'^[a-z]+([A-Z][a-z]+)*$', {'properties': false, 'onlyDeclarations': true}"
+			},
+		"indent": {
+			"active": 0,
+			"optionString": "4, {'SwitchCase': 0, 'VariableDeclarator': 1, 'outerIIFEBody': 1, }"
+			},
+		"init-declarations": {
+			"active": 0,
+			"optionString": "'always',  {'ignoreForLoopInit': true}"
+			},
+		"jsx-quotes": {
+			"active": 0,
+			"optionString": "'prefer-double'"
+			},
+		"key-spacing": {
+			"active": 0,
+			"optionString": "{'singleLine': {'beforeColon': false, 'afterColon': true, 'mode':'strict'}, 'multiLine': {'beforeColon': false, 'afterColon': true, 'align': 'value', 'mode':'minimum'}}"
+			},
+		"keyword-spacing": {
+			"active": 0,
+			"optionString": "{'before': true, 'after': true, 'overrides': {}}"
+			},
+		"line-comment-position": {
+			"active": 0,
+			"optionString": "{'position': 'above'}"
+			},
+		"linebreak-style": {
+			"active": 0,
+			"optionString": "'unix'"
+			},
+		"lines-around-comment": {
+			"active": 0,
+			"optionString": "{'beforeBlockComment': true}"
+			},
+		"lines-around-directive": {
+			"active": 0,
+			"optionString": "{'before': 'always', 'after': 'always'}"
+			},
+		"max-depth": {
+			"active": 0,
+			"optionString": "{'max': 4}"
+			},
+		"max-len": {
+			"active": 0,
+			"optionString": "{'code': 80, 'comments': 80, 'tabWidth': 4, 'ignoreUrls': true, 'ignoreStrings': true, 'ignoreTemplateLiterals': true, 'ignoreRegExpLiterals': true}"
+			},
+		"max-lines": {
+			"active": 0,
+			"optionString": "{'max': 300, 'skipBlankLines': true, 'skipComments': true}"
+			},
+		"max-nested-callbacks": {
+			"active": 0,
+			"optionString": "{'max': 10}"
+			},
+		"max-params": {
+			"active": 0,
+			"optionString": "{'max': 4}"
+			},
+		"max-statements": {
+			"active": 0,
+			"optionString": "{'max': 10}, {'ignoreTopLevelFunctions': true}"
+			},
+		"max-statements-per-line": {
+			"active": 0,
+			"optionString": "{'max': 1}"
+			},
+		"multiline-ternary": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"new-cap": {
+			"active": 0,
+			"optionString": "{'newIsCap': true, 'capIsNew': true, 'newIsCapExceptions': [], 'capIsNewExceptions': ['Array', 'Boolean', 'Date', 'Error', 'Function', 'Number', 'Object', 'RegExp', 'String', 'Symbol'], 'properties': true}"
+			},
+		"new-parens": {
+			"active": 0,
+			"optionString": ""
+			},
+		"newline-after-var": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"newline-before-return": {
+			"active": 0,
+			"optionString": ""
+			},
+		"newline-per-chained-call": {
+			"active": 0,
+			"optionString": "{'ignoreChainWithDepth': 2}"
+			},
+		"no-alert": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-array-constructor": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-bitwise": {
+			"active": 0,
+			"optionString": "{'allow': ['~'], 'int32Hint': true}"
+			},
+		"no-caller": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-case-declarations": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-catch-shadow": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-class-assign": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-cond-assign": {
+			"active": 1,
+			"optionString": "'except-parens'"
+			},
+		"no-confusing-arrow": {
+			"active": 0,
+			"optionString": "{'allowParens': false}"
+			},
+		"no-console": {
+			"active": 1,
+			"optionString": "{'allow': ['warn', 'error']}"
+			},
+		"no-const-assign": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-constant-condition": {
+			"active": 1,
+			"optionString": "{'checkLoops': true}"
+			},
+		"no-continue": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-control-regex": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-debugger": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-delete-var": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-div-regex": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-dupe-args": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-dupe-class-members": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-dupe-keys": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-duplicate-imports": {
+			"active": 0,
+			"optionString": "{'includeExports': false}"
+			},
+		"no-else-return": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-empty": {
+			"active": 1,
+			"optionString": "{'allowEmptyCatch': false}"
+			},
+		"no-empty-character-class": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-empty-function": {
+			"active": 0,
+			"optionString": "{'allow': []}"
+			},
+		"no-empty-pattern": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-eq-null": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-eval": {
+			"active": 0,
+			"optionString": "{'allowIndirect': false}"
+			},
+		"no-ex-assign": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-extend-native": {
+			"active": 0,
+			"optionString": "{'exceptions': []}"
+			},
+		"no-extra-bind": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-extra-boolean-cast": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-extra-labels": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-extra-parens": {
+			"active": 1,
+			"optionString": "'all', {'conditionalAssign': false, 'returnAssign': false, 'nestedBinaryExpressions': false}"
+			},
+		"no-extra-semi": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-fallthrough": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-floating-decimal": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-func-assign": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-global-assign": {
+			"active": 0,
+			"optionString": "{'exceptions': []}"
+			},
+		"no-implicit-coercion": {
+			"active": 0,
+			"optionString": "{'boolean': true, 'number': true, 'string': true, 'allow': []}"
+			},
+		"no-implicit-globals": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-implied-eval": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-inline-comments": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-inner-declarations": {
+			"active": 1,
+			"optionString": "'functions'"
+			},
+		"no-invalid-regexp": {
+			"active": 1,
+			"optionString": "{'allowConstructorFlags': ['u', 'y']}"
+			},
+		"no-invalid-this": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-irregular-whitespace": {
+			"active": 1,
+			"optionString": "{'skipStrings': true, 'skipComments': false, 'skipRegExps': true, 'skipTemplates': true}"
+			},
+		"no-iterator": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-label-var": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-labels": {
+			"active": 0,
+			"optionString": "{'allowLoop': false, 'allowSwitch': false}"
+			},
+		"no-lone-blocks": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-lonely-if": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-loop-func": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-magic-numbers": {
+			"active": 0,
+			"optionString": "{'ignore': [], 'ignoreArrayIndexes': true, 'enforceConst': false, 'detectObjects': false}"
+			},
+		"no-mixed-operators": {
+			"active": 0,
+			"optionString": "{'groups': [['+', '-', '*', '\/', '%', '**'], ['&', '|', '^', '~', '<<', '>>', '>>>'], ['==', '!=', '===', '!==', '>', '>=', '<', '<='], ['&&', '||'], ['in', 'instanceof']], 'allowSamePrecedence': true}"
+			},
+		"no-mixed-requires": {
+			"active": 0,
+			"optionString": "{'grouping': false, 'allowCall': false }"
+			},
+		"no-mixed-spaces-and-tabs": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-multi-spaces": {
+			"active": 0,
+			"optionString": "{'exceptions': {'Property': true, 'BinaryExpression': false, 'VariableDeclarator': false, 'ImportDeclaration': false}}"
+			},
+		"no-multi-str": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-multiple-empty-lines": {
+			"active": 0,
+			"optionString": "{'max': 2, 'maxBOF': 2, 'maxEOF': 2}"
+			},
+		"no-negated-condition": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-nested-ternary": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-new": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-new-func": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-new-object": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-new-require": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-new-symbol": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-new-wrappers": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-obj-calls": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-octal": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-octal-escape": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-param-reassign": {
+			"active": 0,
+			"optionString": "{'props': false}"
+			},
+		"no-path-concat": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-plusplus": {
+			"active": 0,
+			"optionString": "{'allowForLoopAfterthoughts': false}"
+			},
+		"no-process-env": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-process-exit": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-proto": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-redeclare": {
+			"active": 1,
+			"optionString": "{'builtinGlobals': false}"
+			},
+		"no-regex-spaces": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-restricted-globals": {
+			"active": 0,
+			"optionString": "'event', 'fdescribe'"
+			},
+		"no-restricted-imports": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-restricted-modules": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-restricted-properties": {
+			"active": 0,
+			"optionString": "[{'object': 'disallowedObjectName', 'property': 'disallowedPropertyName'}, {'object': 'disallowedObjectName', 'property': 'anotherDisallowedPropertyName', 'message': 'Please use allowedObjectName.allowedPropertyName.'}]"
+			},
+		"no-restricted-syntax": {
+			"active": 0,
+			"optionString": "'FunctionExpression', 'WithStatement'"
+			},
+		"no-return-assign": {
+			"active": 0,
+			"optionString": "'except-parens'"
+			},
+		"no-return-await": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-script-url": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-self-assign": {
+			"active": 1,
+			"optionString": "{'props': false}"
+			},
+		"no-self-compare": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-sequences": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-shadow": {
+			"active": 0,
+			"optionString": "{'builtinGlobals': false, 'hoist': 'functions', 'allow': []}"
+			},
+		"no-shadow-restricted-names": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-sparse-arrays": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-sync": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-tabs": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-template-curly-in-string": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-ternary": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-this-before-super": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-throw-literal": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-trailing-spaces": {
+			"active": 0,
+			"optionString": "{'skipBlankLines': false}"
+			},
+		"no-undef": {
+			"active": 1,
+			"optionString": "{'typeof': false}"
+			},
+		"no-undef-init": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-undefined": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-underscore-dangle": {
+			"active": 0,
+			"optionString": "{'allow': [], 'allowAfterThis': false, 'allowAfterSuper': false}"
+			},
+		"no-unexpected-multiline": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-unmodified-loop-condition": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-unneeded-ternary": {
+			"active": 0,
+			"optionString": "{'defaultAssignment': true}"
+			},
+		"no-unreachable": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-unsafe-finally": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-unsafe-negation": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-unused-expressions": {
+			"active": 0,
+			"optionString": "{'allowShortCircuit': false, 'allowTernary': false}"
+			},
+		"no-unused-labels": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-unused-vars": {
+			"active": 1,
+			"optionString": "{'vars': 'all', 'args': 'after-used', 'caughtErrors': 'none'}"
+			},
+		"no-use-before-define": {
+			"active": 0,
+			"optionString": "{'functions': true, 'classes': true}"
+			},
+		"no-useless-call": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-useless-computed-key": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-useless-concat": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-useless-constructor": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-useless-escape": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-useless-rename": {
+			"active": 0,
+			"optionString": "{'ignoreDestructuring': false, 'ignoreImport': false, 'ignoreExport': false}"
+			},
+		"no-useless-return": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-var": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-void": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-warning-comments": {
+			"active": 0,
+			"optionString": "{'terms': ['todo', 'fixme', 'xxx'], 'location': 'start'}"
+			},
+		"no-whitespace-before-property": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-with": {
+			"active": 0,
+			"optionString": ""
+			},
+		"object-curly-newline": {
+			"active": 0,
+			"optionString": "{'ObjectExpression': {'multiline': true}, 'ObjectPattern': {'multiline': true}}"
+			},
+		"object-curly-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"object-property-newline": {
+			"active": 0,
+			"optionString": "{'allowMultiplePropertiesPerLine': true}"
+			},
+		"object-shorthand": {
+			"active": 0,
+			"optionString": "'always', {'avoidQuotes': false, 'ignoreConstructors': false}"
+			},
+		"one-var": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"one-var-declaration-per-line": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"operator-assignment": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"operator-linebreak": {
+			"active": 0,
+			"optionString": "'after', {'overrides': {'?': 'after', '+=': 'none'}}"
+			},
+		"padded-blocks": {
+			"active": 0,
+			"optionString": "{'blocks': 'always', 'switches': 'always', 'classes': 'always'}"
+			},
+		"prefer-arrow-callback": {
+			"active": 0,
+			"optionString": ""
+			},
+		"prefer-const": {
+			"active": 0,
+			"optionString": "{'destructuring': 'any', 'ignoreReadBeforeAssign': false}"
+			},
+		"prefer-numeric-literals": {
+			"active": 0,
+			"optionString": ""
+			},
+		"prefer-rest-params": {
+			"active": 0,
+			"optionString": ""
+			},
+		"prefer-spread": {
+			"active": 0,
+			"optionString": ""
+			},
+		"prefer-template": {
+			"active": 0,
+			"optionString": ""
+			},
+		"quote-props": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"quotes": {
+			"active": 0,
+			"optionString": "'double', {'avoidEscape': true, 'allowTemplateLiterals': true}"
+			},
+		"radix": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"require-await": {
+			"active": 0,
+			"optionString": ""
+			},
+		"require-jsdoc": {
+			"active": 0,
+			"optionString": "{'require': {'FunctionDeclaration': true, 'MethodDefinition': false, 'ClassDeclaration': false, 'ArrowFunctionExpression': false}}"
+			},
+		"require-yield": {
+			"active": 0,
+			"optionString": ""
+			},
+		"rest-spread-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"semi": {
+			"active": 0,
+			"optionString": "'always', {'omitLastInOneLineBlock': false}"
+			},
+		"semi-spacing": {
+			"active": 0,
+			"optionString": "{'before': false, 'after': true}"
+			},
+		"sort-imports": {
+			"active": 0,
+			"optionString": "{'ignoreCase': false, 'ignoreMemberSort': true, 'memberSyntaxSortOrder': ['none', 'all', 'multiple', 'single']}"
+			},
+		"sort-keys": {
+			"active": 0,
+			"optionString": "'asc', {'caseSensitive': true, 'natural': false}"
+			},
+		"sort-vars": {
+			"active": 0,
+			"optionString": "{'ignoreCase': false}"
+			},
+		"space-before-blocks": {
+			"active": 0,
+			"optionString": "{'functions': 'always', 'keywords': 'always', 'classes': 'always'}"
+			},
+		"space-before-function-paren": {
+			"active": 0,
+			"optionString": "{'anonymous': 'always', 'named': 'never'}"
+			},
+		"space-in-parens": {
+			"active": 0,
+			"optionString": "'never', {'exceptions': []}"
+			},
+		"space-infix-ops": {
+			"active": 0,
+			"optionString": "{'int32Hint': false}"
+			},
+		"space-unary-ops": {
+			"active": 0,
+			"optionString": "{'words': true, 'nonwords': false, 'overrides': {}}"
+			},
+		"spaced-comment": {
+			"active": 0,
+			"optionString": "'always', {'line': {'markers': ['\/'], 'exceptions': ['-', '+']}, 'block': {'markers': ['!'], 'exceptions': ['*'], 'balanced': false}}"
+			},
+		"strict": {
+			"active": 0,
+			"optionString": "'safe'"
+			},
+		"symbol-description": {
+			"active": 0,
+			"optionString": ""
+			},
+		"template-curly-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"unicode-bom": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"use-isnan": {
+			"active": 1,
+			"optionString": ""
+			},
+		"valid-jsdoc": {
+			"active": 0,
+			"optionString": "{'prefer': {'return': 'returns'}, 'requireReturn': true, 'requireReturnDescription': true, 'requireReturnType': true, 'requireParamDescription': true}"
+			},
+		"valid-typeof": {
+			"active": 1,
+			"optionString": "{'requireStringLiterals': true}"
+			},
+		"vars-on-top": {
+			"active": 0,
+			"optionString": ""
+			},
+		"wrap-iife": {
+			"active": 0,
+			"optionString": "'outside'"
+			},
+		"wrap-regex": {
+			"active": 0,
+			"optionString": ""
+			},
+		"yield-star-spacing": {
+			"active": 0,
+			"optionString": "{'before': false, 'after': true}"
+			},
+		"yoda": {
+			"active": 0,
+			"optionString": "'never', {'exceptRange': false, 'onlyEquality': false}"
+			}
+		},
+	"esLintSourceType": 0,
+	"externalServerAddress": "http:\/\/gravida.dio",
+	"gitIgnoreBuildFolder": 1,
+	"hideConfigFile": 0,
+	"jsCheckerReservedNamesString": "",
+	"jsHintFlags2": {
+		"asi": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"bitwise": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"boss": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"browser": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"browserify": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"camelcase": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"couch": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"curly": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"debug": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"devel": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"dojo": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"elision": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"eqeqeq": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"eqnull": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"es3": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"esnext": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"evil": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"expr": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"forin": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"freeze": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"funcscope": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"futurehostile": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"globalstrict": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"immed": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"indent": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"iterator": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"jasmine": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"jquery": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"lastsemic": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"latedef": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"laxbreak": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"laxcomma": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"loopfunc": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"maxcomplexity": {
+			"active": 0,
+			"flagValue": 10
+			},
+		"maxdepth": {
+			"active": 0,
+			"flagValue": 3
+			},
+		"maxlen": {
+			"active": 0,
+			"flagValue": 150
+			},
+		"maxparams": {
+			"active": 0,
+			"flagValue": 3
+			},
+		"maxstatements": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"mocha": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"mootools": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"moz": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"multistr": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"newcap": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"noarg": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"nocomma": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"node": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"noempty": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"nonbsp": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"nonew": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"nonstandard": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"notypeof": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"noyield": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"onecase": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"phantom": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"plusplus": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"proto": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"prototypejs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"qunit": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"regexp": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"rhino": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"scripturl": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"shadow": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"shelljs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"singleGroups": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"strict": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"sub": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"supernew": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"typed": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"undef": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"unused": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"varstmt": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"withstmt": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"worker": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"wsh": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"yui": {
+			"active": 0,
+			"flagValue": -1
+			}
+		},
+	"jsLintFlags2": {
+		"bitwise": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"browser": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"couch": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"devel": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"es6": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"eval": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"for": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"maxlen": {
+			"active": 0,
+			"flagValue": 150
+			},
+		"node": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"this": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"white": {
+			"active": 0,
+			"flagValue": -1
+			}
+		},
+	"languageDefaultsCOFFEE": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.js",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"createSourceMap": 0,
+		"minifyOutput": 1,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
+	"languageDefaultsCSS": {
+		"autoOutputAction": 2,
+		"autoOutputPathFilenamePattern": "*-min.css",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"createSourceMap": 0,
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0
+		},
+	"languageDefaultsGIF": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.gif",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0
+		},
+	"languageDefaultsHAML": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.html",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"escapeHTMLCharacters": 0,
+		"noEscapeInAttributes": 0,
+		"outputFormat": 2,
+		"outputStyle": 0,
+		"useCDATA": 0,
+		"useDoubleQuotes": 0,
+		"useUnixNewlines": 0
+		},
+	"languageDefaultsJPG": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.jpg",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0
+		},
+	"languageDefaultsJS": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*-min.js",
+		"autoOutputPathRelativePath": "\/min",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 2,
+		"createSourceMap": 0,
+		"minifyOutput": 1,
+		"syntaxCheckerStyle": 1,
+		"transpilerStyle": 0
+		},
+	"languageDefaultsJSON": {
+		"autoOutputAction": 1,
+		"autoOutputPathFilenamePattern": "*-min.json",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"orderOutput": 0,
+		"outputStyle": 1
+		},
+	"languageDefaultsJSX": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.js",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "jsx",
+		"autoOutputPathReplace2": "js",
+		"autoOutputPathStyle": 0
+		},
+	"languageDefaultsKIT": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.html",
+		"autoOutputPathRelativePath": "htdocs",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 1
+		},
+	"languageDefaultsLESS": {
+		"allowInsecureImports": 0,
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.css",
+		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathReplace1": "less",
+		"autoOutputPathReplace2": "css",
+		"autoOutputPathStyle": 2,
+		"createSourceMap": 0,
+		"disableJavascript": 0,
+		"ieCompatibility": 1,
+		"outputStyle": 0,
+		"relativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"strictImports": 0,
+		"strictMath": 0,
+		"strictUnits": 0
+		},
+	"languageDefaultsMARKDOWN": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.html",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"criticStyle": 0,
+		"enableFootnotes": 0,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"escapeLineBreaks": 0,
+		"maskEmailAddresses": 1,
+		"outputFormat": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"useCompatibilityMode": 0
+		},
+	"languageDefaultsOTHER": {
+		"autoOutputAction": 2,
+		"autoOutputPathFilenamePattern": "*.*",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0
+		},
+	"languageDefaultsPNG": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.png",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0
+		},
+	"languageDefaultsPUG": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.html",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"compileDebug": 1,
+		"outputStyle": 0
+		},
+	"languageDefaultsSASS": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.css",
+		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathReplace1": "sass",
+		"autoOutputPathReplace2": "css",
+		"autoOutputPathStyle": 2,
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 1
+		},
+	"languageDefaultsSLIM": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.html",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"compileOnly": 0,
+		"logicless": 0,
+		"outputFormat": 0,
+		"outputStyle": 1,
+		"railsCompatible": 0
+		},
+	"languageDefaultsSTYLUS": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.css",
+		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathReplace1": "stylus",
+		"autoOutputPathReplace2": "css",
+		"autoOutputPathStyle": 2,
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"importCSS": 0,
+		"outputStyle": 0,
+		"resolveRelativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0
+		},
+	"languageDefaultsSVG": {
+		"autoOutputAction": 2,
+		"autoOutputPathFilenamePattern": "*.svg",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"pluginMask": 3758088159
+		},
+	"languageDefaultsTS": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.js",
+		"autoOutputPathRelativePath": "\/js",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 2,
+		"createDeclarationFile": 0,
+		"createSourceMap": 0,
+		"jsxMode": 0,
+		"minifyOutput": 0,
+		"moduleResolutionType": 0,
+		"moduleType": 0,
+		"noImplicitAny": 0,
+		"preserveConstEnums": 0,
+		"removeComments": 0,
+		"suppressImplicitAnyIndexErrors": 0,
+		"targetECMAVersion": 0
+		},
+	"languageDefaultsUserDefined": [
+		],
+	"previewPathAddition": "",
+	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules",
+	"sourceFolderName": "source",
+	"uglifyDefinesString": "",
+	"uglifyFlags2": {
+		"ascii-only": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"bare-returns": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"booleans": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"bracketize": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"cascade": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"comments": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"comparisons": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"compress": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"conditionals": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"dead_code": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"drop_console": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"drop_debugger": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"eval": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"evaluate": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"hoist_funs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"hoist_vars": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"if_return": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"indent-level": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"indent-start": {
+			"active": 0,
+			"flagValue": 0
+			},
+		"inline-script": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"join_vars": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"keep_fargs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"keep_fnames": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"loops": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"mangle": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"max-line-len": {
+			"active": 1,
+			"flagValue": 32000
+			},
+		"negate_iife": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"properties": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"pure_getters": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"quote-keys": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"screw-ie8": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"semicolons": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"sequences": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"sort": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"space-colon": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"support-ie8": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"toplevel": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unused": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"warnings": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"width": {
+			"active": 1,
+			"flagValue": 80
+			}
+		},
+	"uglifyReservedNamesString": "$",
+	"websiteRelativeRoot": ""
+	},
+"settingsFileVersion": "3"
+}
