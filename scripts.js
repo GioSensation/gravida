@@ -40,11 +40,6 @@ Math.easeInOutQuad = function (t, b, c, d) {
 window.addEventListener('DOMContentLoaded', function () {
 	var header = document.querySelector('body > header');
 	
-	// FastClick magic
-	FastClick.attach(document.body);
-	// Add a polyfill to fix the vh issue in Mobile Safari
-	window.viewportUnitsBuggyfill.init();
-	
 	document.getElementById('contacts-nav-link').addEventListener('click', function(event) {
 		event.preventDefault();
 		scrollTo(document.body.scrollHeight, 400);
