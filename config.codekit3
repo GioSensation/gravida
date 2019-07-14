@@ -7,11 +7,12 @@
 		"uuidString": "84DD42BF-CDED-4F4F-8D9D-71317717BBDE"
 		}
 	],
-"creatorBuild": "28905",
+"creatorBuild": "29156",
 "files": {
 	"/.gitignore": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/.gitignore",
 		"oF": 0
@@ -19,6 +20,7 @@
 	"/.sass-cache/87f490f7ad672c936c6864746fe5f4aef4724ac4/_fontello.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
 		"oAP": "/.sass-cache/87f490f7ad672c936c6864746fe5f4aef4724ac4/_fontello.scssc",
 		"oF": 0
@@ -26,6 +28,7 @@
 	"/.sass-cache/87f490f7ad672c936c6864746fe5f4aef4724ac4/style.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/.sass-cache/87f490f7ad672c936c6864746fe5f4aef4724ac4/style.scssc",
 		"oF": 0
@@ -33,6 +36,7 @@
 	"/.sass-cache/cbeba193e979e870038d11246ee089bd7bc6d65d/_fontello.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
 		"oAP": "/.sass-cache/cbeba193e979e870038d11246ee089bd7bc6d65d/_fontello.scssc",
 		"oF": 0
@@ -40,13 +44,23 @@
 	"/.sass-cache/cbeba193e979e870038d11246ee089bd7bc6d65d/style.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/.sass-cache/cbeba193e979e870038d11246ee089bd7bc6d65d/style.scssc",
 		"oF": 0
 		},
+	"/.vscode/sftp.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/.vscode/sftp-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
 	"/404-page-not-found.kit": {
 		"cB": 0,
 		"ft": 2048,
+		"hM": 1,
 		"oA": 0,
 		"oAP": "/htdocs/404-page-not-found.html",
 		"oF": 0
@@ -67,6 +81,7 @@
 	"/_footer.kit": {
 		"cB": 0,
 		"ft": 2048,
+		"hM": 1,
 		"oA": 1,
 		"oAP": "/htdocs/_footer.html",
 		"oF": 0
@@ -74,6 +89,7 @@
 	"/_header.kit": {
 		"cB": 0,
 		"ft": 2048,
+		"hM": 1,
 		"oA": 1,
 		"oAP": "/htdocs/_header.html",
 		"oF": 0
@@ -81,6 +97,7 @@
 	"/_language-en.kit": {
 		"cB": 0,
 		"ft": 2048,
+		"hM": 1,
 		"oA": 1,
 		"oAP": "/htdocs/_language-en.html",
 		"oF": 0
@@ -88,6 +105,7 @@
 	"/_language-it.kit": {
 		"cB": 0,
 		"ft": 2048,
+		"hM": 1,
 		"oA": 1,
 		"oAP": "/htdocs/_language-it.html",
 		"oF": 0
@@ -95,6 +113,7 @@
 	"/_links-en.kit": {
 		"cB": 0,
 		"ft": 2048,
+		"hM": 1,
 		"oA": 1,
 		"oAP": "/htdocs/_links-en.html",
 		"oF": 1
@@ -102,6 +121,7 @@
 	"/about.kit": {
 		"cB": 0,
 		"ft": 2048,
+		"hM": 1,
 		"oA": 0,
 		"oAP": "/htdocs/about.html",
 		"oF": 2
@@ -109,6 +129,7 @@
 	"/bad-client-bad-work.kit": {
 		"cB": 0,
 		"ft": 2048,
+		"hM": 1,
 		"oA": 1,
 		"oAP": "/htdocs/bad-client-bad-work.html",
 		"oF": 3
@@ -116,6 +137,7 @@
 	"/branding.kit": {
 		"cB": 0,
 		"ft": 2048,
+		"hM": 1,
 		"oA": 0,
 		"oAP": "/htdocs/branding-corporate-identity.html",
 		"oF": 2
@@ -123,6 +145,7 @@
 	"/contacts.kit": {
 		"cB": 0,
 		"ft": 2048,
+		"hM": 1,
 		"oA": 0,
 		"oAP": "/htdocs/lets-work-together.html",
 		"oF": 2
@@ -130,6 +153,7 @@
 	"/contents/_edo-cont-ita.kit": {
 		"cB": 0,
 		"ft": 2048,
+		"hM": 1,
 		"oA": 1,
 		"oAP": "/htdocs/_edo-cont-ita.html",
 		"oF": 0
@@ -137,6 +161,7 @@
 	"/contents/_edo-cont.kit": {
 		"cB": 0,
 		"ft": 2048,
+		"hM": 1,
 		"oA": 1,
 		"oAP": "/htdocs/_edo-cont.html",
 		"oF": 0
@@ -144,6 +169,7 @@
 	"/contents/_ema-cont-ita.kit": {
 		"cB": 0,
 		"ft": 2048,
+		"hM": 1,
 		"oA": 1,
 		"oAP": "/htdocs/_ema-cont-ita.html",
 		"oF": 0
@@ -151,6 +177,7 @@
 	"/contents/_ema-cont.kit": {
 		"cB": 0,
 		"ft": 2048,
+		"hM": 1,
 		"oA": 1,
 		"oAP": "/htdocs/_ema-cont.html",
 		"oF": 0
@@ -158,6 +185,7 @@
 	"/contents/projects/_insulin-and-food-content-it.kit": {
 		"cB": 0,
 		"ft": 2048,
+		"hM": 1,
 		"oA": 1,
 		"oAP": "/htdocs/_insulin-and-food-content-it.html",
 		"oF": 0
@@ -165,6 +193,7 @@
 	"/contents/projects/_insulin-and-food-content.kit": {
 		"cB": 0,
 		"ft": 2048,
+		"hM": 1,
 		"oA": 1,
 		"oAP": "/htdocs/_insulin-and-food-content.html",
 		"oF": 0
@@ -172,6 +201,7 @@
 	"/contents/projects/_webapp-content.kit": {
 		"cB": 0,
 		"ft": 2048,
+		"hM": 1,
 		"oA": 1,
 		"oAP": "/htdocs/_webapp-content.html",
 		"oF": 0
@@ -179,6 +209,7 @@
 	"/contents/projects/_yoon-content-it.kit": {
 		"cB": 0,
 		"ft": 2048,
+		"hM": 1,
 		"oA": 1,
 		"oAP": "/htdocs/_yoon-content-it.html",
 		"oF": 0
@@ -186,6 +217,7 @@
 	"/contents/projects/_yoon-content.kit": {
 		"cB": 0,
 		"ft": 2048,
+		"hM": 1,
 		"oA": 1,
 		"oAP": "/htdocs/_yoon-content.html",
 		"oF": 0
@@ -193,6 +225,7 @@
 	"/edoardo.kit": {
 		"cB": 0,
 		"ft": 2048,
+		"hM": 1,
 		"oA": 0,
 		"oAP": "/htdocs/edoardo-sportelli-graphic-designer.html",
 		"oF": 2
@@ -200,11 +233,13 @@
 	"/emanuele.kit": {
 		"cB": 0,
 		"ft": 2048,
+		"hM": 1,
 		"oA": 0,
 		"oAP": "/htdocs/emanuele-feliziani-web-developer.html",
 		"oF": 2
 		},
 	"/form-scripts.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -217,6 +252,7 @@
 	"/graphics.kit": {
 		"cB": 0,
 		"ft": 2048,
+		"hM": 1,
 		"oA": 0,
 		"oAP": "/htdocs/graphic-print-design.html",
 		"oF": 2
@@ -224,6 +260,7 @@
 	"/htdocs/.htaccess": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/htdocs/.htaccess",
 		"oF": 0
@@ -231,13 +268,23 @@
 	"/htdocs/404-page-not-found.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/htdocs/404-page-not-found.html",
+		"oF": 0
+		},
+	"/htdocs/_gravida-processed.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/htdocs/_gravida-processed.html",
 		"oF": 0
 		},
 	"/htdocs/about.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/htdocs/about.html",
 		"oF": 0
@@ -267,6 +314,7 @@
 	"/htdocs/bad-client-bad-work.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/htdocs/bad-client-bad-work.html",
 		"oF": 0
@@ -274,6 +322,7 @@
 	"/htdocs/BingSiteAuth.xml": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/htdocs/BingSiteAuth.xml",
 		"oF": 0
@@ -281,6 +330,7 @@
 	"/htdocs/branding-corporate-identity.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/htdocs/branding-corporate-identity.html",
 		"oF": 0
@@ -288,6 +338,7 @@
 	"/htdocs/contact.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/htdocs/contact.php",
 		"oF": 0
@@ -295,6 +346,7 @@
 	"/htdocs/contacts.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/htdocs/contacts.html",
 		"oF": 0
@@ -302,6 +354,7 @@
 	"/htdocs/cV1a3lEEXz8tR0GGfAVozeT_Xjg.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/htdocs/cV1a3lEEXz8tR0GGfAVozeT_Xjg.html",
 		"oF": 0
@@ -309,6 +362,7 @@
 	"/htdocs/diet-activity-tracker-webapp.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/htdocs/diet-activity-tracker-webapp.html",
 		"oF": 0
@@ -316,6 +370,7 @@
 	"/htdocs/edoardo-sportelli-graphic-designer.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/htdocs/edoardo-sportelli-graphic-designer.html",
 		"oF": 0
@@ -323,6 +378,7 @@
 	"/htdocs/email/_gravida-processed.kit": {
 		"cB": 0,
 		"ft": 2048,
+		"hM": 1,
 		"oA": 0,
 		"oAP": "/htdocs/_gravida-processed.html",
 		"oF": 0
@@ -330,6 +386,7 @@
 	"/htdocs/email/gravida.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/htdocs/email/gravida.html",
 		"oF": 0
@@ -337,6 +394,7 @@
 	"/htdocs/email/notif-template.kit": {
 		"cB": 0,
 		"ft": 2048,
+		"hM": 1,
 		"oA": 0,
 		"oAP": "/htdocs/notif-template.html",
 		"oF": 2
@@ -344,6 +402,7 @@
 	"/htdocs/email/notif-template.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/htdocs/email/notif-template.php",
 		"oF": 0
@@ -351,6 +410,7 @@
 	"/htdocs/email/partials/_email-template.kit": {
 		"cB": 0,
 		"ft": 2048,
+		"hM": 1,
 		"oA": 1,
 		"oAP": "/htdocs/_email-template.html",
 		"oF": 0
@@ -358,6 +418,7 @@
 	"/htdocs/email/partials/_notif-content.kit": {
 		"cB": 0,
 		"ft": 2048,
+		"hM": 1,
 		"oA": 1,
 		"oAP": "/htdocs/_notif-content.html",
 		"oF": 0
@@ -365,6 +426,7 @@
 	"/htdocs/email/partials/_response-content.kit": {
 		"cB": 0,
 		"ft": 2048,
+		"hM": 1,
 		"oA": 1,
 		"oAP": "/htdocs/_response-content.html",
 		"oF": 0
@@ -372,6 +434,7 @@
 	"/htdocs/email/response-template.kit": {
 		"cB": 0,
 		"ft": 2048,
+		"hM": 1,
 		"oA": 0,
 		"oAP": "/htdocs/response-template.html",
 		"oF": 2
@@ -379,6 +442,7 @@
 	"/htdocs/email/response-template.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/htdocs/email/response-template.php",
 		"oF": 0
@@ -386,6 +450,7 @@
 	"/htdocs/emanuele-feliziani-web-developer.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/htdocs/emanuele-feliziani-web-developer.html",
 		"oF": 0
@@ -393,6 +458,7 @@
 	"/htdocs/favicon.ico": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/htdocs/favicon.ico",
 		"oF": 0
@@ -488,6 +554,7 @@
 	"/htdocs/font/fontello.eot": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/htdocs/font/fontello.eot",
 		"oF": 0
@@ -505,6 +572,7 @@
 	"/htdocs/font/fontello.ttf": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/htdocs/font/fontello.ttf",
 		"oF": 0
@@ -512,6 +580,7 @@
 	"/htdocs/font/fontello.woff": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/htdocs/font/fontello.woff",
 		"oF": 0
@@ -519,6 +588,7 @@
 	"/htdocs/font/GOTHIC.eot": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/htdocs/font/GOTHIC.eot",
 		"oF": 0
@@ -536,6 +606,7 @@
 	"/htdocs/font/GOTHIC.ttf": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/htdocs/font/GOTHIC.ttf",
 		"oF": 0
@@ -543,6 +614,7 @@
 	"/htdocs/font/GOTHIC.woff": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/htdocs/font/GOTHIC.woff",
 		"oF": 0
@@ -550,6 +622,7 @@
 	"/htdocs/font/GOTHIC_old.eot": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/htdocs/font/GOTHIC_old.eot",
 		"oF": 0
@@ -567,6 +640,7 @@
 	"/htdocs/font/GOTHIC_old.ttf": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/htdocs/font/GOTHIC_old.ttf",
 		"oF": 0
@@ -574,6 +648,7 @@
 	"/htdocs/font/GOTHIC_old.woff": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/htdocs/font/GOTHIC_old.woff",
 		"oF": 0
@@ -581,6 +656,7 @@
 	"/htdocs/graphic-print-design.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/htdocs/graphic-print-design.html",
 		"oF": 0
@@ -599,6 +675,7 @@
 	"/htdocs/imgs.zip": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/htdocs/imgs.zip",
 		"oF": 0
@@ -2624,6 +2701,7 @@
 	"/htdocs/index.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/htdocs/index.html",
 		"oF": 0
@@ -2631,6 +2709,7 @@
 	"/htdocs/insulin-and-food-ios-app-design.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/htdocs/insulin-and-food-ios-app-design.html",
 		"oF": 0
@@ -2638,6 +2717,7 @@
 	"/htdocs/it/about.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/htdocs/it/about.html",
 		"oF": 0
@@ -2645,6 +2725,7 @@
 	"/htdocs/it/branding-identita-aziendale.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/htdocs/it/branding-identita-aziendale.html",
 		"oF": 0
@@ -2652,6 +2733,7 @@
 	"/htdocs/it/contatti-cambiare-nome.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/htdocs/it/contatti-cambiare-nome.html",
 		"oF": 0
@@ -2659,6 +2741,7 @@
 	"/htdocs/it/edoardo-sportelli-graphic-designer.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/htdocs/it/edoardo-sportelli-graphic-designer.html",
 		"oF": 0
@@ -2666,6 +2749,7 @@
 	"/htdocs/it/emanuele-feliziani-web-developer.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/htdocs/it/emanuele-feliziani-web-developer.html",
 		"oF": 0
@@ -2673,6 +2757,7 @@
 	"/htdocs/it/graphic-print-design.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/htdocs/it/graphic-print-design.html",
 		"oF": 0
@@ -2680,6 +2765,7 @@
 	"/htdocs/it/index.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/htdocs/it/index.html",
 		"oF": 0
@@ -2687,6 +2773,7 @@
 	"/htdocs/it/insulin-and-food-ios-app-design.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/htdocs/it/insulin-and-food-ios-app-design.html",
 		"oF": 0
@@ -2694,6 +2781,7 @@
 	"/htdocs/it/portfolio.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/htdocs/it/portfolio.html",
 		"oF": 0
@@ -2701,6 +2789,7 @@
 	"/htdocs/lets-work-together.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/htdocs/lets-work-together.html",
 		"oF": 0
@@ -2708,6 +2797,7 @@
 	"/htdocs/manifest.appcache": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/htdocs/manifest.appcache",
 		"oF": 0
@@ -2715,11 +2805,13 @@
 	"/htdocs/portfolio.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/htdocs/portfolio.html",
 		"oF": 0
 		},
 	"/htdocs/scripts-min.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -2732,6 +2824,7 @@
 	"/htdocs/single-project.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/htdocs/single-project.html",
 		"oF": 0
@@ -2739,6 +2832,7 @@
 	"/htdocs/sitemap.xml": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 2,
 		"oAP": "/htdocs/sitemap.xml",
 		"oF": 0
@@ -2756,6 +2850,7 @@
 	"/htdocs/ui-ux-design.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/htdocs/ui-ux-design.html",
 		"oF": 0
@@ -2763,6 +2858,7 @@
 	"/htdocs/web-development-social-marketing.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/htdocs/web-development-social-marketing.html",
 		"oF": 0
@@ -2770,6 +2866,7 @@
 	"/htdocs/yoon-website-ecommerce-creation-brand-redesign.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/htdocs/yoon-website-ecommerce-creation-brand-redesign.html",
 		"oF": 0
@@ -2777,6 +2874,7 @@
 	"/index.kit": {
 		"cB": 0,
 		"ft": 2048,
+		"hM": 1,
 		"oA": 0,
 		"oAP": "/htdocs/index.html",
 		"oF": 2
@@ -2784,6 +2882,7 @@
 	"/it/about.kit": {
 		"cB": 0,
 		"ft": 2048,
+		"hM": 1,
 		"oA": 0,
 		"oAP": "/htdocs/it/about.html",
 		"oF": 2
@@ -2791,6 +2890,7 @@
 	"/it/branding.kit": {
 		"cB": 0,
 		"ft": 2048,
+		"hM": 1,
 		"oA": 0,
 		"oAP": "/htdocs/it/branding-identita-aziendale.html",
 		"oF": 2
@@ -2798,6 +2898,7 @@
 	"/it/contacts.kit": {
 		"cB": 0,
 		"ft": 2048,
+		"hM": 1,
 		"oA": 0,
 		"oAP": "/htdocs/it/contatti-cambiare-nome.html",
 		"oF": 2
@@ -2805,6 +2906,7 @@
 	"/it/edoardo.kit": {
 		"cB": 0,
 		"ft": 2048,
+		"hM": 1,
 		"oA": 0,
 		"oAP": "/htdocs/it/edoardo-sportelli-graphic-designer.html",
 		"oF": 2
@@ -2812,6 +2914,7 @@
 	"/it/emanuele.kit": {
 		"cB": 0,
 		"ft": 2048,
+		"hM": 1,
 		"oA": 0,
 		"oAP": "/htdocs/it/emanuele-feliziani-web-developer.html",
 		"oF": 2
@@ -2819,6 +2922,7 @@
 	"/it/graphics.kit": {
 		"cB": 0,
 		"ft": 2048,
+		"hM": 1,
 		"oA": 0,
 		"oAP": "/htdocs/it/graphic-print-design.html",
 		"oF": 2
@@ -2826,6 +2930,7 @@
 	"/it/index.kit": {
 		"cB": 0,
 		"ft": 2048,
+		"hM": 1,
 		"oA": 0,
 		"oAP": "/htdocs/it/index.html",
 		"oF": 2
@@ -2833,6 +2938,7 @@
 	"/it/portfolio.kit": {
 		"cB": 0,
 		"ft": 2048,
+		"hM": 1,
 		"oA": 0,
 		"oAP": "/htdocs/it/portfolio.html",
 		"oF": 2
@@ -2840,6 +2946,7 @@
 	"/it/projects/diet-activity-tracker-webapp.kit": {
 		"cB": 0,
 		"ft": 2048,
+		"hM": 1,
 		"oA": 0,
 		"oAP": "/htdocs/diet-activity-tracker-webapp.html",
 		"oF": 0
@@ -2847,6 +2954,7 @@
 	"/it/projects/insulin-and-food-ios-app-design.kit": {
 		"cB": 0,
 		"ft": 2048,
+		"hM": 1,
 		"oA": 0,
 		"oAP": "/htdocs/it/insulin-and-food-ios-app-design.html",
 		"oF": 2
@@ -2854,6 +2962,7 @@
 	"/it/projects/yoon-website-ecommerce-creation-brand-redesign.kit": {
 		"cB": 0,
 		"ft": 2048,
+		"hM": 1,
 		"oA": 0,
 		"oAP": "/htdocs/yoon-website-ecommerce-creation-brand-redesign.html",
 		"oF": 0
@@ -2861,6 +2970,7 @@
 	"/it/ui-ux.kit": {
 		"cB": 0,
 		"ft": 2048,
+		"hM": 1,
 		"oA": 0,
 		"oAP": "/htdocs/it/user-interface-design.html",
 		"oF": 2
@@ -2868,11 +2978,13 @@
 	"/it/web-development.kit": {
 		"cB": 0,
 		"ft": 2048,
+		"hM": 1,
 		"oA": 0,
 		"oAP": "/htdocs/it/sviluppo-siti-web-social-media-marketing.html",
 		"oF": 2
 		},
 	"/min/_form-scripts-min.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -2883,6 +2995,7 @@
 		"tS": 0
 		},
 	"/min/scripts-single-ck.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -2895,6 +3008,7 @@
 	"/portfolio.kit": {
 		"cB": 0,
 		"ft": 2048,
+		"hM": 1,
 		"oA": 0,
 		"oAP": "/htdocs/portfolio.html",
 		"oF": 2
@@ -2902,6 +3016,7 @@
 	"/projects/diet-activity-tracker-webapp.kit": {
 		"cB": 0,
 		"ft": 2048,
+		"hM": 1,
 		"oA": 0,
 		"oAP": "/htdocs/diet-activity-tracker-webapp.html",
 		"oF": 2
@@ -2909,6 +3024,7 @@
 	"/projects/insulin-and-food-ios-app-design.kit": {
 		"cB": 0,
 		"ft": 2048,
+		"hM": 1,
 		"oA": 0,
 		"oAP": "/htdocs/insulin-and-food-ios-app-design.html",
 		"oF": 2
@@ -2916,11 +3032,13 @@
 	"/projects/yoon-website-ecommerce-creation-brand-redesign.kit": {
 		"cB": 0,
 		"ft": 2048,
+		"hM": 1,
 		"oA": 0,
 		"oAP": "/htdocs/yoon-website-ecommerce-creation-brand-redesign.html",
 		"oF": 2
 		},
 	"/scripts-single.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -2931,6 +3049,7 @@
 		"tS": 0
 		},
 	"/scripts.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -2938,6 +3057,17 @@
 		"oAP": "/htdocs/scripts-min.js",
 		"oF": 2,
 		"sC": 1,
+		"tS": 0
+		},
+	"/smoothscroll.min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 0,
+		"oA": 1,
+		"oAP": "/min/smoothscroll.min-min.js",
+		"oF": 1,
+		"sC": 0,
 		"tS": 0
 		},
 	"/style.scss": {
@@ -2956,6 +3086,7 @@
 	"/templates/_mammoccio.kit": {
 		"cB": 0,
 		"ft": 2048,
+		"hM": 1,
 		"oA": 1,
 		"oAP": "/htdocs/_mammoccio.html",
 		"oF": 0
@@ -2963,6 +3094,7 @@
 	"/templates/_page-no-header.kit": {
 		"cB": 0,
 		"ft": 2048,
+		"hM": 1,
 		"oA": 1,
 		"oAP": "/htdocs/_page-no-header.html",
 		"oF": 0
@@ -2970,6 +3102,7 @@
 	"/templates/_page.kit": {
 		"cB": 0,
 		"ft": 2048,
+		"hM": 1,
 		"oA": 1,
 		"oAP": "/htdocs/_page.html",
 		"oF": 0
@@ -2977,6 +3110,7 @@
 	"/templates/_portfolio-single.kit": {
 		"cB": 0,
 		"ft": 2048,
+		"hM": 1,
 		"oA": 1,
 		"oAP": "/htdocs/_portfolio-single.html",
 		"oF": 0
@@ -2984,6 +3118,7 @@
 	"/templates/_single-project.kit": {
 		"cB": 0,
 		"ft": 2048,
+		"hM": 1,
 		"oA": 1,
 		"oAP": "/htdocs/_single-project.html",
 		"oF": 0
@@ -2991,6 +3126,7 @@
 	"/templates/_social-template.kit": {
 		"cB": 0,
 		"ft": 2048,
+		"hM": 1,
 		"oA": 1,
 		"oAP": "/htdocs/_social-template.html",
 		"oF": 0
@@ -2998,6 +3134,7 @@
 	"/ui-ux.kit": {
 		"cB": 0,
 		"ft": 2048,
+		"hM": 1,
 		"oA": 0,
 		"oAP": "/htdocs/ui-ux-design.html",
 		"oF": 2
@@ -3005,6 +3142,7 @@
 	"/web-development.kit": {
 		"cB": 0,
 		"ft": 2048,
+		"hM": 1,
 		"oA": 0,
 		"oAP": "/htdocs/web-development-social-marketing.html",
 		"oF": 2
@@ -3104,6 +3242,12 @@
 		"function-sent": {
 			"active": 0
 			},
+		"inline-consecutive-adds": {
+			"active": 0
+			},
+		"inline-environment-variables": {
+			"active": 0
+			},
 		"instanceof": {
 			"active": 0
 			},
@@ -3123,6 +3267,36 @@
 			"active": 0
 			},
 		"minify-booleans": {
+			"active": 0
+			},
+		"minify-builtins": {
+			"active": 0
+			},
+		"minify-constant-folding": {
+			"active": 0
+			},
+		"minify-dead-code-elimination": {
+			"active": 0
+			},
+		"minify-flip-comparisons": {
+			"active": 0
+			},
+		"minify-guarded-expressions": {
+			"active": 0
+			},
+		"minify-infinity": {
+			"active": 0
+			},
+		"minify-mangle-names": {
+			"active": 0
+			},
+		"minify-numeric-literals": {
+			"active": 0
+			},
+		"minify-simplify": {
+			"active": 0
+			},
+		"minify-type-constructors": {
 			"active": 0
 			},
 		"modules-amd": {
@@ -3173,6 +3347,9 @@
 		"pipeline-operator": {
 			"active": 0
 			},
+		"private-methods": {
+			"active": 0
+			},
 		"property-literals": {
 			"active": 0
 			},
@@ -3206,10 +3383,16 @@
 		"regenerator": {
 			"active": 0
 			},
+		"regexp-constructors": {
+			"active": 0
+			},
 		"remove-console": {
 			"active": 0
 			},
 		"remove-debugger": {
+			"active": 0
+			},
+		"remove-undefined": {
 			"active": 0
 			},
 		"reserved-words": {
@@ -4158,6 +4341,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-useless-catch": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-useless-computed-key": {
 			"active": 1,
 			"optionString": ""
@@ -4820,6 +5007,7 @@
 		"noEscapeInAttributes": 0,
 		"outputFormat": 2,
 		"shouldRunCacheBuster": 0,
+		"shouldRunHTMLMinifier": 0,
 		"useCDATA": 0,
 		"useDoubleQuotes": 0,
 		"useUnixNewlines": 0
@@ -4841,6 +5029,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 2,
+		"bundleFormat": 0,
 		"createSourceMap": 0,
 		"minifyOutput": 1,
 		"syntaxCheckerStyle": 1,
@@ -4903,6 +5092,7 @@
 		"processHTML": 0,
 		"randomFootnoteNumbers": 0,
 		"shouldRunCacheBuster": 0,
+		"shouldRunHTMLMinifier": 0,
 		"useCompatibilityMode": 0
 		},
 	"languageDefaultsOTHER": {
@@ -4912,7 +5102,8 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
-		"shouldRunCacheBuster": 0
+		"shouldRunCacheBuster": 0,
+		"shouldRunHTMLMinifier": 0
 		},
 	"languageDefaultsPNG": {
 		"autoOutputAction": 0,
@@ -4933,7 +5124,8 @@
 		"autoOutputPathStyle": 0,
 		"compileDebug": 1,
 		"outputStyle": 0,
-		"shouldRunCacheBuster": 0
+		"shouldRunCacheBuster": 0,
+		"shouldRunHTMLMinifier": 0
 		},
 	"languageDefaultsSASS": {
 		"autoOutputAction": 0,
@@ -4962,7 +5154,8 @@
 		"outputFormat": 0,
 		"outputStyle": 1,
 		"railsCompatible": 0,
-		"shouldRunCacheBuster": 0
+		"shouldRunCacheBuster": 0,
+		"shouldRunHTMLMinifier": 0
 		},
 	"languageDefaultsSTYLUS": {
 		"autoOutputAction": 0,
@@ -5050,16 +5243,20 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"ascii_only": {
-			"active": 0,
+		"arrows": {
+			"active": 1,
 			"flagValue": -1
 			},
-		"bare_returns": {
+		"ascii_only": {
 			"active": 0,
 			"flagValue": -1
 			},
 		"booleans": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"booleans_as_integers": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"braces": {
@@ -5071,14 +5268,14 @@
 			"flagValue": -1
 			},
 		"comments": {
-			"active": 1,
+			"active": 0,
 			"flagValue": -1
 			},
 		"comparisons": {
 			"active": 1,
 			"flagValue": -1
 			},
-		"compress": {
+		"computed_props": {
 			"active": 1,
 			"flagValue": -1
 			},
@@ -5101,6 +5298,10 @@
 		"drop_debugger": {
 			"active": 1,
 			"flagValue": -1
+			},
+		"ecma": {
+			"active": 1,
+			"flagValue": 5
 			},
 		"eval": {
 			"active": 0,
@@ -5126,10 +5327,6 @@
 			"active": 0,
 			"flagValue": -1
 			},
-		"html5_comments": {
-			"active": 1,
-			"flagValue": -1
-			},
 		"ie8": {
 			"active": 0,
 			"flagValue": -1
@@ -5138,13 +5335,13 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"indent-start": {
-			"active": 0,
-			"flagValue": 0
-			},
 		"indent_level": {
 			"active": 0,
 			"flagValue": 4
+			},
+		"indent_start": {
+			"active": 0,
+			"flagValue": 0
 			},
 		"inline": {
 			"active": 1,
@@ -5156,6 +5353,10 @@
 			},
 		"join_vars": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"keep_classnames": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"keep_fargs": {
@@ -5178,13 +5379,13 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"mangle": {
-			"active": 1,
-			"flagValue": -1
-			},
 		"max_line_len": {
 			"active": 1,
 			"flagValue": 32000
+			},
+		"module": {
+			"active": 0,
+			"flagValue": -1
 			},
 		"negate_iife": {
 			"active": 1,
@@ -5193,10 +5394,6 @@
 		"passes": {
 			"active": 1,
 			"flagValue": 1
-			},
-		"preserve_line": {
-			"active": 0,
-			"flagValue": -1
 			},
 		"properties": {
 			"active": 1,
@@ -5220,6 +5417,10 @@
 			},
 		"reduce_vars": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"safari10": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"semicolons": {
@@ -5254,6 +5455,10 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"unsafe_arrows": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"unsafe_comps": {
 			"active": 0,
 			"flagValue": -1
@@ -5263,6 +5468,10 @@
 			"flagValue": -1
 			},
 		"unsafe_math": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_methods": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -5290,15 +5499,12 @@
 			"active": 0,
 			"flagValue": -1
 			},
-		"width": {
-			"active": 1,
-			"flagValue": 80
-			},
 		"wrap_iife": {
 			"active": 0,
 			"flagValue": -1
 			}
 		},
+	"uglifyMangleNames": 1,
 	"uglifyReservedNamesString": "$",
 	"websiteRelativeRoot": ""
 	},
