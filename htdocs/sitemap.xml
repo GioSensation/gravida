@@ -1,135 +1,133 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<!--XML Sitemap created by Sitemap Automator 2.7 http://www.ragesw.com-->
 	<url>
-		<loc>http://gravida.pro</loc>
+		<loc>https://gravida.pro</loc>
 		<lastmod>2014-06-30</lastmod>
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>http://gravida.pro/</loc>
+		<loc>https://gravida.pro/</loc>
 		<lastmod>2014-06-30</lastmod>
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>http://gravida.pro/about</loc>
+		<loc>https://gravida.pro/about</loc>
 		<lastmod>2014-06-30</lastmod>
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>http://gravida.pro/portfolio</loc>
+		<loc>https://gravida.pro/portfolio</loc>
 		<lastmod>2014-06-30</lastmod>
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>http://gravida.pro/lets-work-together</loc>
+		<loc>https://gravida.pro/lets-work-together</loc>
 		<lastmod>2014-06-30</lastmod>
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>http://gravida.pro/web-development-social-marketing</loc>
+		<loc>https://gravida.pro/web-development-social-marketing</loc>
 		<lastmod>2014-06-30</lastmod>
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>http://gravida.pro/graphic-print-design</loc>
+		<loc>https://gravida.pro/graphic-print-design</loc>
 		<lastmod>2014-06-30</lastmod>
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>http://gravida.pro/branding-corporate-identity</loc>
+		<loc>https://gravida.pro/branding-corporate-identity</loc>
 		<lastmod>2014-06-30</lastmod>
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>http://gravida.pro/ui-ux-design</loc>
+		<loc>https://gravida.pro/ui-ux-design</loc>
 		<lastmod>2014-06-30</lastmod>
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>http://gravida.pro/edoardo-sportelli-graphic-designer</loc>
+		<loc>https://gravida.pro/edoardo-sportelli-graphic-designer</loc>
 		<lastmod>2014-06-30</lastmod>
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>http://gravida.pro/emanuele-feliziani-web-developer</loc>
+		<loc>https://gravida.pro/emanuele-feliziani-web-developer</loc>
 		<lastmod>2014-06-30</lastmod>
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>http://gravida.pro/yoon-website-ecommerce-creation-brand-redesign</loc>
+		<loc>https://gravida.pro/yoon-website-ecommerce-creation-brand-redesign</loc>
 		<lastmod>2014-06-30</lastmod>
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>http://gravida.pro/insulin-and-food-ios-app-design</loc>
+		<loc>https://gravida.pro/insulin-and-food-ios-app-design</loc>
 		<lastmod>2014-06-30</lastmod>
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>http://gravida.pro/diet-activity-tracker-webapp</loc>
+		<loc>https://gravida.pro/diet-activity-tracker-webapp</loc>
 		<lastmod>2014-06-30</lastmod>
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>http://gravida.pro/imgs/projects/webapp/webapp-single-2560-1.jpg</loc>
+		<loc>https://gravida.pro/imgs/projects/webapp/webapp-single-2560-1.jpg</loc>
 		<lastmod>2014-06-30</lastmod>
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>http://gravida.pro/imgs/projects/webapp/webapp-single-2560-2.jpg</loc>
+		<loc>https://gravida.pro/imgs/projects/webapp/webapp-single-2560-2.jpg</loc>
 		<lastmod>2014-06-30</lastmod>
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>http://gravida.pro/imgs/projects/webapp/webapp-single-2560-4.jpg</loc>
+		<loc>https://gravida.pro/imgs/projects/webapp/webapp-single-2560-4.jpg</loc>
 		<lastmod>2014-06-30</lastmod>
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>http://gravida.pro/imgs/projects/webapp/webapp-single-2560-3.jpg</loc>
+		<loc>https://gravida.pro/imgs/projects/webapp/webapp-single-2560-3.jpg</loc>
 		<lastmod>2014-06-30</lastmod>
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>http://gravida.pro/imgs/projects/insulin/insulin-portfolio.jpg</loc>
+		<loc>https://gravida.pro/imgs/projects/insulin/insulin-portfolio.jpg</loc>
 		<lastmod>2014-06-30</lastmod>
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>http://gravida.pro/imgs/projects/insulin/insulin-single-2560-4.jpg</loc>
+		<loc>https://gravida.pro/imgs/projects/insulin/insulin-single-2560-4.jpg</loc>
 		<lastmod>2014-06-30</lastmod>
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>http://gravida.pro/imgs/projects/insulin/insulin-single-2560-6.gif</loc>
+		<loc>https://gravida.pro/imgs/projects/insulin/insulin-single-2560-6.gif</loc>
 		<lastmod>2014-06-30</lastmod>
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>http://gravida.pro/imgs/projects/insulin/insulin-single-2560-7.gif</loc>
+		<loc>https://gravida.pro/imgs/projects/insulin/insulin-single-2560-7.gif</loc>
 		<lastmod>2014-06-30</lastmod>
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>http://gravida.pro/imgs/projects/yoon/yoon-portfolio.jpg</loc>
+		<loc>https://gravida.pro/imgs/projects/yoon/yoon-portfolio.jpg</loc>
 		<lastmod>2014-06-30</lastmod>
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>http://gravida.pro/imgs/projects/yoon/yoon-single-2560-6.jpg</loc>
+		<loc>https://gravida.pro/imgs/projects/yoon/yoon-single-2560-6.jpg</loc>
 		<lastmod>2014-06-30</lastmod>
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>http://gravida.pro/imgs/projects/yoon/yoon-single-2560-1.jpg</loc>
+		<loc>https://gravida.pro/imgs/projects/yoon/yoon-single-2560-1.jpg</loc>
 		<lastmod>2014-06-30</lastmod>
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>http://gravida.pro/imgs/projects/yoon/yoon-single-2560-4.jpg</loc>
+		<loc>https://gravida.pro/imgs/projects/yoon/yoon-single-2560-4.jpg</loc>
 		<lastmod>2014-06-30</lastmod>
 		<priority>0.5</priority>
 	</url>
-<!--XML Sitemap created by Sitemap Automator http://www.ragesw.com-->
 </urlset>

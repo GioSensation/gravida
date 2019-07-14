@@ -29,7 +29,7 @@ if ( $_POST ) {
 		$parts = parse_url($url);
 		if ( !isset($parts["scheme"]) )
 			{
-				$url = "http://$url";
+				$url = "https://$url";
 			}
 		$website = filter_var($url, FILTER_SANITIZE_URL);
 		if ( $website == '' ) {

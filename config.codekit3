@@ -4863,7 +4863,8 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 1,
-		"shouldRunCacheBuster": 0
+		"shouldRunCacheBuster": 0,
+		"shouldRunHTMLMinifier": 1
 		},
 	"languageDefaultsLESS": {
 		"allowInsecureImports": 0,
