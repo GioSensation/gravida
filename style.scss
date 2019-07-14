@@ -24,6 +24,10 @@ $green: #8EC54F;
 	box-sizing: border-box;
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 body {
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", "HelveticaNeue", "Helvetica Neue", Helvetica, "Segoe UI", Frutiger, "Frutiger Linotype", "Trebuchet MS", "Dejavu Sans", "Lucida Grande", Arial, sans-serif;
 	text-rendering: optimizeLegibility;
@@ -1300,7 +1304,7 @@ $move: 10px;
 		border: 1px solid orange;
 		
 		@media (min-width: 600px) {
-			animation: shake .3s .1s;
+			animation: 'shake' .3s .1s;
 		}
 	}
 	
@@ -1469,7 +1473,7 @@ output {
 	margin: 0 auto;
 	clear: both;
 	
-	input[type=checkbox]{
+	input[type=checkbox] {
 		position: absolute;
 		right: 100000px;
 		
@@ -1535,8 +1539,8 @@ input[type=submit] {
 	cursor: pointer;
 }
 
-.shake{
-	animation: shake .3s;
+.shake {
+	animation: 'shake' .3s;
 }
 
 .form-success p {
@@ -1616,12 +1620,12 @@ input[type=submit] {
 }
 
 @keyframes 'fadeIn' {
-	0% {
+	from {
 		transform: translateY(-30px);
 		visibility: visible;
 		opacity: 0;
 	}
-	100 {
+	to {
 		transform: translateY(0px);
 		visibility: visible !important;
 		opacity: 1 !important;
