@@ -181,7 +181,7 @@ window.addEventListener('DOMContentLoaded', function() {
 		// We define what will happen if the data are successfully sent
 		XHR.addEventListener("load", function(event) {
 			wait.className = wait.className.replace( /(?:^|\s)showWait(?!\S)/g , '' );
-			scrollTo(document.getElementById('contact-page').offsetTop - 80, 400);
+			window.scrollTo({top: document.getElementById('contact-page').offsetTop - 80, behavior: 'smooth'});
 			formContainer.innerHTML = event.target.responseText;
 		});
 
@@ -202,18 +202,20 @@ window.addEventListener('DOMContentLoaded', function() {
 		event.preventDefault();
 		
 		if ( validate() ) {
-			
 			wait.className += 'showWait';
 			
 			sendData();
 		} else {
-			document.querySelector('.submit-label').classList.add('shake');
-			document.getElementById('formSubmit').classList.add('shake');
-			setTimeout(function () {
-				scrollTo(document.getElementById('contact-page').offsetTop - 80, 400);
-				document.querySelector('.submit-label').classList.remove('shake');
-				document.getElementById('formSubmit').classList.remove('shake');
-			}, 400);
+			var submitLabel = document.querySelector('.submit-label');
+			var submitButton = document.getElementById('formSubmit');
+			submitLabel.classList.add('shake');
+			submitButton.classList.add('shake');
+			
+			submitLabel.onanimationend = function () {
+				window.scrollTo({ top: document.getElementById('contact-page').offsetTop - 80, behavior: 'smooth' });
+				submitLabel.classList.remove('shake');
+				submitButton.classList.remove('shake');
+			}
 		}
 	});
 });

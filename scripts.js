@@ -1,55 +1,22 @@
+// @codekit-prepend quiet "smoothscroll.min.js";
+
 var viewport = document.documentElement.clientWidth,
 	dpi = window.devicePixelRatio,
 	rtnimg = 'large';
-	
-function scrollTo(to, duration) {
-	var FF = !(window.mozInnerScreenX == null),
-		bodyToScroll;
-	if (FF) {
-		bodyToScroll = document.documentElement; 
-	} else {
-		bodyToScroll = document.body;
-	}
-    var start = bodyToScroll.scrollTop,
-        change = to - start,
-        currentTime = 0,
-        increment = 20;
-
-    var animateScroll = function(){        
-        currentTime += increment;
-        var val = Math.easeInOutQuad(currentTime, start, change, duration);                        
-        bodyToScroll.scrollTop = val; 
-        if(currentTime < duration) {
-            setTimeout(animateScroll, increment);
-        }
-    };
-    animateScroll();
-}
-
-//t = current time
-//b = start value
-//c = change in value
-//d = duration
-Math.easeInOutQuad = function (t, b, c, d) {
-    t /= d/2;
-    if (t < 1) return c/2*t*t + b;
-    t--;
-    return -c/2 * (t*(t-2) - 1) + b;
-};
 
 window.addEventListener('DOMContentLoaded', function () {
 	var header = document.querySelector('body > header');
 	
 	document.getElementById('contacts-nav-link').addEventListener('click', function(event) {
 		event.preventDefault();
-		scrollTo(document.body.scrollHeight, 400);
+		window.scrollTo({top: document.body.scrollHeight, behavior: 'smooth'});
 	});
 	
 	var gravidaTeaseAsterisk = document.getElementById('gravida-tease-asterisk');
 	if (gravidaTeaseAsterisk) {
 		gravidaTeaseAsterisk.addEventListener('click', function(event) {
 			event.preventDefault();
-			scrollTo(document.getElementById('gravida-tease').offsetTop - 300, 400);
+			window.scrollTo({top: document.getElementById('gravida-tease').offsetTop - 300, behavior: 'smooth'});
 		});
 	}
 	
